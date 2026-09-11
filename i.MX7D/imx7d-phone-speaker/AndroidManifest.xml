@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.zhb.phonespeaker" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="29"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <application android:label="iMX7 手机音箱" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:usesCleartextTraffic="true">
+    <activity android:name=".HomeworkActivity" android:exported="false" android:windowSoftInputMode="adjustResize"/>
+    <activity android:name=".TextChatActivity" android:windowSoftInputMode="adjustResize" android:exported="true"/>
+    <activity android:name=".MainActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+  </application>
+</manifest>
