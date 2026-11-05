@@ -1,0 +1,9 @@
+{"load_s":22.107}
+{"vad_s":6.085}
+{"sample_start":66720,"samples":42400,"asr_s":3.195,"result":{"lang": "", "emotion": "", "event": "", "text": "你好啊洛北京明天的天气怎么样", "timestamps": [], "durations": [], "tokens":["你", "好", "啊", "洛", "北", "京", "明", "天", "的", "天", "气", "怎", "么", "样"], "ys_log_probs": [], "words": []}}
+{"sample_start":209056,"samples":12192,"asr_s":0.993,"result":{"lang": "", "emotion": "", "event": "", "text": "你好啊路", "timestamps": [], "durations": [], "tokens":["你", "好", "啊", "路"], "ys_log_probs": [], "words": []}}
+{"sample_start":244384,"samples":14240,"asr_s":1.117,"result":{"lang": "", "emotion": "", "event": "", "text": "你好阿路", "timestamps": [], "durations": [], "tokens":["你", "好", "阿", "路"], "ys_log_probs": [], "words": []}}
+{"sample_start":285344,"samples":14752,"asr_s":1.085,"result":{"lang": "", "emotion": "", "event": "", "text": "你好阿洛", "timestamps": [], "durations": [], "tokens":["你", "好", "阿", "洛"], "ys_log_probs": [], "words": []}}
+{"sample_start":330400,"samples":29088,"asr_s":2.367,"result":{"lang": "", "emotion": "", "event": "", "text": "上海明天天气怎么样", "timestamps": [], "durations": [], "tokens":["上", "海", "明", "天", "天", "气", "怎", "么", "样"], "ys_log_probs": [], "words": []}}
+{"sample_start":400032,"samples":5536,"asr_s":0.565,"result":{"lang": "", "emotion": "", "event": "", "text": "是的", "timestamps": [], "durations": [], "tokens":["是", "的"], "ys_log_probs": [], "words": []}}
+{"samples":524800,"decode_s":15.671,"peak_rss_kib":139332}

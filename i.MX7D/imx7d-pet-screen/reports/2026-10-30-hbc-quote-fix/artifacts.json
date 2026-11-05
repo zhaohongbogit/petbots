@@ -1,0 +1,21 @@
+{
+  "deployment_status": "installed_and_service_restarted_user_approved",
+  "pet-screen.apk": {
+    "bytes": 93591153,
+    "sha256": "02b5dda86719c08cc6f6a504ba15daa678a7b6d9f7c1c3079b445bafa071ac63"
+  },
+  "pet-screen-update.apk": {
+    "bytes": 18879860,
+    "sha256": "8cb0a164bdc468ca17717be7f28a45f51d8b417ab20288d77bc32b37ea086b6f"
+  },
+  "hbc-service/spring-agent.jar": {
+    "bytes": 60411867,
+    "sha256": "238fe5ebce2c89e61d6a01218ded5b8d1a1a775586805644bd84e66fb6644a0c"
+  },
+  "full_update_code_native_private_login_match": true,
+  "aluotest/test.apk": {
+    "bytes": 652230,
+    "sha256": "0b4ee2df7e540a3730366d26977409347958b7c6aa927dfd41fda6937a8d36bb"
+  },
+  "installed_update_matches": true
+}

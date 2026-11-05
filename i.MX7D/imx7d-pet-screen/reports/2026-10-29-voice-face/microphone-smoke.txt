@@ -1,0 +1,33 @@
+--------- beginning of system
+--------- beginning of crash
+--------- beginning of main
+10-29 20:35:15.354 14050 14103 I AluoAudio: mode=WAKE captured=84480 decoded=79360 queue=4
+10-29 20:35:20.377 14050 14103 I AluoAudio: mode=WAKE captured=162560 decoded=160000 queue=2
+10-29 20:35:25.540 14050 14103 I AluoAudio: mode=WAKE captured=239360 decoded=225280 queue=11
+10-29 20:35:30.655 14050 14103 I AluoAudio: mode=WAKE captured=317440 decoded=313600 queue=3
+10-29 20:35:35.887 14050 14103 I AluoAudio: mode=WAKE captured=398080 decoded=394240 queue=3
+10-29 20:35:41.136 14050 14103 I AluoAudio: mode=WAKE captured=480000 decoded=474880 queue=4
+10-29 20:35:46.197 14050 14103 I AluoAudio: mode=WAKE captured=558080 decoded=555520 queue=2
+10-29 20:35:51.616 14050 14103 I AluoAudio: mode=WAKE captured=641280 decoded=636160 queue=4
+10-29 20:35:56.619 14050 14103 I AluoAudio: mode=WAKE captured=718080 decoded=715520 queue=2
+10-29 20:36:02.111 14050 14103 I AluoAudio: mode=WAKE captured=785920 decoded=762880 queue=18
+10-29 20:36:07.951 14050 14103 I AluoAudio: mode=WAKE captured=864000 decoded=812800 queue=40
+10-29 20:36:15.445 14050 14103 I AluoAudio: stopped mode=WAKE captured=910080 decoded=832000
+10-29 20:36:32.736 14050 14103 I AluoAudio: mode=WAKE captured=76800 decoded=60160 queue=13
+10-29 20:36:37.879 14050 14103 I AluoAudio: mode=WAKE captured=149760 decoded=144640 queue=4
+10-29 20:36:42.904 14050 14103 I AluoAudio: mode=WAKE captured=226560 decoded=225280 queue=1
+10-29 20:36:48.126 14050 14103 I AluoAudio: mode=WAKE captured=307200 decoded=305920 queue=1
+10-29 20:36:53.128 14050 14103 I AluoAudio: mode=WAKE captured=385280 decoded=382720 queue=2
+10-29 20:36:58.251 14050 14103 I AluoAudio: mode=WAKE captured=464640 decoded=463360 queue=1
+10-29 20:37:03.275 14050 14103 I AluoAudio: mode=WAKE captured=542720 decoded=540160 queue=2
+10-29 20:37:08.382 14050 14103 I AluoAudio: mode=WAKE captured=620800 decoded=616960 queue=3
+10-29 20:37:13.457 14050 14103 I AluoAudio: mode=WAKE captured=700160 decoded=697600 queue=2
+10-29 20:37:18.798 14050 14103 I AluoAudio: mode=WAKE captured=782080 decoded=778240 queue=3
+10-29 20:37:24.017 14050 14103 I AluoAudio: mode=WAKE captured=862720 decoded=858880 queue=3
+10-29 20:37:29.270 14050 14103 I AluoAudio: mode=WAKE captured=943360 decoded=939520 queue=3
+10-29 20:37:34.461 14050 14103 I AluoAudio: mode=WAKE captured=1024000 decoded=1020160 queue=3
+10-29 20:37:39.578 14050 14103 I AluoAudio: mode=WAKE captured=1103360 decoded=1062400 queue=32
+10-29 20:37:44.580 14050 14103 I AluoAudio: mode=WAKE captured=1180160 decoded=1159680 queue=16
+10-29 20:37:49.715 14050 14103 I AluoAudio: mode=WAKE captured=1259520 decoded=1258240 queue=1
+10-29 20:37:54.733 14050 14103 I AluoAudio: mode=WAKE captured=1337600 decoded=1337600 queue=0
+10-29 20:37:59.933 14050 14103 I AluoAudio: mode=WAKE captured=1416960 decoded=1415680 queue=1

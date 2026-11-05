@@ -1,0 +1,10 @@
+iot_imx7d_pico
+iot_imx7d_pico-userdebug 8.1.0 OIM1.180327.097 5796897 dev-keys
+1.0.15
+armeabi-v7a,armeabi
+true
+128m
+MemTotal:         500436 kB
+MemFree:           41064 kB
+MemAvailable:     111624 kB
+1200000

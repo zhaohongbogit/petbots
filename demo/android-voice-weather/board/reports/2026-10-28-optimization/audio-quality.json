@@ -1,0 +1,218 @@
+{
+  "sample_rate": 16000,
+  "samples": 480000,
+  "seconds": 30.0,
+  "levels_1s": [
+    {
+      "second": 0.0,
+      "rms": 37.63,
+      "dbfs": -58.8,
+      "peak": 182,
+      "dc": -0.81
+    },
+    {
+      "second": 1.0,
+      "rms": 49.58,
+      "dbfs": -56.4,
+      "peak": 146,
+      "dc": 0.58
+    },
+    {
+      "second": 2.0,
+      "rms": 52.64,
+      "dbfs": -55.9,
+      "peak": 184,
+      "dc": 1.44
+    },
+    {
+      "second": 3.0,
+      "rms": 51.7,
+      "dbfs": -56.0,
+      "peak": 206,
+      "dc": -0.94
+    },
+    {
+      "second": 4.0,
+      "rms": 49.85,
+      "dbfs": -56.4,
+      "peak": 184,
+      "dc": -0.84
+    },
+    {
+      "second": 5.0,
+      "rms": 54.42,
+      "dbfs": -55.6,
+      "peak": 169,
+      "dc": -0.63
+    },
+    {
+      "second": 6.0,
+      "rms": 58.11,
+      "dbfs": -55.0,
+      "peak": 204,
+      "dc": -0.27
+    },
+    {
+      "second": 7.0,
+      "rms": 53.19,
+      "dbfs": -55.8,
+      "peak": 195,
+      "dc": 0.54
+    },
+    {
+      "second": 8.0,
+      "rms": 57.43,
+      "dbfs": -55.1,
+      "peak": 204,
+      "dc": 0.28
+    },
+    {
+      "second": 9.0,
+      "rms": 68.86,
+      "dbfs": -53.6,
+      "peak": 606,
+      "dc": -1.76
+    },
+    {
+      "second": 10.0,
+      "rms": 116.4,
+      "dbfs": -49.0,
+      "peak": 2859,
+      "dc": 0.56
+    },
+    {
+      "second": 11.0,
+      "rms": 127.89,
+      "dbfs": -48.2,
+      "peak": 3228,
+      "dc": -1.59
+    },
+    {
+      "second": 12.0,
+      "rms": 61.23,
+      "dbfs": -54.6,
+      "peak": 235,
+      "dc": 0.33
+    },
+    {
+      "second": 13.0,
+      "rms": 64.77,
+      "dbfs": -54.1,
+      "peak": 240,
+      "dc": -0.62
+    },
+    {
+      "second": 14.0,
+      "rms": 61.22,
+      "dbfs": -54.6,
+      "peak": 237,
+      "dc": 1.86
+    },
+    {
+      "second": 15.0,
+      "rms": 58.21,
+      "dbfs": -55.0,
+      "peak": 214,
+      "dc": -3.08
+    },
+    {
+      "second": 16.0,
+      "rms": 59.17,
+      "dbfs": -54.9,
+      "peak": 289,
+      "dc": 2.86
+    },
+    {
+      "second": 17.0,
+      "rms": 65.48,
+      "dbfs": -54.0,
+      "peak": 542,
+      "dc": -1.83
+    },
+    {
+      "second": 18.0,
+      "rms": 63.39,
+      "dbfs": -54.3,
+      "peak": 260,
+      "dc": -0.82
+    },
+    {
+      "second": 19.0,
+      "rms": 58.51,
+      "dbfs": -55.0,
+      "peak": 206,
+      "dc": 0.32
+    },
+    {
+      "second": 20.0,
+      "rms": 49.92,
+      "dbfs": -56.3,
+      "peak": 169,
+      "dc": -0.46
+    },
+    {
+      "second": 21.0,
+      "rms": 67.4,
+      "dbfs": -53.7,
+      "peak": 1126,
+      "dc": -1.36
+    },
+    {
+      "second": 22.0,
+      "rms": 69.39,
+      "dbfs": -53.5,
+      "peak": 1303,
+      "dc": 0.83
+    },
+    {
+      "second": 23.0,
+      "rms": 54.19,
+      "dbfs": -55.6,
+      "peak": 183,
+      "dc": 0.26
+    },
+    {
+      "second": 24.0,
+      "rms": 61.53,
+      "dbfs": -54.5,
+      "peak": 207,
+      "dc": -1.37
+    },
+    {
+      "second": 25.0,
+      "rms": 60.05,
+      "dbfs": -54.7,
+      "peak": 220,
+      "dc": 0.15
+    },
+    {
+      "second": 26.0,
+      "rms": 54.23,
+      "dbfs": -55.6,
+      "peak": 198,
+      "dc": 0.69
+    },
+    {
+      "second": 27.0,
+      "rms": 59.94,
+      "dbfs": -54.8,
+      "peak": 342,
+      "dc": -1.42
+    },
+    {
+      "second": 28.0,
+      "rms": 59.13,
+      "dbfs": -54.9,
+      "peak": 236,
+      "dc": -1.77
+    },
+    {
+      "second": 29.0,
+      "rms": 52.56,
+      "dbfs": -55.9,
+      "peak": 212,
+      "dc": 1.0
+    }
+  ],
+  "note": "Original capture, before decoder queue; no amplitude normalization or denoising. Levels alone cannot establish presence of speech or SNR."
+}

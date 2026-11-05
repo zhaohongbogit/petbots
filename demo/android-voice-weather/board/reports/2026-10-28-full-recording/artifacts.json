@@ -1,0 +1,10 @@
+{
+  "board": {
+    "path": "/Users/hongbozhao/Source/ZHB-iot/demo/android-voice-weather/board/build/outputs/apk/debug/board-debug.apk",
+    "sha256": "cdb0da635d207096eb3a0492879d840e8e94c5bac255a96cb366c450f2a13838"
+  },
+  "test": {
+    "path": "/Users/hongbozhao/Source/ZHB-iot/demo/android-voice-weather/board/build/outputs/apk/androidTest/debug/board-debug-androidTest.apk",
+    "sha256": "47358a36133aa28b88e791b83b912817330572c4fef74977e5e4d363698980dc"
+  }
+}

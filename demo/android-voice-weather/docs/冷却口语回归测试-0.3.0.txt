@@ -1,0 +1,17 @@
+设备：小米 23049RAD8C，Android 15
+版本：0.3.0
+执行：adb -s 9c79ecb0 shell am instrument -w -e live true -e class cn.aihongbo.voiceweather.CityWeatherFlowTest cn.aihongbo.voiceweather.test/androidx.test.runner.AndroidJUnitRunner
+输出：
+cn.aihongbo.voiceweather.CityWeatherFlowTest:.
+Time: 27.523
+OK (1 test)
+
+覆盖：
+1. 本地上海明天天气合成音频识别 -> 肯定音频 -> 上海明天实际天气查询 -> TTS 完成回调。
+2. 立即重复“你能查一下上海明天的天气了” -> 同目标冷却剩余秒数提示。
+3. 马上输入“我说的是郑州天气怎么样” -> 郑州今天询问，不受上海冷却影响 -> 否定退出。
+4. 马上输入“郑州的天气的要明天呢” -> 郑州明天询问，不受郑州今天冷却影响 -> 否定退出。
+5. “我说的是正中明天的天气怎么样” -> 显示正中未解析，不猜城市。
+6. “今天上海的听着怎么” -> 显示未识别到天气询问。
+
+第 1 项经过本地 ASR；第 2-6 项使用界面文字输入，验证规则与界面反馈，不代表真人收音准确率。未启用麦克风，未人工听音。

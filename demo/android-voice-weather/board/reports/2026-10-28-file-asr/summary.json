@@ -1,0 +1,40 @@
+{
+  "file-with-silence": {
+    "correct_rounds": 6,
+    "rounds": 6,
+    "first_rtf": 2.8444016011001425,
+    "warm_rtf_range": [
+      0.6828039143460537,
+      0.7176415942242522
+    ],
+    "warm_max_frame_ms": 313.10175,
+    "paced_max_completion_lag_ms": 302,
+    "pss_peak_mib": 143.037109375
+  },
+  "file-without-silence": {
+    "correct_rounds": 6,
+    "rounds": 6,
+    "first_rtf": 6.9356695371367065,
+    "warm_rtf_range": [
+      0.7286517163018777,
+      0.8056685205119004
+    ],
+    "warm_max_frame_ms": 327.407625,
+    "paced_max_completion_lag_ms": 317,
+    "pss_peak_mib": 134.86328125
+  },
+  "previous_live": {
+    "captured_samples": 1920000,
+    "decoded_samples": 1877760,
+    "queue_dropped_samples": 42240,
+    "overflow_dropped_samples": 0,
+    "stale_dropped_samples": 42240,
+    "queue_frames": 0,
+    "max_queue_frames": 23,
+    "max_decode_frame_ms": 1289.8285,
+    "max_queue_age_ms": 1618,
+    "decoder_gap_resets": 20,
+    "decode_rtf": 0.8381454232702794,
+    "accounted_samples_equal": true
+  }
+}

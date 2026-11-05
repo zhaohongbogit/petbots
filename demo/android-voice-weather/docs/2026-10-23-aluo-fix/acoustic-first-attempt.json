@@ -1,0 +1,140 @@
+{
+  "rows": [
+    {
+      "sample": "aluo",
+      "expected_wake": true,
+      "detected": true,
+      "raw_vosk": "那 咯",
+      "unconstrained_baseline": "那 咯",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "aluo-weather",
+      "expected_wake": true,
+      "detected": true,
+      "raw_vosk": "落 上海 明天 天气 怎么样",
+      "unconstrained_baseline": "落 上海 明天 天气 怎么样",
+      "raw_unchanged": true,
+      "command": "上海 明天 天气 怎么样"
+    },
+    {
+      "sample": "slow",
+      "expected_wake": true,
+      "detected": true,
+      "raw_vosk": "那 落 上海 明天 天气 怎么样",
+      "unconstrained_baseline": "那 落 上海 明天 天气 怎么样",
+      "raw_unchanged": true,
+      "command": "上海 明天 天气 怎么样"
+    },
+    {
+      "sample": "fast",
+      "expected_wake": true,
+      "detected": true,
+      "raw_vosk": "落 上海 明天 天气 怎么样",
+      "unconstrained_baseline": "落 上海 明天 天气 怎么样",
+      "raw_unchanged": true,
+      "command": "上海 明天 天气 怎么样"
+    },
+    {
+      "sample": "hallo",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "哈罗 上海 明天 天气 怎么样",
+      "unconstrained_baseline": "哈罗 上海 明天 天气 怎么样",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "annuo",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "安诺 上海 明天 天气 怎么样",
+      "unconstrained_baseline": "安诺 上海 明天 天气 怎么样",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "abo",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "不 上海 明天 天气 怎么样",
+      "unconstrained_baseline": "不 上海 明天 天气 怎么样",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "mention",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "我们 提到 了 阿诺",
+      "unconstrained_baseline": "我们 提到 了 阿诺",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "city-weather",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "上海 明天 天气 怎么样",
+      "unconstrained_baseline": "上海 明天 天气 怎么样",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "yes",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "是 的",
+      "unconstrained_baseline": "是 的",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "no",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "不用",
+      "unconstrained_baseline": "不用",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "center",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "把 东西 放在 正 中间",
+      "unconstrained_baseline": "把 东西 放在 正 中间",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "zhengzhong-warning",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "郑重 提醒 大家 明天 天气 有 变化",
+      "unconstrained_baseline": "郑重 提醒 大家 明天 天气 有 变化",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "silence",
+      "expected_wake": false,
+      "detected": false,
+      "raw_vosk": "",
+      "unconstrained_baseline": "",
+      "raw_unchanged": true,
+      "command": ""
+    },
+    {
+      "sample": "continuous",
+      "wake_count": 0,
+      "raw_vosk": "上海 明天 天气 怎么样 二 咯 阿诺 上海 明天 天气 怎么样 ",
+      "first_command": "",
+      "last_command": ""
+    }
+  ],
+  "failures": [
+    "continuous stream timing\/state mismatch"
+  ]
+}

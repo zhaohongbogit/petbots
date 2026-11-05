@@ -1,0 +1,161 @@
+[
+  {
+    "interactions": [
+      "focusable",
+      "scrollable"
+    ],
+    "center": "[540,1200]",
+    "bounds": "[0,0][1080,2400]",
+    "key": 3506402
+  },
+  {
+    "text": "小车语音实验室",
+    "center": "[540,154]",
+    "key": 3506402
+  },
+  {
+    "text": "本地听见 · 有限主动 · 确认后执行",
+    "center": "[540,266]",
+    "key": 3506402
+  },
+  {
+    "text": "前台监听，后台自动停止。识别文本只保存在本机，不保存录音。播报时忽略输入，播报后再等待确认。",
+    "center": "[540,379]",
+    "key": 3506402
+  },
+  {
+    "text": "本地中文模型已加载 · 664 ms",
+    "center": "[540,491]",
+    "key": 3506402
+  },
+  {
+    "text": "状态：文字实验就绪 · 麦克风关闭",
+    "center": "[540,588]",
+    "key": 3506402
+  },
+  {
+    "text": "实时识别：—",
+    "center": "[540,687]",
+    "key": 3506402
+  },
+  {
+    "text": "处理说明：等待讲话；普通聊天只记录",
+    "center": "[540,777]",
+    "key": 3506402
+  },
+  {
+    "text": "城市增强：通用识别保留原文；天气城市候选需确认",
+    "center": "[540,865]",
+    "key": 3506402
+  },
+  {
+    "text": "真实天气请求：0 次 · 麦克风未开启\n本进程 Java 堆：7 MB（不含模型 native 内存）",
+    "center": "[540,976]",
+    "key": 3506402
+  },
+  {
+    "text": "默认城市（语音未提到城市时使用）",
+    "center": "[540,1088]",
+    "key": 3506402
+  },
+  {
+    "interactions": [
+      "clickable",
+      "focusable",
+      "scrollable",
+      "long-clickable"
+    ],
+    "center": "[540,1197]",
+    "bounds": "[55,1131][1025,1263]",
+    "key": 3506402
+  },
+  {
+    "text": "支持本地城市表 314 个城市，例如：上海明天天气怎么样。多城市或不明确时不查询。",
+    "center": "[540,1331]",
+    "key": 3506402
+  },
+  {
+    "text": "Qwen 离线城市纠错（实验开关）",
+    "interactions": [
+      "checkable",
+      "clickable",
+      "focusable"
+    ],
+    "state": [
+      "checked"
+    ],
+    "center": "[540,1437]",
+    "key": 3506402
+  },
+  {
+    "text": "Qwen3-0.6B Q4_K_M 就绪 · 加载 1649 ms · CPU 离线推理",
+    "center": "[540,1542]",
+    "key": 3506402
+  },
+  {
+    "text": "对比：等待输入；耗时不含 Vosk 语音解码",
+    "center": "[540,1654]",
+    "key": 3506402
+  },
+  {
+    "text": "城市纠错 A/B 自检（不播报、不查天气）",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,1763]",
+    "key": 3506402
+  },
+  {
+    "text": "真实天气 · 联网（关闭时使用模拟数据）",
+    "interactions": [
+      "checkable",
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,1866]",
+    "key": 3506402
+  },
+  {
+    "text": "开始麦克风监听",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,1969]",
+    "key": 3506402
+  },
+  {
+    "text": "停止 / 重置当前流程",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,2101]",
+    "key": 3506402
+  },
+  {
+    "text": "文字模拟入口（与语音共用判断流程）",
+    "center": "[540,2215]",
+    "key": 3506402
+  },
+  {
+    "text": "例如：上海明天天气怎么样",
+    "interactions": [
+      "clickable",
+      "focusable",
+      "long-clickable"
+    ],
+    "center": "[540,2332]",
+    "key": 3506402
+  },
+  {
+    "text": "北京",
+    "interactions": [
+      "checkable"
+    ],
+    "center": "[474,1197]",
+    "resource-id": "text1",
+    "key": 3506402
+  }
+]

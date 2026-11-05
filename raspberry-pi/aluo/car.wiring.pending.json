@@ -1,0 +1,42 @@
+{
+  "armed": false,
+  "numbering": "BCM",
+  "pins_confirmed": true,
+  "echo_3v3_safe": false,
+  "external_servo_power_common_ground": false,
+  "ena_jumper_removed": true,
+  "calibration_confirmed": false,
+  "reverse_enabled": false,
+  "pins": {
+    "in1": 5,
+    "in2": 6,
+    "ena": 19,
+    "steering": 13,
+    "radar": 12,
+    "trig": 27,
+    "echo": 17
+  },
+  "steering": {
+    "min": 80,
+    "center": 90,
+    "max": 100,
+    "min_pulse_ms": 1.0,
+    "max_pulse_ms": 2.0
+  },
+  "radar": {
+    "min": 75,
+    "center": 90,
+    "max": 105,
+    "min_pulse_ms": 1.0,
+    "max_pulse_ms": 2.0
+  },
+  "wiring_notes": {
+    "source": "2026-10-31用户提供，所有原始编号为物理针脚",
+    "motor": "IN1物理29/BCM5，IN2物理31/BCM6，ENA物理35/BCM19；4节AAA干电池独立供电，与Pi共地；用户确认ENA跳线帽已拆下；驱动板逻辑电源仍待核实",
+    "steering": "MG996R：信号物理33/BCM13，供电物理17/3.3V，GND20；用户暂不改装。现有供电低于厂家规格，软件保持禁用，未进行动作测试",
+    "radar": "SG90：信号物理32/BCM12，供电物理2/5V，GND6；独立供电及标定待完成",
+    "ultrasonic": "Trig物理13/BCM27，Echo物理11/BCM17；供电1/3.3V，GND9。照片显示双探头，支架遮挡型号/丝印，仅外观类似HC-SR04，无法确认具体型号或3.3V兼容性，echo_3v3_safe保持false",
+    "calibration": "角度及脉宽仅占位，未标定；禁止将此文件直接设为armed=true",
+    "driver_photo": "近照确认为YFROBOT ©2016，输出M1/M2；排针上排ENA/VCC/ENB/VCC，下排IN1/IN2/IN3/IN4。控制线实际落针仍待逐根核对，暂不能以用户先前标注替代接线连通验证。"
+  }
+}

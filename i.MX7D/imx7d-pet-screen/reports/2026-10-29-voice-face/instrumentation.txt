@@ -1,0 +1,1 @@
+PASS 37 checks: voice-only face, injected speech transitions, real ARMv7 wake PCM; no real mic/TTS/network

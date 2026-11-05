@@ -1,0 +1,1 @@
+PASS 14 checks: silent text flow + native fixed PCM; no mic/network

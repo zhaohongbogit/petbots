@@ -1,0 +1,122 @@
+[
+  {
+    "input": "郑州明天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "郑州",
+    "expected_day": 1,
+    "output": {
+      "intent": "weather",
+      "city": "郑州",
+      "day": 1
+    },
+    "ms": 2950
+  },
+  {
+    "input": "上海今天天气如何",
+    "expected_intent": "weather",
+    "expected_city": "上海",
+    "expected_day": 0,
+    "output": {
+      "intent": "weather",
+      "city": "上海",
+      "day": 0
+    },
+    "ms": 2897
+  },
+  {
+    "input": "今天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "weather",
+      "city": null,
+      "day": 0
+    },
+    "ms": 2727
+  },
+  {
+    "input": "今天工作有点忙",
+    "expected_intent": "other",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "other",
+      "city": null,
+      "day": 0
+    },
+    "ms": 2759
+  },
+  {
+    "input": "郑重提醒大家明天天气有变化",
+    "expected_intent": "other",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "other",
+      "city": null,
+      "day": -1
+    },
+    "ms": 2791
+  },
+  {
+    "input": "不要查询上海的天气",
+    "expected_intent": "no",
+    "expected_city": "上海",
+    "expected_day": 0,
+    "output": {
+      "intent": "no",
+      "city": null,
+      "day": 0
+    },
+    "ms": 2777
+  },
+  {
+    "input": "上海后天天气怎么样",
+    "expected_intent": "unsupported",
+    "expected_city": "上海",
+    "expected_day": -1,
+    "output": {
+      "intent": "weather",
+      "city": "上海",
+      "day": 1
+    },
+    "ms": 2936
+  },
+  {
+    "input": "是的",
+    "expected_intent": "yes",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "yes",
+      "city": "zhengzhou",
+      "day": 1
+    },
+    "ms": 2484
+  },
+  {
+    "input": "不是的",
+    "expected_intent": "no",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "no",
+      "city": "zhengzhou",
+      "day": 1
+    },
+    "ms": 2508
+  },
+  {
+    "input": "不用",
+    "expected_intent": "no",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "yes",
+      "city": "zhengzhou",
+      "day": 1
+    },
+    "ms": 2491
+  }
+]

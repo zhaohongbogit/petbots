@@ -1,0 +1,6 @@
+--------- beginning of main
+10-27 20:31:58.428   528   825 D HeadsetStateMachine: Disconnected: connecting to device=42:C1:12:35:FC:A7
+10-27 20:31:58.786   528   825 D HeadsetStateMachine: Pending: processConnectionEvent, state=0, device=42:C1:12:35:FC:A7
+10-27 20:31:58.792   528   825 D HeadsetStateMachine: Pending: removed CONNECT_TIMEOUT for device=42:C1:12:35:FC:A7
+10-27 20:31:59.932  1387  1387 I PetBluetooth: sco_requested=true available_off_call=true
+10-27 20:32:07.942  1387  1387 I PetBluetooth: sco_timeout=true

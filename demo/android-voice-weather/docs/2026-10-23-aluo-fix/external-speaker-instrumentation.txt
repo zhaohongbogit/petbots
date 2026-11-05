@@ -1,0 +1,29 @@
+
+cn.aihongbo.voiceweather.WakeCommandDeviceTest:
+Error in acousticSpeakerCommandAndConfirmation(cn.aihongbo.voiceweather.WakeCommandDeviceTest):
+java.lang.AssertionError: Real microphone did not acknowledge acoustic wake
+14:45:59 [流程] 开始 Vosk 麦克风实验
+14:45:59 [流程] 已重置，旧推理结果将丢弃
+14:45:58 [播报] 中文离线语音就绪
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.await(WakeCommandDeviceTest.java:215)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.acousticSpeakerCommandAndConfirmation(WakeCommandDeviceTest.java:160)
+
+
+Time: 22.906
+There was 1 failure:
+1) acousticSpeakerCommandAndConfirmation(cn.aihongbo.voiceweather.WakeCommandDeviceTest)
+java.lang.AssertionError: Real microphone did not acknowledge acoustic wake
+14:45:59 [流程] 开始 Vosk 麦克风实验
+14:45:59 [流程] 已重置，旧推理结果将丢弃
+14:45:58 [播报] 中文离线语音就绪
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.await(WakeCommandDeviceTest.java:215)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.acousticSpeakerCommandAndConfirmation(WakeCommandDeviceTest.java:160)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

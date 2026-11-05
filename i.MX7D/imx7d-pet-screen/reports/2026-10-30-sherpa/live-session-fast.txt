@@ -1,0 +1,111 @@
+--------- beginning of system
+--------- beginning of crash
+--------- beginning of main
+10-30 15:13:45.192 12923 13242 I AluoLevel: mode=WAKE rms=465 peak=9395
+10-30 15:13:49.656 12923 12992 I AluoSherpa: mode=WAKE captured=15805440 decoded=15805440 queue=0
+10-30 15:13:50.292 12923 13242 I AluoLevel: mode=WAKE rms=3989 peak=32768
+10-30 15:13:55.323 12923 13242 I AluoLevel: mode=WAKE rms=762 peak=19407
+10-30 15:13:59.700 12923 12992 I AluoSherpa: mode=WAKE captured=16678620 decoded=16678620 queue=0
+10-30 15:14:00.384 12923 13242 I AluoLevel: mode=WAKE rms=565 peak=1325
+10-30 15:14:05.487 12923 13242 I AluoLevel: mode=WAKE rms=575 peak=2032
+10-30 15:14:09.723 12923 12992 I AluoSherpa: mode=WAKE captured=17551800 decoded=17551800 queue=0
+10-30 15:14:10.518 12923 13242 I AluoLevel: mode=WAKE rms=572 peak=1382
+10-30 15:14:15.573 12923 13242 I AluoLevel: mode=WAKE rms=569 peak=1208
+10-30 15:14:19.781 12923 12992 I AluoSherpa: mode=WAKE captured=18424980 decoded=18424980 queue=0
+10-30 15:14:20.675 12923 13242 I AluoLevel: mode=WAKE rms=571 peak=1260
+10-30 15:14:25.707 12923 13242 I AluoLevel: mode=WAKE rms=568 peak=1287
+10-30 15:14:29.895 12923 12992 I AluoSherpa: mode=WAKE captured=19306980 decoded=19306980 queue=0
+10-30 15:14:30.764 12923 13242 I AluoLevel: mode=WAKE rms=570 peak=1457
+10-30 15:14:35.868 12923 13242 I AluoLevel: mode=WAKE rms=575 peak=1257
+10-30 15:14:39.911 12923 12992 I AluoSherpa: mode=WAKE captured=20180160 decoded=20180160 queue=0
+10-30 15:14:40.923 12923 13242 I AluoLevel: mode=WAKE rms=573 peak=1145
+10-30 15:14:45.958 12923 13242 I AluoLevel: mode=WAKE rms=574 peak=1242
+10-30 15:14:49.953 12923 12992 I AluoSherpa: mode=WAKE captured=21053340 decoded=21053340 queue=0
+10-30 15:14:51.058 12923 13242 I AluoLevel: mode=WAKE rms=611 peak=4340
+10-30 15:14:56.112 12923 13242 I AluoLevel: mode=WAKE rms=613 peak=2423
+10-30 15:14:59.973 12923 12992 I AluoSherpa: mode=WAKE captured=21926520 decoded=21926520 queue=0
+10-30 15:15:01.143 12923 13242 I AluoLevel: mode=WAKE rms=594 peak=1625
+10-30 15:15:06.248 12923 13242 I AluoLevel: mode=WAKE rms=588 peak=1172
+10-30 15:15:09.986 12923 12992 I AluoSherpa: mode=WAKE captured=22799700 decoded=22799700 queue=0
+10-30 15:15:11.302 12923 13242 I AluoLevel: mode=WAKE rms=590 peak=1253
+10-30 15:15:16.332 12923 13242 I AluoLevel: mode=WAKE rms=590 peak=1360
+10-30 15:15:20.024 12923 12992 I AluoSherpa: mode=WAKE captured=23672880 decoded=23672880 queue=0
+10-30 15:15:21.433 12923 13242 I AluoLevel: mode=WAKE rms=589 peak=1337
+10-30 15:15:26.488 12923 13242 I AluoLevel: mode=WAKE rms=604 peak=2125
+10-30 15:15:30.047 12923 12992 I AluoSherpa: mode=WAKE captured=24546060 decoded=24546060 queue=0
+10-30 15:15:31.527 12923 13242 I AluoLevel: mode=WAKE rms=595 peak=1547
+10-30 15:15:36.628 12923 13242 I AluoLevel: mode=WAKE rms=598 peak=1560
+10-30 15:15:40.062 12923 12992 I AluoSherpa: mode=WAKE captured=25419240 decoded=25419240 queue=0
+10-30 15:15:41.683 12923 13242 I AluoLevel: mode=WAKE rms=594 peak=1475
+10-30 15:15:46.717 12923 13242 I AluoLevel: mode=WAKE rms=591 peak=1207
+10-30 15:15:50.105 12923 12992 I AluoSherpa: mode=WAKE captured=26292420 decoded=26292420 queue=0
+10-30 15:15:51.818 12923 13242 I AluoLevel: mode=WAKE rms=591 peak=1205
+10-30 15:15:56.874 12923 13242 I AluoLevel: mode=WAKE rms=598 peak=1250
+10-30 15:16:00.121 12923 12992 I AluoSherpa: mode=WAKE captured=27165600 decoded=27165600 queue=0
+10-30 15:16:01.904 12923 13242 I AluoLevel: mode=WAKE rms=593 peak=1250
+10-30 15:16:07.010 12923 13242 I AluoLevel: mode=WAKE rms=593 peak=1287
+10-30 15:16:10.522 12923 12992 I AluoSherpa: final mode=WAKE asr_ms=989 text=好
+10-30 15:16:10.567 12923 12992 I AluoSherpa: mode=WAKE captured=28074060 decoded=27994680 queue=9
+10-30 15:16:12.067 12923 13242 I AluoLevel: mode=WAKE rms=612 peak=1820
+10-30 15:24:49.022 13578 13578 I AluoBoard: 正在准备语音…
+10-30 15:24:49.854 13578 13578 I AluoTts : initialized offline_zh=true
+10-30 15:24:49.872 13578 13578 I AluoBoard: 正在准备监听…
+10-30 15:25:16.167 13578 13611 I AluoSherpa: models_ready_ms=26276
+10-30 15:25:16.745 13578 13611 I AluoSherpa: ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:25:17.049 13578 13578 I AluoBoard: 正在聆听，说“你好阿洛”唤醒
+10-30 15:25:21.846 13578 13643 I AluoLevel: mode=WAKE rms=523 peak=1450
+10-30 15:25:26.845 13578 13611 I AluoSherpa: mode=WAKE captured=882000 decoded=882000 queue=0
+10-30 15:25:26.903 13578 13643 I AluoLevel: mode=WAKE rms=519 peak=1267
+10-30 15:25:31.962 13578 13643 I AluoLevel: mode=WAKE rms=527 peak=1442
+10-30 15:25:36.886 13578 13611 I AluoSherpa: mode=WAKE captured=1755180 decoded=1755180 queue=0
+10-30 15:25:37.044 13578 13643 I AluoLevel: mode=WAKE rms=522 peak=1248
+10-30 15:25:42.101 13578 13643 I AluoLevel: mode=WAKE rms=525 peak=1167
+10-30 15:25:46.892 13578 13611 I AluoSherpa: mode=WAKE captured=2628360 decoded=2628360 queue=0
+10-30 15:25:47.201 13578 13643 I AluoLevel: mode=WAKE rms=402 peak=1417
+10-30 15:25:52.233 13578 13643 I AluoLevel: mode=WAKE rms=2074 peak=32768
+10-30 15:25:55.928 13578 13611 I AluoSherpa: final mode=WAKE asr_ms=821 text=你好阿路
+10-30 15:25:55.986 13578 13611 I AluoSherpa: wake_utterance=你好阿路
+10-30 15:25:56.194 13578 13578 I AluoBoard: 阿洛：收到
+10-30 15:25:56.246 13578 13578 I AluoTts : queued id=2
+10-30 15:25:56.392 13578 13593 I AluoTts : started id=2
+10-30 15:25:57.623 13578 13593 I AluoTts : completed id=2
+10-30 15:25:58.128 13578 13578 I AluoBoard: 正在准备监听…
+10-30 15:25:58.223 13578 13611 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:25:58.224 13578 13578 I AluoBoard: 请说话
+10-30 15:26:01.829 13578 13611 I AluoSherpa: final mode=COMMAND asr_ms=708 text=你好阿路
+10-30 15:26:03.635 13578 13578 I AluoBoard: 阿洛：需要帮主人查询北京今天的天气吗？
+10-30 15:26:03.641 13578 13578 I AluoTts : queued id=4
+10-30 15:26:03.660 13578 13593 I AluoTts : started id=4
+10-30 15:26:07.486 13578 13593 I AluoTts : completed id=4
+10-30 15:26:07.997 13578 13578 I AluoBoard: 正在准备监听…
+10-30 15:26:08.022 13578 13611 I AluoSherpa: ready mode=CONFIRM capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:26:08.039 13578 13578 I AluoBoard: 请回答“是的”或“不用”
+10-30 15:26:13.093 13578 13686 I AluoLevel: mode=CONFIRM rms=1104 peak=32767
+10-30 15:26:16.271 13578 13578 I AluoBoard: 确认超时，未查询
+10-30 15:26:16.272 13578 13578 I AluoBoard: 正在准备监听…
+10-30 15:26:16.294 13578 13611 I AluoSherpa: ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:26:16.307 13578 13578 I AluoBoard: 正在聆听，说“你好阿洛”唤醒
+10-30 15:26:21.327 13578 13695 I AluoLevel: mode=WAKE rms=4150 peak=32768
+10-30 15:26:26.403 13578 13695 I AluoLevel: mode=WAKE rms=1097 peak=14385
+10-30 15:26:27.209 13578 13611 I AluoSherpa: final mode=WAKE asr_ms=992 text=hello 你好
+10-30 15:26:27.237 13578 13611 I AluoSherpa: mode=WAKE captured=943740 decoded=864360 queue=9
+10-30 15:26:31.459 13578 13695 I AluoLevel: mode=WAKE rms=693 peak=6733
+10-30 15:26:32.440 13578 13611 I AluoSherpa: final mode=WAKE asr_ms=869 text=你好阿路
+10-30 15:26:32.443 13578 13611 I AluoSherpa: wake_utterance=你好阿路
+10-30 15:26:32.497 13578 13578 I AluoBoard: 阿洛：收到
+10-30 15:26:32.498 13578 13578 I AluoTts : queued id=6
+10-30 15:26:32.508 13578 13608 I AluoTts : started id=6
+10-30 15:26:33.459 13578 13608 I AluoTts : completed id=6
+10-30 15:26:33.960 13578 13578 I AluoBoard: 正在准备监听…
+10-30 15:26:34.022 13578 13611 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:26:34.024 13578 13578 I AluoBoard: 请说话
+10-30 15:26:38.787 13578 13611 I AluoSherpa: final mode=COMMAND asr_ms=1257 text=北京今天的天气怎么样
+10-30 15:26:38.922 13578 13578 I AluoBoard: 阿洛：刚刚查询过这个天气，请稍后再试
+10-30 15:26:38.923 13578 13578 I AluoTts : queued id=8
+10-30 15:26:38.931 13578 13608 I AluoTts : started id=8
+10-30 15:26:42.787 13578 13608 I AluoTts : completed id=8
+10-30 15:26:43.294 13578 13578 I AluoBoard: 正在准备监听…
+10-30 15:26:43.363 13578 13611 I AluoSherpa: ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:26:43.372 13578 13578 I AluoBoard: 正在聆听，说“你好阿洛”唤醒
+10-30 15:26:48.466 13578 13712 I AluoLevel: mode=WAKE rms=839 peak=5610
+10-30 15:26:51.639 13578 13611 I AluoSherpa: final mode=WAKE asr_ms=3055 text=你会干什么

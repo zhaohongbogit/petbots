@@ -1,0 +1,161 @@
+{
+  "samples": 640000,
+  "elapsed_ms": 103404,
+  "segments": [
+    {
+      "text": "",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 83200
+    },
+    {
+      "result": [
+        {
+          "conf": 0.907546,
+          "end": 5.4,
+          "start": 5.04,
+          "word": "你好"
+        }
+      ],
+      "text": "你好",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 94720
+    },
+    {
+      "result": [
+        {
+          "conf": 0.899981,
+          "end": 6.185504,
+          "start": 5.76,
+          "word": "老婆"
+        },
+        {
+          "conf": 0.74066,
+          "end": 6.36,
+          "start": 6.185504,
+          "word": "吧"
+        }
+      ],
+      "text": "老婆 吧",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 113920
+    },
+    {
+      "result": [
+        {
+          "conf": 0.612668,
+          "end": 11.04,
+          "start": 10.56,
+          "word": "您好"
+        },
+        {
+          "conf": 0.5112,
+          "end": 11.618128,
+          "start": 11.161005,
+          "word": "您好"
+        }
+      ],
+      "text": "您好 您好",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 198400
+    },
+    {
+      "text": "",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 279040
+    },
+    {
+      "text": "",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 359680
+    },
+    {
+      "result": [
+        {
+          "conf": 0.306563,
+          "end": 25.2,
+          "start": 24.87,
+          "word": "你好"
+        },
+        {
+          "conf": 0.620308,
+          "end": 25.466548,
+          "start": 25.2,
+          "word": "了"
+        },
+        {
+          "conf": 0.660937,
+          "end": 25.83,
+          "start": 25.47,
+          "word": "以后"
+        }
+      ],
+      "text": "你好 了 以后",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 424960
+    },
+    {
+      "result": [
+        {
+          "conf": 0.957061,
+          "end": 27.54119,
+          "start": 27.12,
+          "word": "比如"
+        },
+        {
+          "conf": 0.485423,
+          "end": 27.83471,
+          "start": 27.6,
+          "word": "就"
+        }
+      ],
+      "text": "比如 就",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 467200
+    },
+    {
+      "result": [
+        {
+          "conf": 0.36552,
+          "end": 29.37,
+          "start": 29.04,
+          "word": "坏"
+        },
+        {
+          "conf": 0.988265,
+          "end": 29.7,
+          "start": 29.372849,
+          "word": "天气"
+        },
+        {
+          "conf": 1,
+          "end": 30.15,
+          "start": 29.7,
+          "word": "怎么样"
+        }
+      ],
+      "text": "坏 天气 怎么样",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 494080
+    },
+    {
+      "text": "",
+      "wake_detected": false,
+      "command": "",
+      "sample_end": 574720
+    },
+    {
+      "text": "",
+      "tail": true,
+      "sample_end": 640000
+    }
+  ]
+}

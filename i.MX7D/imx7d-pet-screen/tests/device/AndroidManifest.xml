@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.zhb.petscreen.aluotest">
+  <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="27"/>
+  <application android:label="阿洛板端集成测试"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.HbcConnectivityTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.HbcTravelTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.HbcProvisionTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.SherpaLiveInputTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.VoskModelRetirementTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.SherpaReplayTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.AluoIntegrationTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.MicrophoneProbeTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.HumanReplayTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.ReplyProbeTest" android:targetPackage="com.zhb.petscreen"/>
+  <instrumentation android:name="cn.aihongbo.voiceweather.RestrictedHumanReplayTest" android:targetPackage="com.zhb.petscreen"/>
+</manifest>

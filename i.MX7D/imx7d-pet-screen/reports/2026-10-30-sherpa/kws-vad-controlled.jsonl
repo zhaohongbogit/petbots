@@ -1,0 +1,8 @@
+{"keywords_score":1.0,"keywords_threshold":0.25}
+{"load_s":11.839}
+{"segment_start":217344,"segment_samples":16832,"detected":0}
+{"segment_start":244480,"segment_samples":131520,"detected":0}
+{"segment_start":699136,"segment_samples":9664,"detected":0}
+{"segment_start":837376,"segment_samples":11200,"detected":0}
+{"speech_segments":4}
+{"samples":960000,"hits":0,"decode_s":20.175,"worst_frame_s":7.604,"peak_rss_kib":56792}

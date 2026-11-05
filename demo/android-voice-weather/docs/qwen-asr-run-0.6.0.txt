@@ -1,0 +1,8 @@
+
+cn.aihongbo.voiceweather.QwenAsrDeviceTest:.
+
+Time: 36.47
+
+OK (1 test)
+
+

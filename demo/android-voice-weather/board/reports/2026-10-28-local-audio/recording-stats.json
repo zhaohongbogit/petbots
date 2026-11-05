@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "sample_rate": 16000,
+  "channels": 1,
+  "sample_width_bytes": 2,
+  "samples": 80000,
+  "duration_ms": 5000.0,
+  "bytes": 160044,
+  "peak": 257,
+  "rms": 53.745602959684064,
+  "rms_dbfs": -55.70213990919346,
+  "capture_elapsed_ms": 5120,
+  "user_recording_playback": "no audible sound",
+  "user_known_speech_playback": "clear sound",
+  "original_recording_backed_up_on_device": true,
+  "raw_audio_uploaded": false
+}

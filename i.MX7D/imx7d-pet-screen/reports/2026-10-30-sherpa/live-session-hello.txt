@@ -1,0 +1,353 @@
+--------- beginning of main
+10-30 14:56:44.624 I/AluoBoard(12609): 正在准备语音…
+--------- beginning of system
+10-30 14:56:47.269 I/AluoTts (12609): initialized offline_zh=true
+10-30 14:56:47.286 I/AluoBoard(12609): 正在准备监听…
+10-30 14:57:24.081 I/AluoSherpa(12609): models_ready_ms=36783
+10-30 14:57:24.590 I/AluoSherpa(12609): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:57:24.961 I/AluoBoard(12609): 正在聆听，说“你好阿洛”唤醒
+10-30 14:57:29.697 I/AluoLevel(12609): mode=WAKE rms=714 peak=32767
+10-30 14:57:34.750 I/AluoSherpa(12609): mode=WAKE captured=882000 decoded=864360 queue=2
+10-30 14:57:34.782 I/AluoLevel(12609): mode=WAKE rms=776 peak=32768
+10-30 14:57:39.867 I/AluoLevel(12609): mode=WAKE rms=624 peak=25935
+10-30 14:57:44.763 I/AluoSherpa(12609): mode=WAKE captured=1755180 decoded=1737540 queue=2
+10-30 14:57:44.952 I/AluoLevel(12609): mode=WAKE rms=1215 peak=32768
+10-30 14:57:49.989 I/AluoLevel(12609): mode=WAKE rms=1192 peak=28000
+10-30 14:57:54.820 I/AluoSherpa(12609): mode=WAKE captured=2628360 decoded=2610720 queue=2
+10-30 14:57:55.072 I/AluoLevel(12609): mode=WAKE rms=1071 peak=32767
+10-30 14:58:00.158 I/AluoLevel(12609): mode=WAKE rms=1086 peak=32768
+10-30 14:58:04.995 I/AluoSherpa(12609): mode=WAKE captured=3510360 decoded=3492720 queue=2
+10-30 14:58:05.222 I/AluoLevel(12609): mode=WAKE rms=519 peak=26718
+10-30 14:58:10.286 I/AluoLevel(12609): mode=WAKE rms=150 peak=1293
+10-30 14:58:15.021 I/AluoSherpa(12609): mode=WAKE captured=4383540 decoded=4365900 queue=2
+10-30 14:58:15.370 I/AluoLevel(12609): mode=WAKE rms=116 peak=623
+10-30 14:58:20.434 I/AluoLevel(12609): mode=WAKE rms=769 peak=29503
+10-30 14:58:25.111 I/AluoSherpa(12609): mode=WAKE captured=5256720 decoded=5239080 queue=2
+10-30 14:58:25.544 I/AluoLevel(12609): mode=WAKE rms=873 peak=31685
+10-30 14:58:30.607 I/AluoLevel(12609): mode=WAKE rms=1681 peak=18948
+10-30 14:58:35.113 I/AluoSherpa(12609): mode=WAKE captured=6129900 decoded=6129900 queue=0
+10-30 14:58:35.698 I/AluoLevel(12609): mode=WAKE rms=1301 peak=17560
+10-30 14:58:40.784 I/AluoLevel(12609): mode=WAKE rms=855 peak=8883
+10-30 14:58:45.175 I/AluoSherpa(12609): mode=WAKE captured=7003080 decoded=6985440 queue=2
+10-30 14:58:45.829 I/AluoLevel(12609): mode=WAKE rms=373 peak=7520
+10-30 14:58:50.916 I/AluoLevel(12609): mode=WAKE rms=1085 peak=19157
+10-30 14:58:55.346 I/AluoSherpa(12609): mode=WAKE captured=7885080 decoded=7867440 queue=2
+10-30 14:58:56.005 I/AluoLevel(12609): mode=WAKE rms=786 peak=14483
+10-30 14:59:01.090 I/AluoLevel(12609): mode=WAKE rms=545 peak=16780
+10-30 14:59:05.410 I/AluoSherpa(12609): mode=WAKE captured=8758260 decoded=8740620 queue=2
+10-30 14:59:06.155 I/AluoLevel(12609): mode=WAKE rms=605 peak=16510
+10-30 14:59:11.218 I/AluoLevel(12609): mode=WAKE rms=633 peak=32768
+10-30 14:59:15.466 I/AluoSherpa(12609): mode=WAKE captured=9631440 decoded=9613800 queue=2
+10-30 14:59:16.218 I/AluoLevel(12609): mode=WAKE rms=569 peak=21367
+10-30 14:59:21.283 I/AluoLevel(12609): mode=WAKE rms=1146 peak=32768
+10-30 14:59:25.528 I/AluoSherpa(12609): mode=WAKE captured=10504620 decoded=10486980 queue=2
+10-30 14:59:26.285 I/AluoLevel(12609): mode=WAKE rms=484 peak=8372
+10-30 14:59:31.348 I/AluoLevel(12609): mode=WAKE rms=414 peak=1992
+10-30 14:59:35.546 I/AluoSherpa(12609): mode=WAKE captured=11377800 decoded=11360160 queue=2
+10-30 14:59:36.455 I/AluoLevel(12609): mode=WAKE rms=415 peak=1470
+10-30 14:59:41.523 I/AluoLevel(12609): mode=WAKE rms=418 peak=1223
+10-30 14:59:45.725 I/AluoSherpa(12609): mode=WAKE captured=12259800 decoded=12242160 queue=2
+10-30 14:59:46.564 I/AluoLevel(12609): mode=WAKE rms=419 peak=1127
+10-30 14:59:51.650 I/AluoLevel(12609): mode=WAKE rms=416 peak=1305
+10-30 14:59:55.793 I/AluoSherpa(12609): mode=WAKE captured=13132980 decoded=13115340 queue=2
+10-30 14:59:56.736 I/AluoLevel(12609): mode=WAKE rms=417 peak=1570
+10-30 15:00:01.797 I/AluoLevel(12609): mode=WAKE rms=413 peak=1285
+10-30 15:00:05.820 I/AluoSherpa(12609): mode=WAKE captured=14006160 decoded=13988520 queue=2
+10-30 15:00:06.858 I/AluoLevel(12609): mode=WAKE rms=414 peak=1240
+10-30 15:00:11.942 I/AluoLevel(12609): mode=WAKE rms=413 peak=1003
+10-30 15:00:15.869 I/AluoSherpa(12609): mode=WAKE captured=14879340 decoded=14861700 queue=2
+10-30 15:00:17.005 I/AluoLevel(12609): mode=WAKE rms=413 peak=1015
+10-30 15:00:22.112 I/AluoLevel(12609): mode=WAKE rms=414 peak=940
+10-30 15:00:25.891 I/AluoSherpa(12609): mode=WAKE captured=15752520 decoded=15734880 queue=2
+10-30 15:00:27.175 I/AluoLevel(12609): mode=WAKE rms=417 peak=1062
+10-30 15:00:32.218 I/AluoLevel(12609): mode=WAKE rms=417 peak=1095
+10-30 15:00:36.065 I/AluoSherpa(12609): mode=WAKE captured=16634520 decoded=16616880 queue=2
+10-30 15:00:37.328 I/AluoLevel(12609): mode=WAKE rms=414 peak=1025
+10-30 15:00:42.394 I/AluoLevel(12609): mode=WAKE rms=414 peak=1155
+10-30 15:00:46.101 I/AluoSherpa(12609): mode=WAKE captured=17507700 decoded=17490060 queue=2
+10-30 15:00:47.477 I/AluoLevel(12609): mode=WAKE rms=425 peak=1585
+10-30 15:00:52.566 I/AluoLevel(12609): mode=WAKE rms=417 peak=1070
+10-30 15:00:56.149 I/AluoSherpa(12609): mode=WAKE captured=18380880 decoded=18363240 queue=2
+10-30 15:00:57.608 I/AluoLevel(12609): mode=WAKE rms=413 peak=1225
+10-30 15:01:02.697 I/AluoLevel(12609): mode=WAKE rms=414 peak=1095
+10-30 15:01:06.216 I/AluoSherpa(12609): mode=WAKE captured=19254060 decoded=19236420 queue=2
+10-30 15:01:07.783 I/AluoLevel(12609): mode=WAKE rms=413 peak=1070
+10-30 15:01:12.870 I/AluoLevel(12609): mode=WAKE rms=416 peak=1112
+10-30 15:01:16.298 I/AluoSherpa(12609): mode=WAKE captured=20127240 decoded=20109600 queue=2
+10-30 15:01:17.936 I/AluoLevel(12609): mode=WAKE rms=414 peak=1163
+10-30 15:01:23.046 I/AluoLevel(12609): mode=WAKE rms=415 peak=1125
+10-30 15:01:26.425 I/AluoSherpa(12609): mode=WAKE captured=21009240 decoded=20991600 queue=2
+10-30 15:01:28.084 I/AluoLevel(12609): mode=WAKE rms=418 peak=2020
+10-30 15:01:33.144 I/AluoLevel(12609): mode=WAKE rms=405 peak=1202
+10-30 15:01:36.472 I/AluoSherpa(12609): mode=WAKE captured=21882420 decoded=21864780 queue=2
+10-30 15:01:38.252 I/AluoLevel(12609): mode=WAKE rms=417 peak=2020
+10-30 15:01:43.315 I/AluoLevel(12609): mode=WAKE rms=414 peak=937
+10-30 15:01:46.518 I/AluoSherpa(12609): mode=WAKE captured=22755600 decoded=22737960 queue=2
+10-30 15:01:48.353 I/AluoLevel(12609): mode=WAKE rms=416 peak=1020
+10-30 15:01:53.461 I/AluoLevel(12609): mode=WAKE rms=418 peak=1023
+10-30 15:01:56.565 I/AluoSherpa(12609): mode=WAKE captured=23628780 decoded=23611140 queue=2
+10-30 15:01:58.526 I/AluoLevel(12609): mode=WAKE rms=417 peak=997
+10-30 15:02:03.610 I/AluoLevel(12609): mode=WAKE rms=416 peak=1030
+10-30 15:02:06.624 I/AluoSherpa(12609): mode=WAKE captured=24501960 decoded=24484320 queue=2
+10-30 15:02:08.695 I/AluoLevel(12609): mode=WAKE rms=416 peak=972
+10-30 15:02:13.736 I/AluoLevel(12609): mode=WAKE rms=418 peak=1503
+10-30 15:02:16.765 I/AluoSherpa(12609): mode=WAKE captured=25383960 decoded=25366320 queue=2
+10-30 15:02:18.822 I/AluoLevel(12609): mode=WAKE rms=417 peak=1037
+10-30 15:02:23.907 I/AluoLevel(12609): mode=WAKE rms=416 peak=940
+10-30 15:02:26.799 I/AluoSherpa(12609): mode=WAKE captured=26257140 decoded=26239500 queue=2
+10-30 15:02:28.992 I/AluoLevel(12609): mode=WAKE rms=417 peak=980
+10-30 15:02:34.053 I/AluoLevel(12609): mode=WAKE rms=416 peak=1417
+10-30 15:02:36.871 I/AluoSherpa(12609): mode=WAKE captured=27130320 decoded=27112680 queue=2
+10-30 15:02:39.120 I/AluoLevel(12609): mode=WAKE rms=416 peak=1025
+10-30 15:02:44.207 I/AluoLevel(12609): mode=WAKE rms=417 peak=1012
+10-30 15:02:46.901 I/AluoSherpa(12609): mode=WAKE captured=28003500 decoded=27985860 queue=2
+10-30 15:02:49.272 I/AluoLevel(12609): mode=WAKE rms=415 peak=1017
+10-30 15:02:54.381 I/AluoLevel(12609): mode=WAKE rms=416 peak=1045
+10-30 15:02:56.956 I/AluoSherpa(12609): mode=WAKE captured=28876680 decoded=28859040 queue=2
+10-30 15:02:59.445 I/AluoLevel(12609): mode=WAKE rms=416 peak=998
+10-30 15:03:04.536 I/AluoLevel(12609): mode=WAKE rms=420 peak=1150
+10-30 15:03:07.123 I/AluoSherpa(12609): mode=WAKE captured=29758680 decoded=29741040 queue=2
+10-30 15:03:09.626 I/AluoLevel(12609): mode=WAKE rms=418 peak=3080
+10-30 15:03:14.665 I/AluoLevel(12609): mode=WAKE rms=419 peak=1365
+10-30 15:03:17.210 I/AluoSherpa(12609): mode=WAKE captured=30631860 decoded=30614220 queue=2
+10-30 15:03:19.749 I/AluoLevel(12609): mode=WAKE rms=423 peak=1075
+10-30 15:03:24.834 I/AluoLevel(12609): mode=WAKE rms=429 peak=1372
+10-30 15:03:27.215 I/AluoSherpa(12609): mode=WAKE captured=31505040 decoded=31487400 queue=2
+10-30 15:03:29.921 I/AluoLevel(12609): mode=WAKE rms=419 peak=1128
+10-30 15:03:34.959 I/AluoLevel(12609): mode=WAKE rms=420 peak=1615
+10-30 15:03:37.282 I/AluoSherpa(12609): mode=WAKE captured=32378220 decoded=32360580 queue=2
+10-30 15:03:40.045 I/AluoLevel(12609): mode=WAKE rms=415 peak=1027
+10-30 15:03:45.133 I/AluoLevel(12609): mode=WAKE rms=418 peak=1795
+10-30 15:03:47.322 I/AluoSherpa(12609): mode=WAKE captured=33251400 decoded=33233760 queue=2
+10-30 15:03:50.194 I/AluoLevel(12609): mode=WAKE rms=401 peak=1143
+10-30 15:03:55.308 I/AluoLevel(12609): mode=WAKE rms=416 peak=1045
+10-30 15:03:57.475 I/AluoSherpa(12609): mode=WAKE captured=34133400 decoded=34115760 queue=2
+10-30 15:04:00.372 I/AluoLevel(12609): mode=WAKE rms=419 peak=1015
+10-30 15:04:05.412 I/AluoLevel(12609): mode=WAKE rms=418 peak=1812
+10-30 15:04:07.554 I/AluoSherpa(12609): mode=WAKE captured=35006580 decoded=34988940 queue=2
+10-30 15:04:10.520 I/AluoLevel(12609): mode=WAKE rms=418 peak=1793
+10-30 15:04:15.588 I/AluoLevel(12609): mode=WAKE rms=417 peak=893
+10-30 15:04:17.557 I/AluoSherpa(12609): mode=WAKE captured=35879760 decoded=35862120 queue=2
+10-30 15:04:20.674 I/AluoLevel(12609): mode=WAKE rms=427 peak=1105
+10-30 15:04:25.766 I/AluoLevel(12609): mode=WAKE rms=428 peak=1010
+10-30 15:04:27.815 I/AluoSherpa(12609): mode=WAKE captured=36770580 decoded=36655920 queue=13
+10-30 15:06:46.913 I/AluoBoard(12923): 正在准备语音…
+10-30 15:06:49.534 I/AluoTts (12923): initialized offline_zh=true
+10-30 15:06:49.555 I/AluoBoard(12923): 正在准备监听…
+10-30 15:07:13.543 I/AluoSherpa(12923): models_ready_ms=23984
+10-30 15:07:13.990 I/AluoSherpa(12923): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:07:14.305 I/AluoBoard(12923): 正在聆听，说“你好阿洛”唤醒
+10-30 15:07:19.095 I/AluoLevel(12923): mode=WAKE rms=416 peak=1095
+10-30 15:07:24.121 I/AluoSherpa(12923): mode=WAKE captured=882000 decoded=882000 queue=0
+10-30 15:07:24.171 I/AluoLevel(12923): mode=WAKE rms=415 peak=1520
+10-30 15:07:29.250 I/AluoLevel(12923): mode=WAKE rms=413 peak=993
+10-30 15:07:34.205 I/AluoSherpa(12923): mode=WAKE captured=1764000 decoded=1764000 queue=0
+10-30 15:07:34.281 I/AluoLevel(12923): mode=WAKE rms=413 peak=1005
+10-30 15:07:38.711 I/AluoSherpa(12923): final mode=WAKE asr_ms=2080 text=v 二新增的这个就是
+10-30 15:07:39.363 I/AluoLevel(12923): mode=WAKE rms=411 peak=1037
+10-30 15:07:44.251 I/AluoSherpa(12923): mode=WAKE captured=2637180 decoded=2637180 queue=0
+10-30 15:07:44.444 I/AluoLevel(12923): mode=WAKE rms=415 peak=987
+10-30 15:07:49.475 I/AluoLevel(12923): mode=WAKE rms=413 peak=1045
+10-30 15:07:54.265 I/AluoSherpa(12923): mode=WAKE captured=3510360 decoded=3510360 queue=0
+10-30 15:07:54.552 I/AluoLevel(12923): mode=WAKE rms=415 peak=977
+10-30 15:07:59.631 I/AluoLevel(12923): mode=WAKE rms=425 peak=1717
+10-30 15:08:04.287 I/AluoSherpa(12923): mode=WAKE captured=4383540 decoded=4383540 queue=0
+10-30 15:08:04.661 I/AluoLevel(12923): mode=WAKE rms=419 peak=970
+10-30 15:08:09.662 I/AluoLevel(12923): mode=WAKE rms=419 peak=1103
+10-30 15:08:14.339 I/AluoSherpa(12923): mode=WAKE captured=5256720 decoded=5256720 queue=0
+10-30 15:08:14.718 I/AluoLevel(12923): mode=WAKE rms=422 peak=1135
+10-30 15:08:19.772 I/AluoLevel(12923): mode=WAKE rms=415 peak=953
+10-30 15:08:24.362 I/AluoSherpa(12923): mode=WAKE captured=6129900 decoded=6129900 queue=0
+10-30 15:08:24.858 I/AluoLevel(12923): mode=WAKE rms=413 peak=925
+10-30 15:08:29.939 I/AluoLevel(12923): mode=WAKE rms=415 peak=895
+10-30 15:08:34.419 I/AluoSherpa(12923): mode=WAKE captured=6994260 decoded=6994260 queue=0
+10-30 15:08:34.942 I/AluoLevel(12923): mode=WAKE rms=416 peak=900
+10-30 15:08:40.036 I/AluoLevel(12923): mode=WAKE rms=414 peak=965
+10-30 15:08:44.464 I/AluoSherpa(12923): mode=WAKE captured=7814520 decoded=7814520 queue=0
+10-30 15:08:45.052 I/AluoLevel(12923): mode=WAKE rms=416 peak=1075
+10-30 15:08:50.106 I/AluoLevel(12923): mode=WAKE rms=413 peak=1165
+10-30 15:08:54.579 I/AluoSherpa(12923): mode=WAKE captured=8696520 decoded=8696520 queue=0
+10-30 15:08:55.186 I/AluoLevel(12923): mode=WAKE rms=415 peak=1070
+10-30 15:09:00.240 I/AluoLevel(12923): mode=WAKE rms=416 peak=1202
+10-30 15:09:04.611 I/AluoSherpa(12923): mode=WAKE captured=9569700 decoded=9569700 queue=0
+10-30 15:09:05.294 I/AluoLevel(12923): mode=WAKE rms=414 peak=1892
+10-30 15:09:10.373 I/AluoLevel(12923): mode=WAKE rms=412 peak=965
+10-30 15:09:14.626 I/AluoSherpa(12923): mode=WAKE captured=10442880 decoded=10442880 queue=0
+10-30 15:09:15.427 I/AluoLevel(12923): mode=WAKE rms=414 peak=892
+10-30 15:09:20.484 I/AluoLevel(12923): mode=WAKE rms=414 peak=1102
+10-30 15:09:24.644 I/AluoSherpa(12923): mode=WAKE captured=11316060 decoded=11316060 queue=0
+10-30 15:09:25.563 I/AluoLevel(12923): mode=WAKE rms=419 peak=1092
+10-30 15:09:30.617 I/AluoLevel(12923): mode=WAKE rms=415 peak=1127
+10-30 15:09:34.189 I/AluoSherpa(12923): final mode=WAKE asr_ms=2008 text=新加了这个
+10-30 15:09:34.650 I/AluoSherpa(12923): mode=WAKE captured=12180420 decoded=12171600 queue=1
+10-30 15:09:35.675 I/AluoLevel(12923): mode=WAKE rms=406 peak=1690
+10-30 15:09:40.753 I/AluoLevel(12923): mode=WAKE rms=423 peak=3640
+10-30 15:09:44.702 I/AluoSherpa(12923): mode=WAKE captured=13062420 decoded=13062420 queue=0
+10-30 15:09:45.807 I/AluoLevel(12923): mode=WAKE rms=2073 peak=32768
+10-30 15:09:50.860 I/AluoLevel(12923): mode=WAKE rms=582 peak=12610
+10-30 15:09:54.719 I/AluoSherpa(12923): mode=WAKE captured=13935600 decoded=13935600 queue=0
+10-30 15:09:55.941 I/AluoLevel(12923): mode=WAKE rms=1987 peak=24065
+10-30 15:09:59.735 I/AluoSherpa(12923): final mode=WAKE asr_ms=1740 text=你好能听到这个吗
+10-30 15:10:00.986 I/AluoSherpa(12923): final mode=WAKE asr_ms=953 text=你好阿洛
+10-30 15:10:00.989 I/AluoSherpa(12923): wake_utterance=你好阿洛
+10-30 15:10:01.092 I/AluoBoard(12923): 阿洛：收到
+10-30 15:10:01.161 I/AluoTts (12923): queued id=2
+10-30 15:10:01.431 I/AluoTts (12923): started id=2
+10-30 15:10:02.635 I/AluoTts (12923): completed id=2
+10-30 15:10:03.138 I/AluoBoard(12923): 正在准备监听…
+10-30 15:10:03.277 I/AluoSherpa(12923): ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:10:03.285 I/AluoBoard(12923): 请说话
+10-30 15:10:08.287 I/AluoLevel(12923): mode=COMMAND rms=1535 peak=23070
+10-30 15:10:13.364 I/AluoLevel(12923): mode=COMMAND rms=1292 peak=20648
+10-30 15:10:13.383 I/AluoSherpa(12923): mode=COMMAND captured=873180 decoded=873180 queue=0
+10-30 15:10:18.395 I/AluoLevel(12923): mode=COMMAND rms=1578 peak=27507
+10-30 15:10:21.581 I/AluoSherpa(12923): final mode=COMMAND asr_ms=2441 text=北京明天的天气怎么样
+10-30 15:10:21.824 I/AluoBoard(12923): 阿洛：需要帮主人查询北京明天的天气吗？
+10-30 15:10:21.826 I/AluoTts (12923): queued id=4
+10-30 15:10:21.857 I/AluoTts (12923): started id=4
+10-30 15:10:25.676 I/AluoTts (12923): completed id=4
+10-30 15:10:26.177 I/AluoBoard(12923): 正在准备监听…
+10-30 15:10:26.240 I/AluoSherpa(12923): ready mode=CONFIRM capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:10:26.248 I/AluoBoard(12923): 请回答“是的”或“不用”
+10-30 15:10:31.305 I/AluoLevel(12923): mode=CONFIRM rms=1031 peak=7877
+10-30 15:10:36.791 I/AluoSherpa(12923): final mode=CONFIRM asr_ms=1281 text=是的
+10-30 15:10:36.807 I/AluoBoard(12923): 正在查询北京明天的天气
+10-30 15:10:38.916 I/AluoBoard(12923): 阿洛：北京明天，多云或阴天，最低4度，最高11度，降水概率百分之27。
+10-30 15:10:38.918 I/AluoTts (12923): queued id=6
+10-30 15:10:38.931 I/AluoTts (12923): started id=6
+10-30 15:10:47.324 I/AluoTts (12923): completed id=6
+10-30 15:10:47.827 I/AluoBoard(12923): 正在准备监听…
+10-30 15:10:47.997 I/AluoSherpa(12923): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:10:48.001 I/AluoBoard(12923): 正在聆听，说“你好阿洛”唤醒
+10-30 15:10:53.071 I/AluoLevel(12923): mode=WAKE rms=710 peak=29352
+10-30 15:10:58.011 I/AluoSherpa(12923): mode=WAKE captured=855540 decoded=855540 queue=0
+10-30 15:10:58.078 I/AluoLevel(12923): mode=WAKE rms=307 peak=953
+10-30 15:11:03.159 I/AluoLevel(12923): mode=WAKE rms=338 peak=1067
+10-30 15:11:08.047 I/AluoSherpa(12923): mode=WAKE captured=1728720 decoded=1728720 queue=0
+10-30 15:11:08.239 I/AluoLevel(12923): mode=WAKE rms=387 peak=2000
+10-30 15:11:13.293 I/AluoLevel(12923): mode=WAKE rms=302 peak=917
+10-30 15:11:18.068 I/AluoSherpa(12923): mode=WAKE captured=2601900 decoded=2601900 queue=0
+10-30 15:11:18.352 I/AluoLevel(12923): mode=WAKE rms=293 peak=953
+10-30 15:11:23.432 I/AluoLevel(12923): mode=WAKE rms=291 peak=1170
+10-30 15:11:28.486 I/AluoLevel(12923): mode=WAKE rms=285 peak=990
+10-30 15:11:29.176 I/AluoSherpa(12923): final mode=WAKE asr_ms=2380 text=比如说现在这个跳的这块
+10-30 15:11:29.229 I/AluoSherpa(12923): mode=WAKE captured=3572100 decoded=3369240 queue=23
+10-30 15:11:33.548 I/AluoLevel(12923): mode=WAKE rms=774 peak=7687
+10-30 15:11:38.625 I/AluoLevel(12923): mode=WAKE rms=283 peak=965
+10-30 15:11:39.251 I/AluoSherpa(12923): mode=WAKE captured=4445280 decoded=4445280 queue=0
+10-30 15:11:43.679 I/AluoLevel(12923): mode=WAKE rms=282 peak=945
+10-30 15:11:48.733 I/AluoLevel(12923): mode=WAKE rms=282 peak=852
+10-30 15:11:49.361 I/AluoSherpa(12923): mode=WAKE captured=5327280 decoded=5327280 queue=0
+10-30 15:11:53.812 I/AluoLevel(12923): mode=WAKE rms=283 peak=710
+10-30 15:11:58.867 I/AluoLevel(12923): mode=WAKE rms=285 peak=1020
+10-30 15:11:59.400 I/AluoSherpa(12923): mode=WAKE captured=6200460 decoded=6200460 queue=0
+10-30 15:12:03.922 I/AluoLevel(12923): mode=WAKE rms=286 peak=1060
+10-30 15:12:09.000 I/AluoLevel(12923): mode=WAKE rms=282 peak=715
+10-30 15:12:09.416 I/AluoSherpa(12923): mode=WAKE captured=7073640 decoded=7073640 queue=0
+10-30 15:12:14.057 I/AluoLevel(12923): mode=WAKE rms=282 peak=718
+10-30 15:12:19.111 I/AluoLevel(12923): mode=WAKE rms=289 peak=1215
+10-30 15:12:19.433 I/AluoSherpa(12923): mode=WAKE captured=7946820 decoded=7946820 queue=0
+10-30 15:12:24.188 I/AluoLevel(12923): mode=WAKE rms=283 peak=1013
+10-30 15:12:29.245 I/AluoLevel(12923): mode=WAKE rms=280 peak=717
+10-30 15:12:29.474 I/AluoSherpa(12923): mode=WAKE captured=8820000 decoded=8820000 queue=0
+10-30 15:12:34.300 I/AluoLevel(12923): mode=WAKE rms=284 peak=1065
+10-30 15:12:39.378 I/AluoLevel(12923): mode=WAKE rms=279 peak=650
+10-30 15:12:39.490 I/AluoSherpa(12923): mode=WAKE captured=9693180 decoded=9693180 queue=0
+10-30 15:12:44.431 I/AluoLevel(12923): mode=WAKE rms=284 peak=760
+10-30 15:12:49.489 I/AluoLevel(12923): mode=WAKE rms=280 peak=935
+10-30 15:12:49.512 I/AluoSherpa(12923): mode=WAKE captured=10566360 decoded=10566360 queue=0
+10-30 15:12:54.566 I/AluoLevel(12923): mode=WAKE rms=279 peak=1058
+10-30 15:12:59.546 I/AluoSherpa(12923): mode=WAKE captured=11439540 decoded=11439540 queue=0
+10-30 15:12:59.621 I/AluoLevel(12923): mode=WAKE rms=283 peak=717
+10-30 15:13:04.676 I/AluoLevel(12923): mode=WAKE rms=283 peak=960
+10-30 15:13:09.563 I/AluoSherpa(12923): mode=WAKE captured=12312720 decoded=12312720 queue=0
+10-30 15:13:09.756 I/AluoLevel(12923): mode=WAKE rms=326 peak=1958
+10-30 15:13:14.810 I/AluoLevel(12923): mode=WAKE rms=964 peak=32767
+10-30 15:13:19.582 I/AluoSherpa(12923): mode=WAKE captured=13185900 decoded=13185900 queue=0
+10-30 15:13:19.915 I/AluoLevel(12923): mode=WAKE rms=580 peak=9587
+10-30 15:13:24.945 I/AluoLevel(12923): mode=WAKE rms=1766 peak=19533
+10-30 15:13:29.628 I/AluoSherpa(12923): mode=WAKE captured=14059080 decoded=14059080 queue=0
+10-30 15:13:30.006 I/AluoLevel(12923): mode=WAKE rms=2274 peak=21823
+10-30 15:13:35.107 I/AluoLevel(12923): mode=WAKE rms=778 peak=29095
+10-30 15:13:39.641 I/AluoSherpa(12923): mode=WAKE captured=14932260 decoded=14932260 queue=0
+10-30 15:13:40.138 I/AluoLevel(12923): mode=WAKE rms=418 peak=5165
+10-30 15:13:45.192 I/AluoLevel(12923): mode=WAKE rms=465 peak=9395
+10-30 15:13:49.656 I/AluoSherpa(12923): mode=WAKE captured=15805440 decoded=15805440 queue=0
+10-30 15:13:50.292 I/AluoLevel(12923): mode=WAKE rms=3989 peak=32768
+10-30 15:13:55.323 I/AluoLevel(12923): mode=WAKE rms=762 peak=19407
+10-30 15:13:59.700 I/AluoSherpa(12923): mode=WAKE captured=16678620 decoded=16678620 queue=0
+10-30 15:14:00.384 I/AluoLevel(12923): mode=WAKE rms=565 peak=1325
+10-30 15:14:05.487 I/AluoLevel(12923): mode=WAKE rms=575 peak=2032
+10-30 15:14:09.723 I/AluoSherpa(12923): mode=WAKE captured=17551800 decoded=17551800 queue=0
+10-30 15:14:10.518 I/AluoLevel(12923): mode=WAKE rms=572 peak=1382
+10-30 15:14:15.573 I/AluoLevel(12923): mode=WAKE rms=569 peak=1208
+10-30 15:14:19.781 I/AluoSherpa(12923): mode=WAKE captured=18424980 decoded=18424980 queue=0
+10-30 15:14:20.675 I/AluoLevel(12923): mode=WAKE rms=571 peak=1260
+10-30 15:14:25.707 I/AluoLevel(12923): mode=WAKE rms=568 peak=1287
+10-30 15:14:29.895 I/AluoSherpa(12923): mode=WAKE captured=19306980 decoded=19306980 queue=0
+10-30 15:14:30.764 I/AluoLevel(12923): mode=WAKE rms=570 peak=1457
+10-30 15:14:35.868 I/AluoLevel(12923): mode=WAKE rms=575 peak=1257
+10-30 15:14:39.911 I/AluoSherpa(12923): mode=WAKE captured=20180160 decoded=20180160 queue=0
+10-30 15:14:40.923 I/AluoLevel(12923): mode=WAKE rms=573 peak=1145
+10-30 15:14:45.958 I/AluoLevel(12923): mode=WAKE rms=574 peak=1242
+10-30 15:14:49.953 I/AluoSherpa(12923): mode=WAKE captured=21053340 decoded=21053340 queue=0
+10-30 15:14:51.058 I/AluoLevel(12923): mode=WAKE rms=611 peak=4340
+10-30 15:14:56.112 I/AluoLevel(12923): mode=WAKE rms=613 peak=2423
+10-30 15:14:59.973 I/AluoSherpa(12923): mode=WAKE captured=21926520 decoded=21926520 queue=0
+10-30 15:15:01.143 I/AluoLevel(12923): mode=WAKE rms=594 peak=1625
+10-30 15:15:06.248 I/AluoLevel(12923): mode=WAKE rms=588 peak=1172
+10-30 15:15:09.986 I/AluoSherpa(12923): mode=WAKE captured=22799700 decoded=22799700 queue=0
+10-30 15:15:11.302 I/AluoLevel(12923): mode=WAKE rms=590 peak=1253
+10-30 15:15:16.332 I/AluoLevel(12923): mode=WAKE rms=590 peak=1360
+10-30 15:15:20.024 I/AluoSherpa(12923): mode=WAKE captured=23672880 decoded=23672880 queue=0
+10-30 15:15:21.433 I/AluoLevel(12923): mode=WAKE rms=589 peak=1337
+10-30 15:15:26.488 I/AluoLevel(12923): mode=WAKE rms=604 peak=2125
+10-30 15:15:30.047 I/AluoSherpa(12923): mode=WAKE captured=24546060 decoded=24546060 queue=0
+10-30 15:15:31.527 I/AluoLevel(12923): mode=WAKE rms=595 peak=1547
+10-30 15:15:36.628 I/AluoLevel(12923): mode=WAKE rms=598 peak=1560
+10-30 15:15:40.062 I/AluoSherpa(12923): mode=WAKE captured=25419240 decoded=25419240 queue=0
+10-30 15:15:41.683 I/AluoLevel(12923): mode=WAKE rms=594 peak=1475
+10-30 15:15:46.717 I/AluoLevel(12923): mode=WAKE rms=591 peak=1207
+10-30 15:15:50.105 I/AluoSherpa(12923): mode=WAKE captured=26292420 decoded=26292420 queue=0
+10-30 15:15:51.818 I/AluoLevel(12923): mode=WAKE rms=591 peak=1205
+10-30 15:15:56.874 I/AluoLevel(12923): mode=WAKE rms=598 peak=1250
+10-30 15:16:00.121 I/AluoSherpa(12923): mode=WAKE captured=27165600 decoded=27165600 queue=0
+10-30 15:16:01.904 I/AluoLevel(12923): mode=WAKE rms=593 peak=1250
+10-30 15:16:07.010 I/AluoLevel(12923): mode=WAKE rms=593 peak=1287
+10-30 15:16:10.522 I/AluoSherpa(12923): final mode=WAKE asr_ms=989 text=好
+10-30 15:16:10.567 I/AluoSherpa(12923): mode=WAKE captured=28074060 decoded=27994680 queue=9
+10-30 15:16:12.067 I/AluoLevel(12923): mode=WAKE rms=612 peak=1820
+10-30 15:24:49.022 I/AluoBoard(13578): 正在准备语音…
+10-30 15:24:49.854 I/AluoTts (13578): initialized offline_zh=true
+10-30 15:24:49.872 I/AluoBoard(13578): 正在准备监听…
+10-30 15:25:16.167 I/AluoSherpa(13578): models_ready_ms=26276
+10-30 15:25:16.745 I/AluoSherpa(13578): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:25:17.049 I/AluoBoard(13578): 正在聆听，说“你好阿洛”唤醒
+10-30 15:25:21.846 I/AluoLevel(13578): mode=WAKE rms=523 peak=1450
+10-30 15:25:26.845 I/AluoSherpa(13578): mode=WAKE captured=882000 decoded=882000 queue=0
+10-30 15:25:26.903 I/AluoLevel(13578): mode=WAKE rms=519 peak=1267
+10-30 15:25:31.962 I/AluoLevel(13578): mode=WAKE rms=527 peak=1442
+10-30 15:25:36.886 I/AluoSherpa(13578): mode=WAKE captured=1755180 decoded=1755180 queue=0
+10-30 15:25:37.044 I/AluoLevel(13578): mode=WAKE rms=522 peak=1248
+10-30 15:25:42.101 I/AluoLevel(13578): mode=WAKE rms=525 peak=1167
+10-30 15:25:46.892 I/AluoSherpa(13578): mode=WAKE captured=2628360 decoded=2628360 queue=0
+10-30 15:25:47.201 I/AluoLevel(13578): mode=WAKE rms=402 peak=1417
+10-30 15:25:52.233 I/AluoLevel(13578): mode=WAKE rms=2074 peak=32768
+10-30 15:25:55.928 I/AluoSherpa(13578): final mode=WAKE asr_ms=821 text=你好阿路
+10-30 15:25:55.986 I/AluoSherpa(13578): wake_utterance=你好阿路
+10-30 15:25:56.194 I/AluoBoard(13578): 阿洛：收到
+10-30 15:25:56.246 I/AluoTts (13578): queued id=2
+10-30 15:25:56.392 I/AluoTts (13578): started id=2
+10-30 15:25:57.623 I/AluoTts (13578): completed id=2
+10-30 15:25:58.128 I/AluoBoard(13578): 正在准备监听…
+10-30 15:25:58.223 I/AluoSherpa(13578): ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:25:58.224 I/AluoBoard(13578): 请说话
+10-30 15:26:01.829 I/AluoSherpa(13578): final mode=COMMAND asr_ms=708 text=你好阿路
+10-30 15:26:03.635 I/AluoBoard(13578): 阿洛：需要帮主人查询北京今天的天气吗？
+10-30 15:26:03.641 I/AluoTts (13578): queued id=4
+10-30 15:26:03.660 I/AluoTts (13578): started id=4
+10-30 15:26:07.486 I/AluoTts (13578): completed id=4
+10-30 15:26:07.997 I/AluoBoard(13578): 正在准备监听…
+10-30 15:26:08.022 I/AluoSherpa(13578): ready mode=CONFIRM capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:26:08.039 I/AluoBoard(13578): 请回答“是的”或“不用”
+10-30 15:26:13.093 I/AluoLevel(13578): mode=CONFIRM rms=1104 peak=32767

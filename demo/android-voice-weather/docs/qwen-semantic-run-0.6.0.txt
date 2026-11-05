@@ -1,0 +1,21 @@
+
+cn.aihongbo.voiceweather.QwenSemanticDeviceTest:
+Error in measureWholeUtteranceSemantics(cn.aihongbo.voiceweather.QwenSemanticDeviceTest):
+java.lang.AssertionError: [上海后天天气怎么样 intent={"intent": "other","city": "null","date": "后天"}, 上海后天天气怎么样 city/date={"intent": "other","city": "null","date": "后天"}]
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at cn.aihongbo.voiceweather.QwenSemanticDeviceTest.measureWholeUtteranceSemantics(QwenSemanticDeviceTest.java:22)
+
+
+Time: 27.998
+There was 1 failure:
+1) measureWholeUtteranceSemantics(cn.aihongbo.voiceweather.QwenSemanticDeviceTest)
+java.lang.AssertionError: [上海后天天气怎么样 intent={"intent": "other","city": "null","date": "后天"}, 上海后天天气怎么样 city/date={"intent": "other","city": "null","date": "后天"}]
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at cn.aihongbo.voiceweather.QwenSemanticDeviceTest.measureWholeUtteranceSemantics(QwenSemanticDeviceTest.java:22)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

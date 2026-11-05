@@ -1,0 +1,213 @@
+{
+  "rows": [
+    {
+      "input": "正中明天天气怎么样",
+      "expected_city": "郑州",
+      "rule": "郑州明天天气怎么样",
+      "selected": "郑州明天天气怎么样",
+      "rule_city": "郑州",
+      "selected_city": "郑州",
+      "rule_ms": 5.413177,
+      "llm_ms": 2597,
+      "reason": "未得到可验证城市，回退规则",
+      "raw": "{\"city\": \"杭州\"}",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "郑重明天天气怎么样",
+      "expected_city": "郑州",
+      "rule": "郑州明天天气怎么样",
+      "selected": "郑州明天天气怎么样",
+      "rule_city": "郑州",
+      "selected_city": "郑州",
+      "rule_ms": 3.092083,
+      "llm_ms": 2588,
+      "reason": "未得到可验证城市，回退规则",
+      "raw": "{\"city\": \"杭州\"}",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "正州明天天气怎么样",
+      "expected_city": "郑州",
+      "rule": "正州明天天气怎么样",
+      "selected": "杭州明天天气怎么样",
+      "rule_city": "unresolved",
+      "selected_city": "杭州",
+      "rule_ms": 1.845313,
+      "llm_ms": 2595,
+      "reason": "城市候选 杭州，待确认",
+      "raw": "{\"city\": \"杭州\"}",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "商海明天天气怎么样",
+      "expected_city": "上海",
+      "rule": "商海明天天气怎么样",
+      "selected": "杭州明天天气怎么样",
+      "rule_city": "unresolved",
+      "selected_city": "杭州",
+      "rule_ms": 1.804271,
+      "llm_ms": 2603,
+      "reason": "城市候选 杭州，待确认",
+      "raw": "{\"city\": \"杭州\"}",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "上海明天天气怎么样",
+      "expected_city": "上海",
+      "rule": "上海明天天气怎么样",
+      "selected": "上海明天天气怎么样",
+      "rule_city": "上海",
+      "selected_city": "上海",
+      "rule_ms": 1.398073,
+      "llm_ms": 0,
+      "reason": "跳过：城市已由规则明确解析，无需 LLM",
+      "raw": "",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "郑重提醒大家明天天气有变化",
+      "expected_city": "none",
+      "rule": "郑重提醒大家明天天气有变化",
+      "selected": "郑重提醒大家明天天气有变化",
+      "rule_city": "unresolved",
+      "selected_city": "unresolved",
+      "rule_ms": 1.595625,
+      "llm_ms": 0,
+      "reason": "跳过：普通陈述或否定，不作模型纠错",
+      "raw": "",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "把东西放在正中间",
+      "expected_city": "none",
+      "rule": "把东西放在正中间",
+      "selected": "把东西放在正中间",
+      "rule_city": "none",
+      "selected_city": "none",
+      "rule_ms": 0.278333,
+      "llm_ms": 0,
+      "reason": "跳过：无明确且受支持的天气请求，只使用规则",
+      "raw": "",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "正中后天天气怎么样",
+      "expected_city": "none",
+      "rule": "正中后天天气怎么样",
+      "selected": "正中后天天气怎么样",
+      "rule_city": "none",
+      "selected_city": "none",
+      "rule_ms": 0.296354,
+      "llm_ms": 0,
+      "reason": "跳过：无明确且受支持的天气请求，只使用规则",
+      "raw": "",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "不用查正中明天天气",
+      "expected_city": "none",
+      "rule": "不用查正中明天天气",
+      "selected": "不用查正中明天天气",
+      "rule_city": "none",
+      "selected_city": "none",
+      "rule_ms": 0.317032,
+      "llm_ms": 0,
+      "reason": "跳过：无明确且受支持的天气请求，只使用规则",
+      "raw": "",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "你能查一下叫做明天的坚强",
+      "expected_city": "none",
+      "rule": "你能查一下叫做明天的坚强",
+      "selected": "你能查一下叫做明天的坚强",
+      "rule_city": "none",
+      "selected_city": "none",
+      "rule_ms": 0.272709,
+      "llm_ms": 0,
+      "reason": "跳过：无明确且受支持的天气请求，只使用规则",
+      "raw": "",
+      "type": "fixed_asr_text"
+    },
+    {
+      "input": "郑州 明天 的 天气 怎么样",
+      "expected_city": "郑州",
+      "rule": "郑州 明天 的 天气 怎么样",
+      "selected": "郑州 明天 的 天气 怎么样",
+      "rule_city": "郑州",
+      "selected_city": "郑州",
+      "rule_ms": 2.068489,
+      "llm_ms": 0,
+      "reason": "跳过：城市已由规则明确解析，无需 LLM",
+      "raw": "",
+      "type": "synthetic_pcm",
+      "sample": "zhengzhou",
+      "asr_ms": 1408,
+      "alternatives": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    },
+    {
+      "input": "郑州 明天 的 天气 怎么样",
+      "expected_city": "郑州",
+      "rule": "郑州 明天 的 天气 怎么样",
+      "selected": "郑州 明天 的 天气 怎么样",
+      "rule_city": "郑州",
+      "selected_city": "郑州",
+      "rule_ms": 1.66573,
+      "llm_ms": 0,
+      "reason": "跳过：城市已由规则明确解析，无需 LLM",
+      "raw": "",
+      "type": "synthetic_pcm",
+      "sample": "zhengzhou-fast",
+      "asr_ms": 1622,
+      "alternatives": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    },
+    {
+      "input": "你 能 查 一下 叫做 明天 的 坚强",
+      "expected_city": "郑州",
+      "rule": "你 能 查 一下 叫做 明天 的 坚强",
+      "selected": "你 能 查 一下 叫做 明天 的 坚强",
+      "rule_city": "none",
+      "selected_city": "none",
+      "rule_ms": 0.619323,
+      "llm_ms": 0,
+      "reason": "跳过：无明确且受支持的天气请求，只使用规则",
+      "raw": "",
+      "type": "synthetic_pcm",
+      "sample": "zhengzhou-hard",
+      "asr_ms": 4183,
+      "alternatives": [
+        "你 能 查 一下 叫做 明天 的 坚强",
+        "你 能 查 一下 郑州 明天 的 坚强",
+        "你 能 查 一下 种种 明天 的 坚强",
+        "你 能 查 一下 这么 做 明天 的 坚强",
+        "你 能 查 一下 重装 明天 的 坚强"
+      ]
+    },
+    {
+      "input": "上海 明天 天气 怎么样",
+      "expected_city": "上海",
+      "rule": "上海 明天 天气 怎么样",
+      "selected": "上海 明天 天气 怎么样",
+      "rule_city": "上海",
+      "selected_city": "上海",
+      "rule_ms": 1.449531,
+      "llm_ms": 0,
+      "reason": "跳过：城市已由规则明确解析，无需 LLM",
+      "raw": "",
+      "type": "synthetic_pcm",
+      "sample": "city-weather",
+      "asr_ms": 1302,
+      "alternatives": [
+        "上海 明天 天气 怎么样"
+      ]
+    }
+  ],
+  "model_load_ms": 310,
+  "pss_kb_after_model_load": 469136,
+  "native_cancel_observed": true
+}

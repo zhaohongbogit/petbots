@@ -1,0 +1,10 @@
+{
+  "source": "/Users/hongbozhao/Source/ZHB-iot/demo/android-voice-weather/app/src/main/assets/samples/zhengzhou.pcm",
+  "sha256": "2e4244f48e9985a691b6caac27ee11722fd9256439a379867a232190a918943c",
+  "sample_rate": 16000,
+  "channels": 1,
+  "sample_width": 2,
+  "samples": 33444,
+  "duration_s": 2.09025,
+  "expected": "郑州明天的天气怎么样"
+}

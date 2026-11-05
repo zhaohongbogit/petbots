@@ -1,0 +1,5 @@
+{"load_s":20.472}
+{"vad_s":9.953}
+{"sample_start":250528,"samples":23456,"asr_s":1.731,"result":{"lang": "", "emotion": "", "event": "", "text": "上海明天天气怎么样", "timestamps": [], "durations": [], "tokens":["上", "海", "明", "天", "天", "气", "怎", "么", "样"], "ys_log_probs": [], "words": []}}
+{"sample_start":315552,"samples":49056,"asr_s":3.310,"result":{"lang": "", "emotion": "", "event": "", "text": "今天是星期五我正在测试麦克风", "timestamps": [], "durations": [], "tokens":["今", "天", "是", "星", "期", "五", "我", "正", "在", "测", "试", "麦", "克", "风"], "ys_log_probs": [], "words": []}}
+{"samples":960000,"decode_s":15.291,"peak_rss_kib":138312}

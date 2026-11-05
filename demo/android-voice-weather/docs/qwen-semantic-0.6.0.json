@@ -1,0 +1,116 @@
+[
+  {
+    "input": "郑州明天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "郑州",
+    "expected_day": 1,
+    "output": {
+      "intent": "weather",
+      "city": "郑州",
+      "date": "明天"
+    },
+    "ms": 3725
+  },
+  {
+    "input": "上海今天天气如何",
+    "expected_intent": "weather",
+    "expected_city": "上海",
+    "expected_day": 0,
+    "output": {
+      "intent": "weather",
+      "city": "上海",
+      "date": "今天"
+    },
+    "ms": 3653
+  },
+  {
+    "input": "今天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "weather",
+      "city": null,
+      "date": "今天"
+    },
+    "ms": 3408
+  },
+  {
+    "input": "今天工作有点忙",
+    "expected_intent": "other",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": "今天"
+    },
+    "ms": 3647
+  },
+  {
+    "input": "郑重提醒大家明天天气有变化",
+    "expected_intent": "other",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": "明天"
+    },
+    "ms": 3726
+  },
+  {
+    "input": "不要查询上海的天气",
+    "expected_intent": "no",
+    "expected_city": "上海",
+    "expected_day": 0,
+    "output": {
+      "intent": "no",
+      "city": "null",
+      "date": "null"
+    },
+    "ms": 5036
+  },
+  {
+    "input": "上海后天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "上海",
+    "expected_day": -1,
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "后天"
+    },
+    "ms": 5087
+  },
+  {
+    "input": "是的",
+    "expected_intent": "yes",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "yes"
+    },
+    "ms": 2161
+  },
+  {
+    "input": "不是的",
+    "expected_intent": "no",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "no"
+    },
+    "ms": 2002
+  },
+  {
+    "input": "不用",
+    "expected_intent": "no",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "no"
+    },
+    "ms": 3297
+  }
+]

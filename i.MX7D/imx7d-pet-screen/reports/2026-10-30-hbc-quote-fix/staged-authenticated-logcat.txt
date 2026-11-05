@@ -1,0 +1,130 @@
+--------- beginning of main
+10-30 18:16:25.502 16842 16920 I AluoSherpa: mode=WAKE captured=40448520 decoded=40448520 queue=0
+10-30 18:16:29.355 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1956 chars=11
+10-30 18:16:35.506 16842 16920 I AluoSherpa: mode=WAKE captured=41321700 decoded=41321700 queue=0
+10-30 18:16:45.547 16842 16920 I AluoSherpa: mode=WAKE captured=42194880 decoded=42194880 queue=0
+10-30 18:16:55.588 16842 16920 I AluoSherpa: mode=WAKE captured=43068060 decoded=43068060 queue=0
+10-30 18:17:05.591 16842 16920 I AluoSherpa: mode=WAKE captured=43941240 decoded=43941240 queue=0
+10-30 18:17:15.625 16842 16920 I AluoSherpa: mode=WAKE captured=44814420 decoded=44814420 queue=0
+10-30 18:17:25.669 16842 16920 I AluoSherpa: mode=WAKE captured=45687600 decoded=45687600 queue=0
+10-30 18:17:35.777 16842 16920 I AluoSherpa: mode=WAKE captured=46569600 decoded=46569600 queue=0
+10-30 18:17:45.815 16842 16920 I AluoSherpa: mode=WAKE captured=47442780 decoded=47442780 queue=0
+10-30 18:17:55.840 16842 16920 I AluoSherpa: mode=WAKE captured=48315960 decoded=48315960 queue=0
+10-30 18:18:05.848 16842 16920 I AluoSherpa: mode=WAKE captured=49189140 decoded=49189140 queue=0
+10-30 18:18:10.892 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1391 chars=5
+10-30 18:18:14.571 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1627 chars=5
+10-30 18:18:15.899 16842 16920 I AluoSherpa: mode=WAKE captured=50062320 decoded=50062320 queue=0
+10-30 18:18:25.914 16842 16920 I AluoSherpa: mode=WAKE captured=50935500 decoded=50935500 queue=0
+10-30 18:18:28.090 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1778 chars=8
+10-30 18:18:36.660 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1148 chars=5
+10-30 18:18:36.684 16842 16920 I AluoSherpa: mode=WAKE captured=51870420 decoded=51782220 queue=10
+10-30 18:18:39.353 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1169 chars=4
+10-30 18:18:46.686 16842 16920 I AluoSherpa: mode=WAKE captured=52743600 decoded=52743600 queue=0
+10-30 18:18:56.753 16842 16920 I AluoSherpa: mode=WAKE captured=53616780 decoded=53616780 queue=0
+10-30 18:19:06.775 16842 16920 I AluoSherpa: mode=WAKE captured=54489960 decoded=54489960 queue=0
+10-30 18:19:16.876 16842 16920 I AluoSherpa: mode=WAKE captured=55371960 decoded=55371960 queue=0
+10-30 18:19:26.891 16842 16920 I AluoSherpa: mode=WAKE captured=56245140 decoded=56245140 queue=0
+10-30 18:19:36.933 16842 16920 I AluoSherpa: mode=WAKE captured=57118320 decoded=57118320 queue=0
+10-30 18:19:46.948 16842 16920 I AluoSherpa: mode=WAKE captured=57991500 decoded=57991500 queue=0
+10-30 18:19:56.964 16842 16920 I AluoSherpa: mode=WAKE captured=58864680 decoded=58864680 queue=0
+10-30 18:20:07.013 16842 16920 I AluoSherpa: mode=WAKE captured=59737860 decoded=59737860 queue=0
+10-30 18:20:17.026 16842 16920 I AluoSherpa: mode=WAKE captured=60611040 decoded=60611040 queue=0
+10-30 18:20:27.066 16842 16920 I AluoSherpa: mode=WAKE captured=61484220 decoded=61484220 queue=0
+10-30 18:20:37.079 16842 16920 I AluoSherpa: mode=WAKE captured=62357400 decoded=62357400 queue=0
+10-30 18:20:47.094 16842 16920 I AluoSherpa: mode=WAKE captured=63230580 decoded=63230580 queue=0
+10-30 18:20:57.112 16842 16920 I AluoSherpa: mode=WAKE captured=64103760 decoded=64103760 queue=0
+10-30 18:21:02.819 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=743 chars=4
+10-30 18:21:02.837 16842 16920 I AluoSherpa: wake_utterance_matched
+10-30 18:21:02.963 16842 16842 I AluoBoard: 阿洛：收到
+10-30 18:21:03.018 16842 16842 I AluoTts : queued id=2
+10-30 18:21:03.241 16842 16855 I AluoTts : started id=2
+10-30 18:21:04.463 16842 16855 I AluoTts : completed id=2
+10-30 18:21:04.981 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:21:05.073 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:21:05.147 16842 16842 I AluoBoard: 请说话
+10-30 18:21:12.888 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=1598 chars=10
+10-30 18:21:12.975 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:21:13.307 16842 17319 I AluoHbc : status=authentication_required
+10-30 18:21:13.314 16842 16842 I AluoTts : queued id=4
+10-30 18:21:13.357 16842 16855 I AluoTts : started id=4
+10-30 18:21:32.624 16842 17330 I AluoTts : completed id=4
+10-30 18:21:32.779 16842 16842 I AluoTts : queued id=6
+10-30 18:21:32.792 16842 17330 I AluoTts : started id=6
+10-30 18:21:36.471 16842 17330 I AluoTts : completed id=6
+10-30 18:21:36.974 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:21:37.036 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:21:37.055 16842 16842 I AluoBoard: 请说话
+10-30 18:21:47.090 16842 16920 I AluoSherpa: mode=COMMAND captured=873180 decoded=873180 queue=0
+10-30 18:21:57.107 16842 16920 I AluoSherpa: mode=COMMAND captured=1746360 decoded=1746360 queue=0
+10-30 18:21:57.143 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:21:57.220 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:21:57.222 16842 16842 I AluoBoard: 请说话
+10-30 18:22:07.278 16842 16920 I AluoSherpa: mode=COMMAND captured=873180 decoded=873180 queue=0
+10-30 18:22:17.296 16842 16920 I AluoSherpa: mode=COMMAND captured=1746360 decoded=1746360 queue=0
+10-30 18:22:17.325 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:22:17.402 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:22:17.403 16842 16842 I AluoBoard: 请说话
+10-30 18:22:27.475 16842 16920 I AluoSherpa: mode=COMMAND captured=873180 decoded=873180 queue=0
+10-30 18:22:30.578 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=1048 chars=7
+10-30 18:22:30.625 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:22:30.676 16842 16842 I AluoTts : queued id=8
+10-30 18:22:30.693 16842 16858 I AluoTts : started id=8
+10-30 18:22:41.420 16842 17330 I AluoTts : completed id=8
+10-30 18:22:41.922 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:22:42.008 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:22:42.010 16842 16842 I AluoBoard: 请说话
+10-30 18:22:46.537 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=1057 chars=7
+10-30 18:22:46.543 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:22:47.366 16842 17319 I AluoHbc : status=captcha_required
+10-30 18:22:47.787 16842 17319 I AluoHbc : status=authenticated
+10-30 18:22:47.790 16842 16842 I AluoTts : queued id=10
+10-30 18:22:47.798 16842 16858 I AluoTts : started id=10
+10-30 18:22:53.505 16842 16858 I AluoTts : completed id=10
+10-30 18:22:54.011 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:22:54.093 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:22:54.095 16842 16842 I AluoBoard: 请说话
+10-30 18:23:01.200 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=2000 chars=11
+10-30 18:23:01.222 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:23:01.267 16842 17319 I AluoHbc : status=completed
+10-30 18:23:01.276 16842 16842 I AluoTts : queued id=12
+10-30 18:23:01.297 16842 16858 I AluoTts : started id=12
+10-30 18:23:05.717 16842 16858 I AluoTts : completed id=12
+10-30 18:23:06.223 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:23:06.279 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:23:06.281 16842 16842 I AluoBoard: 请说话
+10-30 18:23:16.483 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=3562 chars=23
+10-30 18:23:16.513 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:23:16.561 16842 17319 I AluoHbc : status=completed
+10-30 18:23:16.581 16842 16842 I AluoTts : queued id=14
+10-30 18:23:16.588 16842 16858 I AluoTts : started id=14
+10-30 18:23:20.963 16842 16858 I AluoTts : completed id=14
+10-30 18:23:21.466 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:23:21.524 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:23:21.525 16842 16842 I AluoBoard: 请说话
+10-30 18:23:25.937 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=1417 chars=7
+10-30 18:23:25.992 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:23:26.050 16842 17319 I AluoHbc : status=completed
+10-30 18:23:26.066 16842 16842 I AluoTts : queued id=16
+10-30 18:23:26.085 16842 16855 I AluoTts : started id=16
+10-30 18:23:30.386 16842 17392 I AluoTts : completed id=16
+10-30 18:23:30.904 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:23:30.967 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:23:30.970 16842 16842 I AluoBoard: 请说话
+10-30 18:23:36.182 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=1722 chars=7
+10-30 18:23:36.224 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:23:36.334 16842 17319 I AluoHbc : status=completed
+10-30 18:23:36.339 16842 16842 I AluoTts : queued id=18
+10-30 18:23:36.344 16842 17392 I AluoTts : started id=18
+10-30 18:23:40.660 16842 17392 I AluoTts : completed id=18
+10-30 18:23:41.161 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:23:41.222 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:23:41.242 16842 16842 I AluoBoard: 请说话
+10-30 18:23:45.991 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=1080 chars=5
+10-30 18:23:46.050 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:23:46.085 16842 17319 I AluoHbc : status=completed
+10-30 18:23:46.113 16842 16842 I AluoTts : queued id=20
+10-30 18:23:46.118 16842 16855 I AluoTts : started id=20
+10-30 18:23:50.452 16842 16855 I AluoTts : completed id=20
+10-30 18:23:50.954 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:23:50.993 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:23:51.016 16842 16842 I AluoBoard: 请说话

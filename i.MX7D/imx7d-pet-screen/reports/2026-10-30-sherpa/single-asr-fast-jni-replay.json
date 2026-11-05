@@ -1,0 +1,62 @@
+{
+  "hello_phrase": true,
+  "stereo_capture_path": true,
+  "wake_hits": 3,
+  "events": [
+    {
+      "wake_text": "你好阿洛北京明天的天气怎么样",
+      "matched": false,
+      "sample_end": 608580
+    },
+    {
+      "wake_text": "你好啊路",
+      "matched": true,
+      "sample_end": 1252440
+    },
+    {
+      "wake_text": "你好阿洛",
+      "matched": true,
+      "sample_end": 1455300
+    },
+    {
+      "wake_text": "你好阿洛",
+      "matched": true,
+      "sample_end": 1693440
+    },
+    {
+      "wake_text": "上海明天天气怎么样",
+      "matched": false,
+      "sample_end": 1993320
+    },
+    {
+      "wake_text": "是的",
+      "matched": false,
+      "sample_end": 2275560
+    },
+    {
+      "text": "你好阿洛北京明天的天气怎么样",
+      "sample_end": 635040
+    },
+    {
+      "text": "你好阿路",
+      "sample_end": 1278900
+    },
+    {
+      "text": "你好阿路",
+      "sample_end": 1481760
+    },
+    {
+      "text": "你好阿洛",
+      "sample_end": 1719900
+    },
+    {
+      "text": "上海明天天气怎么样",
+      "sample_end": 2037420
+    },
+    {
+      "text": "是的",
+      "sample_end": 2302020
+    }
+  ],
+  "note": "File replay only. Live microphone, audible reply and full dialogue need separate validation."
+}

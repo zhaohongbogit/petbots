@@ -1,0 +1,5 @@
+/build/
+*.gguf
+*.keystore
+lan.json
+__pycache__/

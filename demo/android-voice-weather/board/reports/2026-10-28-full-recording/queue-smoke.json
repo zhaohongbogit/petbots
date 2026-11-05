@@ -1,0 +1,820 @@
+{
+  "version": "0.4.1",
+  "sample_rate": 16000,
+  "frame_samples": 1280,
+  "queue_capacity": 64,
+  "pipeline_reset_interval_s": 20,
+  "capture_stop_mode": "wall_clock_or_file_target",
+  "diagnostic_limit_s": 120,
+  "input_kind": "file_replay",
+  "events": [
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 82,
+      "first_sample": 1280,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 1280,
+      "decoded_samples": 0
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 758,
+      "first_sample": 5120,
+      "value": 355.3465,
+      "queue_frames": 4,
+      "captured_samples": 11520,
+      "decoded_samples": 6400
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 1122,
+      "first_sample": 17920,
+      "value": 1,
+      "queue_frames": 0,
+      "captured_samples": 17920,
+      "decoded_samples": 16640
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 1321,
+      "first_sample": 16640,
+      "value": 198.256,
+      "queue_frames": 2,
+      "captured_samples": 20480,
+      "decoded_samples": 17920
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 2027,
+      "first_sample": 28160,
+      "value": 185.812125,
+      "queue_frames": 2,
+      "captured_samples": 32000,
+      "decoded_samples": 29440
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 2161,
+      "first_sample": 34560,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 34560,
+      "decoded_samples": 32000
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 2248,
+      "first_sample": 32000,
+      "value": 166.71475,
+      "queue_frames": 2,
+      "captured_samples": 35840,
+      "decoded_samples": 33280
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 3201,
+      "first_sample": 51200,
+      "value": 2,
+      "queue_frames": 2,
+      "captured_samples": 51200,
+      "decoded_samples": 47360
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 3526,
+      "first_sample": 47360,
+      "value": 485.7775,
+      "queue_frames": 6,
+      "captured_samples": 56320,
+      "decoded_samples": 48640
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 3763,
+      "first_sample": 51200,
+      "value": 231.0405,
+      "queue_frames": 6,
+      "captured_samples": 60160,
+      "decoded_samples": 52480
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 3996,
+      "first_sample": 55040,
+      "value": 224.413625,
+      "queue_frames": 5,
+      "captured_samples": 62720,
+      "decoded_samples": 56320
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 4241,
+      "first_sample": 67840,
+      "value": 6,
+      "queue_frames": 6,
+      "captured_samples": 67840,
+      "decoded_samples": 58880
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 4472,
+      "first_sample": 58880,
+      "value": 469.485625,
+      "queue_frames": 8,
+      "captured_samples": 70400,
+      "decoded_samples": 60160
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 4672,
+      "first_sample": 62720,
+      "value": 194.70325,
+      "queue_frames": 8,
+      "captured_samples": 74240,
+      "decoded_samples": 64000
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 5043,
+      "first_sample": 70400,
+      "value": 215.13025,
+      "queue_frames": 7,
+      "captured_samples": 80640,
+      "decoded_samples": 71680
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 5220,
+      "first_sample": 74240,
+      "value": 171.451375,
+      "queue_frames": 6,
+      "captured_samples": 83200,
+      "decoded_samples": 75520
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 5281,
+      "first_sample": 84480,
+      "value": 4,
+      "queue_frames": 4,
+      "captured_samples": 84480,
+      "decoded_samples": 78080
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 6321,
+      "first_sample": 101120,
+      "value": 2,
+      "queue_frames": 2,
+      "captured_samples": 101120,
+      "decoded_samples": 97280
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 6350,
+      "first_sample": 97280,
+      "value": 189.556375,
+      "queue_frames": 2,
+      "captured_samples": 101120,
+      "decoded_samples": 98560
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 6587,
+      "first_sample": 101120,
+      "value": 186.3065,
+      "queue_frames": 2,
+      "captured_samples": 104960,
+      "decoded_samples": 102400
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 6822,
+      "first_sample": 104960,
+      "value": 181.34175,
+      "queue_frames": 2,
+      "captured_samples": 108800,
+      "decoded_samples": 106240
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 7085,
+      "first_sample": 108800,
+      "value": 203.460875,
+      "queue_frames": 2,
+      "captured_samples": 112640,
+      "decoded_samples": 110080
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 7361,
+      "first_sample": 117760,
+      "value": 1,
+      "queue_frames": 0,
+      "captured_samples": 117760,
+      "decoded_samples": 116480
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 7860,
+      "first_sample": 120320,
+      "value": 259.1155,
+      "queue_frames": 3,
+      "captured_samples": 125440,
+      "decoded_samples": 121600
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 8040,
+      "first_sample": 124160,
+      "value": 174.476,
+      "queue_frames": 2,
+      "captured_samples": 128000,
+      "decoded_samples": 125440
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 8401,
+      "first_sample": 134400,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 134400,
+      "decoded_samples": 131840
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 9220,
+      "first_sample": 143360,
+      "value": 178.860375,
+      "queue_frames": 2,
+      "captured_samples": 147200,
+      "decoded_samples": 144640
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 9441,
+      "first_sample": 151040,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 151040,
+      "decoded_samples": 149760
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 9682,
+      "first_sample": 151040,
+      "value": 160.768375,
+      "queue_frames": 2,
+      "captured_samples": 154880,
+      "decoded_samples": 152320
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 9968,
+      "first_sample": 154880,
+      "value": 206.476625,
+      "queue_frames": 2,
+      "captured_samples": 158720,
+      "decoded_samples": 156160
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 10481,
+      "first_sample": 167680,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 167680,
+      "decoded_samples": 166400
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 10674,
+      "first_sample": 166400,
+      "value": 191.942375,
+      "queue_frames": 2,
+      "captured_samples": 170240,
+      "decoded_samples": 167680
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 10928,
+      "first_sample": 170240,
+      "value": 206.20675,
+      "queue_frames": 2,
+      "captured_samples": 174080,
+      "decoded_samples": 171520
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 11521,
+      "first_sample": 184320,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 184320,
+      "decoded_samples": 181760
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 11845,
+      "first_sample": 185600,
+      "value": 163.609625,
+      "queue_frames": 2,
+      "captured_samples": 189440,
+      "decoded_samples": 186880
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 12350,
+      "first_sample": 193280,
+      "value": 178.436,
+      "queue_frames": 2,
+      "captured_samples": 197120,
+      "decoded_samples": 194560
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 12561,
+      "first_sample": 200960,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 200960,
+      "decoded_samples": 199680
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 12824,
+      "first_sample": 200960,
+      "value": 183.257375,
+      "queue_frames": 2,
+      "captured_samples": 204800,
+      "decoded_samples": 202240
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 13091,
+      "first_sample": 204800,
+      "value": 209.644,
+      "queue_frames": 2,
+      "captured_samples": 208640,
+      "decoded_samples": 206080
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 13601,
+      "first_sample": 217600,
+      "value": 1,
+      "queue_frames": 0,
+      "captured_samples": 217600,
+      "decoded_samples": 216320
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 13822,
+      "first_sample": 216320,
+      "value": 219.45675,
+      "queue_frames": 2,
+      "captured_samples": 220160,
+      "decoded_samples": 217600
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 14012,
+      "first_sample": 220160,
+      "value": 170.535375,
+      "queue_frames": 2,
+      "captured_samples": 224000,
+      "decoded_samples": 221440
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 14524,
+      "first_sample": 227840,
+      "value": 202.58925,
+      "queue_frames": 2,
+      "captured_samples": 231680,
+      "decoded_samples": 229120
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 14641,
+      "first_sample": 234240,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 234240,
+      "decoded_samples": 231680
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 14984,
+      "first_sample": 235520,
+      "value": 182.578,
+      "queue_frames": 2,
+      "captured_samples": 239360,
+      "decoded_samples": 236800
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 15450,
+      "first_sample": 243200,
+      "value": 168.953625,
+      "queue_frames": 2,
+      "captured_samples": 247040,
+      "decoded_samples": 244480
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 15681,
+      "first_sample": 250880,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 250880,
+      "decoded_samples": 249600
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 15950,
+      "first_sample": 250880,
+      "value": 187.9875,
+      "queue_frames": 2,
+      "captured_samples": 254720,
+      "decoded_samples": 252160
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 16187,
+      "first_sample": 254720,
+      "value": 185.2065,
+      "queue_frames": 2,
+      "captured_samples": 258560,
+      "decoded_samples": 256000
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 16417,
+      "first_sample": 258560,
+      "value": 176.574875,
+      "queue_frames": 2,
+      "captured_samples": 262400,
+      "decoded_samples": 259840
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 16720,
+      "first_sample": 267520,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 267520,
+      "decoded_samples": 266240
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 16936,
+      "first_sample": 266240,
+      "value": 214.79175,
+      "queue_frames": 2,
+      "captured_samples": 270080,
+      "decoded_samples": 267520
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 17614,
+      "first_sample": 277760,
+      "value": 173.425625,
+      "queue_frames": 2,
+      "captured_samples": 281600,
+      "decoded_samples": 279040
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 17761,
+      "first_sample": 284160,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 284160,
+      "decoded_samples": 281600
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 18563,
+      "first_sample": 293120,
+      "value": 162.809875,
+      "queue_frames": 2,
+      "captured_samples": 296960,
+      "decoded_samples": 294400
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 18806,
+      "first_sample": 300800,
+      "value": 1,
+      "queue_frames": 0,
+      "captured_samples": 300800,
+      "decoded_samples": 299520
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 19061,
+      "first_sample": 300800,
+      "value": 179.2855,
+      "queue_frames": 2,
+      "captured_samples": 304640,
+      "decoded_samples": 302080
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 19329,
+      "first_sample": 304640,
+      "value": 207.64875,
+      "queue_frames": 2,
+      "captured_samples": 308480,
+      "decoded_samples": 305920
+    },
+    {
+      "kind": "queue_sample",
+      "elapsed_ms": 19841,
+      "first_sample": 317440,
+      "value": 1,
+      "queue_frames": 1,
+      "captured_samples": 317440,
+      "decoded_samples": 316160
+    },
+    {
+      "kind": "slow_decode",
+      "elapsed_ms": 20065,
+      "first_sample": 316160,
+      "value": 222.45275,
+      "queue_frames": 2,
+      "captured_samples": 320000,
+      "decoded_samples": 317440
+    },
+    {
+      "kind": "segment_reset",
+      "elapsed_ms": 20327,
+      "first_sample": 320000,
+      "value": 256.611,
+      "queue_frames": 0,
+      "captured_samples": 320000,
+      "decoded_samples": 320000
+    }
+  ],
+  "decoder_profile": "dictation",
+  "max_queue_age_limit_ms": null,
+  "queue_policy": "pressure_recovery",
+  "queue_soft_age_ms": 1500,
+  "queue_pressure_frames": 62,
+  "recovery_target_age_ms": 500,
+  "audio_diagnostic_enabled": false,
+  "audio_levels": [],
+  "duration_limit_s": 20,
+  "source": 6,
+  "qwen_enabled": false,
+  "recognizer_count": 1,
+  "memory_samples": [
+    {
+      "phase": "待开始",
+      "elapsed_ms": 2541190,
+      "pss_kib": 34267,
+      "native_allocated_kib": 3448,
+      "VmHWM": "69936 kB",
+      "VmRSS": "69704 kB",
+      "VmSwap": "4344 kB"
+    },
+    {
+      "phase": "加载模型",
+      "elapsed_ms": 2544743,
+      "pss_kib": 67184,
+      "native_allocated_kib": 40731,
+      "VmHWM": "106384 kB",
+      "VmRSS": "106384 kB",
+      "VmSwap": "4208 kB"
+    },
+    {
+      "phase": "加载模型",
+      "elapsed_ms": 2548186,
+      "pss_kib": 106616,
+      "native_allocated_kib": 101872,
+      "VmHWM": "135320 kB",
+      "VmRSS": "135288 kB",
+      "VmSwap": "4228 kB"
+    },
+    {
+      "phase": "预热 1\/2（尚未录音）",
+      "elapsed_ms": 2551393,
+      "pss_kib": 129113,
+      "native_allocated_kib": 110499,
+      "VmHWM": "150120 kB",
+      "VmRSS": "150120 kB",
+      "VmSwap": "4324 kB"
+    },
+    {
+      "phase": "预热 1\/2（尚未录音）",
+      "elapsed_ms": 2554582,
+      "pss_kib": 137284,
+      "native_allocated_kib": 119719,
+      "VmHWM": "156748 kB",
+      "VmRSS": "156748 kB",
+      "VmSwap": "4332 kB"
+    },
+    {
+      "phase": "预热 1\/2（尚未录音）",
+      "elapsed_ms": 2557796,
+      "pss_kib": 142407,
+      "native_allocated_kib": 124780,
+      "VmHWM": "160576 kB",
+      "VmRSS": "160444 kB",
+      "VmSwap": "4364 kB"
+    },
+    {
+      "phase": "预热 1\/2（尚未录音）",
+      "elapsed_ms": 2560974,
+      "pss_kib": 145747,
+      "native_allocated_kib": 128922,
+      "VmHWM": "164912 kB",
+      "VmRSS": "161272 kB",
+      "VmSwap": "4392 kB"
+    },
+    {
+      "phase": "清晰文件按实时节奏回放（不录麦克风）",
+      "elapsed_ms": 2564152,
+      "pss_kib": 148443,
+      "native_allocated_kib": 130239,
+      "VmHWM": "166108 kB",
+      "VmRSS": "162348 kB",
+      "VmSwap": "4424 kB"
+    },
+    {
+      "phase": "清晰文件按实时节奏回放（不录麦克风）",
+      "elapsed_ms": 2567341,
+      "pss_kib": 149656,
+      "native_allocated_kib": 131091,
+      "VmHWM": "166108 kB",
+      "VmRSS": "163880 kB",
+      "VmSwap": "4420 kB"
+    },
+    {
+      "phase": "清晰文件按实时节奏回放（不录麦克风）",
+      "elapsed_ms": 2570529,
+      "pss_kib": 149437,
+      "native_allocated_kib": 132695,
+      "VmHWM": "166108 kB",
+      "VmRSS": "163256 kB",
+      "VmSwap": "4428 kB"
+    },
+    {
+      "phase": "清晰文件按实时节奏回放（不录麦克风）",
+      "elapsed_ms": 2573699,
+      "pss_kib": 150281,
+      "native_allocated_kib": 133710,
+      "VmHWM": "166108 kB",
+      "VmRSS": "164100 kB",
+      "VmSwap": "4428 kB"
+    },
+    {
+      "phase": "清晰文件按实时节奏回放（不录麦克风）",
+      "elapsed_ms": 2576871,
+      "pss_kib": 150761,
+      "native_allocated_kib": 134013,
+      "VmHWM": "166108 kB",
+      "VmRSS": "164404 kB",
+      "VmSwap": "4428 kB"
+    },
+    {
+      "phase": "清晰文件按实时节奏回放（不录麦克风）",
+      "elapsed_ms": 2580091,
+      "pss_kib": 151321,
+      "native_allocated_kib": 134465,
+      "VmHWM": "166108 kB",
+      "VmRSS": "165072 kB",
+      "VmSwap": "4428 kB"
+    },
+    {
+      "phase": "清晰文件按实时节奏回放（不录麦克风）",
+      "elapsed_ms": 2583267,
+      "pss_kib": 151441,
+      "native_allocated_kib": 134647,
+      "VmHWM": "166108 kB",
+      "VmRSS": "165144 kB",
+      "VmSwap": "4428 kB"
+    },
+    {
+      "phase": "已停止",
+      "elapsed_ms": 2584967,
+      "pss_kib": 144272,
+      "native_allocated_kib": 4138,
+      "VmHWM": "166108 kB",
+      "VmRSS": "157820 kB",
+      "VmSwap": "4520 kB"
+    }
+  ],
+  "warmup": [
+    {
+      "round": 0,
+      "decode_ms": 12577.5815,
+      "audio_ms": 2090.25
+    },
+    {
+      "round": 1,
+      "decode_ms": 1605.2665,
+      "audio_ms": 2090.25
+    }
+  ],
+  "results": [
+    {
+      "text": "郑州 明天 的 天气 怎么样",
+      "elapsed_ms": 2567077,
+      "reason": "natural",
+      "forced_at_stop": false
+    },
+    {
+      "text": "郑州 明天 的 天气 怎么样",
+      "elapsed_ms": 2570209,
+      "reason": "natural",
+      "forced_at_stop": false
+    },
+    {
+      "text": "郑州 明天 的 天气 怎么样",
+      "elapsed_ms": 2573082,
+      "reason": "natural",
+      "forced_at_stop": false
+    },
+    {
+      "text": "郑州 明天 的 天气 怎么样",
+      "elapsed_ms": 2576191,
+      "reason": "natural",
+      "forced_at_stop": false
+    },
+    {
+      "text": "郑州 明天 的 天气 怎么样",
+      "elapsed_ms": 2579312,
+      "reason": "natural",
+      "forced_at_stop": false
+    },
+    {
+      "text": "郑州 明天 的 天气 怎么样",
+      "elapsed_ms": 2582427,
+      "reason": "natural",
+      "forced_at_stop": false
+    },
+    {
+      "text": "郑州 明天 的 天气",
+      "elapsed_ms": 2584474,
+      "reason": "segment_limit",
+      "forced_at_stop": false
+    }
+  ],
+  "timestamps": [],
+  "note": "Queue drops include overflow and recovery trims. Soft age warnings do not drop audio; pressure recovery is lossy. No age-based trim after input ends. RTF includes gap resets, excludes report writes and injected stalls. Event values: drops=samples, lag\/decode\/reset\/stall=ms, queue_sample=frames. Optional WAV is local, before queue drops.",
+  "replay_asset": "samples\/zhengzhou.pcm",
+  "replay_silence_ms": 1000,
+  "injected_stall_ms": 0,
+  "injected_stall_schedule": "wall seconds 15,45,75,105; at most four",
+  "model_and_recognizer_load_ms": 8476,
+  "phase": "已停止",
+  "error": "",
+  "capture_start_ms": 2564147,
+  "capture_end_ms": 2584148,
+  "capture_wall_ms": 20001,
+  "captured_samples": 320000,
+  "decoded_samples": 320000,
+  "queue_dropped_samples": 0,
+  "overflow_dropped_samples": 0,
+  "stale_dropped_samples": 0,
+  "queue_frames": 0,
+  "max_queue_frames": 8,
+  "read_errors": 0,
+  "zero_reads": 0,
+  "max_read_gap_ms": 84,
+  "first_read_delay_ms": 81,
+  "decode_ms": 14632.643,
+  "decode_rtf": 0.73163215,
+  "max_decode_frame_ms": 485.7775,
+  "max_queue_age_ms": 631,
+  "zero_sample_ratio": 0,
+  "clipped_samples": 0,
+  "max_read_call_ms": 0,
+  "max_capture_work_ms": 0,
+  "omitted_read_timings": 0,
+  "peak": 0,
+  "last_rms": 0,
+  "energetic_frames": 0,
+  "partial_updates": 25,
+  "natural_finals": 6,
+  "segment_flushes": 1,
+  "decoder_gap_resets": 0,
+  "gap_reset_ms": 0,
+  "report_write_ms": 358.524,
+  "worker_wall_ms": 20331,
+  "injected_stalls": 0,
+  "omitted_events": 0,
+  "max_observed_queue_age_ms": 631,
+  "soft_lag_warnings": 0,
+  "pressure_recoveries": 0,
+  "samples_accounted": true,
+  "capture_done": true,
+  "timestamp_ok": 0,
+  "timestamp_errors": 0,
+  "routed_input": "asset samples\/zhengzhou.pcm（无麦克风）",
+  "sample_wall_delta_ms": -1,
+  "read_timings": []
+}

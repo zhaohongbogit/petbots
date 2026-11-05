@@ -1,0 +1,29 @@
+{
+  "version": "0.4.1",
+  "wav_sha256": "e566c7330c83d56128d336bb59f8d78eca482f68ad78d2916431dd716b71c7ce",
+  "wav_bytes": 3840044,
+  "pcm_samples": 1920000,
+  "pcm_audio_ms": 120000,
+  "capture_wall_ms": 120287,
+  "queue_dropped_samples": 0,
+  "live_transcript": [],
+  "offline_transcript": [],
+  "user_listening_result": "只有杂音或没有人声",
+  "offline_source_hash_matches": true,
+  "offline_samples": 1920000,
+  "offline_wall_ms": 73905,
+  "offline_rtf": 0.6135885437499999,
+  "offline_max_frame_ms": 454.59775,
+  "offline_max_final_ms": 1067.358875,
+  "offline_reset_ms_range": [
+    0.055125,
+    0.0705
+  ],
+  "live_max_final_and_reset_ms": 1377.908,
+  "live_max_frame_ms": 641.400875,
+  "live_pss_peak_mib": 149.9228515625,
+  "offline_pss_peak_mib": 153.1005859375,
+  "phone_files_checked": 241,
+  "phone_changed_files": [],
+  "microphone_closed_after_tests": true
+}

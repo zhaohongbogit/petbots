@@ -16,7 +16,7 @@ import java.util.*;
 
 public class ChatActivity extends Activity {
     static final int INK=0xffe5f1f7, BG=0xff101c27, ACCENT=0xff72e4c2;
-    static final String SYSTEM="你是一只AI陪伴宠物，名字叫小七。用简体中文自然、温暖地陪用户聊天，默认一到三句话、尽量不超过160字，不使用Markdown格式。先回应用户表达的内容，再按需要提出一个小问题，避免每句都追问。不假装是真人，不声称能看到、听到或执行其他现实操作；你可以控制屏幕表情，目前输入方式为文字。尊重用户自主选择，不制造情感依赖。提供计划时先了解必要信息，不编造用户经历。必须只输出JSON对象：{ \"reply\":\"简短回复\", \"actions\":[] }。屏幕动作格式为{ \"type\":\"set_expression\", \"name\":\"angry\", \"intensity\":0.9, \"duration_ms\":12000 }。name限neutral、happy、angry、sad、joyful、worried、surprised。intensity在0到1，duration_ms为1000到30000整数，最多5个动作按顺序执行。用户要求你表现情绪、做表情、表演时必须返回相应动作，不要只用文字描述。很生气用angry和0.95；再生气一点结合给定的当前表情强度提高；先哭再笑返回sad然后happy。喜=happy，怒=angry，哀=sad，乐=joyful，愁=worried。普通聊天、用户描述自己的心情、引用和假设不执行动作，actions为空，保持表情。不要生气笑一个只执行happy。只在明确要求恢复平静时返回neutral。动作不明确时询问澄清，禁止声称已执行未提供的动作。回复不展示技术字段。";
+    static final String SYSTEM="你是一只AI陪伴宠物，名字叫小七。用简体中文自然、温暖地陪用户聊天，默认一到三句话、尽量不超过160字，不使用Markdown格式。先回应用户表达的内容，再按需要提出一个小问题，避免每句都追问。不假装是真人，不声称能看到、听到或执行其他现实操作；你可以控制屏幕表情，目前输入方式为文字。尊重用户自主选择，不制造情感依赖。提供计划时先了解必要信息，不编造用户经历。必须只输出JSON对象：{ \"reply\":\"简短回复\", \"actions\":[] }。屏幕动作格式为{ \"type\":\"set_expression\", \"name\":\"angry\", \"intensity\":0.9, \"duration_ms\":12000 }。name限neutral、happy、angry、sad、joyful、worried、surprised、nose_pick_666、eat_lollipop。intensity在0到1，duration_ms为1000到30000整数，最多5个动作按顺序执行。用户要求你表现情绪、做表情、表演时必须返回相应动作，不要只用文字描述。很生气用angry和0.95；再生气一点结合给定的当前表情强度提高；先哭再笑返回sad然后happy；要求抠鼻屎或抠鼻屎666时用nose_pick_666和0.9；要求吃或舔棒棒糖时用eat_lollipop和0.85。喜=happy，怒=angry，哀=sad，乐=joyful，愁=worried。普通聊天、用户描述自己的心情、引用和假设不执行动作，actions为空，保持表情。不要生气笑一个只执行happy。只在明确要求恢复平静时返回neutral。动作不明确时询问澄清，禁止声称已执行未提供的动作。回复不展示技术字段。";
     final Handler main=new Handler();
     final ArrayList<JSONObject> history=new ArrayList<>();
     volatile boolean foreground,busy,speaking,voiceRecording,voiceTranscribing;
@@ -40,12 +40,15 @@ public class ChatActivity extends Activity {
     SpeechOutput speech;
     PcmRecorder voiceRecorder;
     TextView mic;
+    TextView voiceTranscript;
+    cn.aihongbo.voiceweather.VoiceController assistant;
+    String latestVoiceText="";
     boolean autoSpeak = true;
-    static final String[] EXPRESSIONS={"neutral","happy","angry","sad","joyful","worried","surprised"};
-    static final String[] EXPRESSION_NAMES={"平静","喜 · 微笑","怒 · 生气","哀 · 悲伤","乐 · 大笑","愁 · 担心","惊 · 惊讶"};
+    static final String[] EXPRESSIONS={"neutral","happy","angry","sad","joyful","worried","surprised","nose_pick_666","eat_lollipop"};
+    static final String[] EXPRESSION_NAMES={"平静","喜 · 微笑","怒 · 生气","哀 · 悲伤","乐 · 大笑","愁 · 担心","惊 · 惊讶","抠鼻屎666","吃棒棒糖"};
     TextInputServer inputServer;
     SharedPreferences settings;
-    final Runnable tick=new Runnable(){public void run(){if(!foreground)return;blink=!(busy||voiceTranscribing)&&!blink;pet.invalidate();main.postDelayed(this,speaking?180:((busy||voiceTranscribing)?500:(blink?150:4500)));}};
+    final Runnable tick=new Runnable(){public void run(){if(!foreground)return;blink=!(busy||voiceTranscribing)&&!blink;pet.invalidate();main.postDelayed(this,(expression.equals("nose_pick_666")||expression.equals("eat_lollipop"))?120:speaking?180:((busy||voiceTranscribing)?500:(blink?150:4500)));}};
     @Override public void onCreate(Bundle b){super.onCreate(b);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION|View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
@@ -53,46 +56,32 @@ public class ChatActivity extends Activity {
         applyConfig(getIntent());
         base=settings.getString("llm_base","");model=settings.getString("llm_model","");key=settings.getString("llm_key","");
         speechBase=settings.getString("speech_base","");speechKey=settings.getString("speech_key","");speechModel=settings.getString("speech_model","FunAudioLLM/SenseVoiceSmall");
-        autoSpeak=settings.getBoolean("auto_speak",true);
+        autoSpeak=true;
         try{JSONArray a=new JSONArray(settings.getString("history","[]"));for(int i=Math.max(0,a.length()-24);i<a.length();i++)history.add(a.getJSONObject(i));}catch(Exception ignored){history.clear();}
         FrameLayout root=new FrameLayout(this);root.setBackgroundColor(BG);
         pet=new Pet();root.addView(pet,new FrameLayout.LayoutParams(-1,-1));
         pet.setContentDescription("小七的面孔，轻触逗逗它，长按额头三秒打开设备设置");
-        mic=text("●",30,0xff244c48);mic.setGravity(Gravity.CENTER);mic.setContentDescription("开始语音对话");
-        FrameLayout.LayoutParams micParams=new FrameLayout.LayoutParams(64,56,Gravity.LEFT|Gravity.BOTTOM);micParams.setMargins(12,0,0,6);root.addView(mic,micParams);mic.setOnClickListener(v->toggleVoiceInput());
-        TextView debugToggle=text("•••",18,0xff688b87);debugToggle.setGravity(Gravity.CENTER);debugToggle.setContentDescription("打开文字调试");
-        FrameLayout.LayoutParams toggleParams=new FrameLayout.LayoutParams(56,48,Gravity.RIGHT|Gravity.BOTTOM);toggleParams.setMargins(0,0,12,8);root.addView(debugToggle,toggleParams);debugToggle.setOnClickListener(v->showDebug(true));
-        debugPanel=new LinearLayout(this);debugPanel.setOrientation(1);debugPanel.setPadding(18,10,18,12);debugPanel.setBackgroundColor(0xff101c27);
-        FrameLayout.LayoutParams panelParams=new FrameLayout.LayoutParams(-1,-1);panelParams.setMargins(24,12,24,12);root.addView(debugPanel,panelParams);debugPanel.setVisibility(View.GONE);
-        LinearLayout bar=new LinearLayout(this);bar.setGravity(Gravity.CENTER_VERTICAL);debugPanel.addView(bar);
-        bar.addView(text("文字调试",20,INK),new LinearLayout.LayoutParams(0,-2,1));
-        newChat=new Button(this);newChat.setText("新对话");newChat.setOnClickListener(v->new AlertDialog.Builder(this).setMessage("清空当前对话，重新开始？").setNegativeButton("保留",null).setPositiveButton("开始新对话",(d,w)->{history.clear();expressions.stop();expressionIntensity=.5;setExpression("neutral");save();render();mood.setText("新的开始，你想聊什么？");}).show());bar.addView(newChat);
-        Button tools=new Button(this);tools.setText("设备测试");tools.setOnClickListener(v->startActivity(new Intent(this,MainActivity.class)));bar.addView(tools);
-        Button faces=new Button(this);faces.setText("表情");faces.setOnClickListener(v->new AlertDialog.Builder(this).setTitle("预览表情（同时填入测试文字）").setItems(EXPRESSION_NAMES,(d,which)->{if(busy)return;expressions.execute(Collections.singletonList(new ExpressionAction(EXPRESSIONS[which],.65,12000)),"preview");input.setText("请展示"+EXPRESSION_NAMES[which]+"的表情");showDebug(false);}).show());bar.addView(faces);
-        Button voice=new Button(this);voice.setText(autoSpeak?"语音播报开":"语音播报关");voice.setOnClickListener(v->{autoSpeak=!autoSpeak;settings.edit().putBoolean("auto_speak",autoSpeak).apply();voice.setText(autoSpeak?"语音播报开":"语音播报关");if(!autoSpeak&&speech!=null)speech.stop();});bar.addView(voice);
-        Button close=new Button(this);close.setText("返回面孔");close.setOnClickListener(v->showDebug(false));bar.addView(close);
-        mood=text("文字仅用于调试，语音尚未接入",14,ACCENT);debugPanel.addView(mood);
-        LinearLayout right=debugPanel;
-        scroll=new ScrollView(this);scroll.setFillViewport(true);messages=new LinearLayout(this);messages.setOrientation(1);messages.setPadding(0,10,0,8);scroll.addView(messages);right.addView(scroll,new LinearLayout.LayoutParams(-1,0,1));
-        LinearLayout quick=new LinearLayout(this);
-        for(String prompt:new String[]{"你好，小七","讲个短故事","帮我做计划"}){Button bq=new Button(this);bq.setText(prompt);bq.setTextSize(13);bq.setOnClickListener(v->{if(!busy){input.setText(prompt);input.setSelection(input.length());}});quick.addView(bq,new LinearLayout.LayoutParams(0,42,1));}right.addView(quick);
-        LinearLayout entry=new LinearLayout(this);input=new EditText(this);input.setTextColor(INK);input.setHintTextColor(0xff95a7b4);input.setHint("输入文字，也可用手机中文输入");input.setTextSize(16);input.setSingleLine(true);input.setFilters(new InputFilter[]{new InputFilter.LengthFilter(500)});input.setImeOptions(EditorInfo.IME_ACTION_SEND);
-        input.setOnEditorActionListener((v,action,event)->{if(action==EditorInfo.IME_ACTION_SEND){submitInput();return true;}return false;});entry.addView(input,new LinearLayout.LayoutParams(0,52,1));
-        send=new Button(this);send.setText("发送");send.setOnClickListener(v->{if(busy)cancel();else submitInput();});entry.addView(send,new LinearLayout.LayoutParams(78,52));right.addView(entry);
+        // Keep internal response/history objects for paired-phone requests; no board keyboard or settings panel.
+        mic=text("",14,INK);debugPanel=new LinearLayout(this);debugPanel.setVisibility(View.GONE);
+        newChat=new Button(this);mood=text("正在准备语音…",14,ACCENT);
+        input=new EditText(this);send=new Button(this);messages=new LinearLayout(this);messages.setOrientation(1);
+        scroll=new ScrollView(this);scroll.addView(messages);
+        voiceTranscript=text("正在准备语音…",18,INK);voiceTranscript.setGravity(Gravity.CENTER);
+        voiceTranscript.setMaxLines(2);voiceTranscript.setEllipsize(android.text.TextUtils.TruncateAt.END);
+        voiceTranscript.setBackgroundColor(0x99101c27);voiceTranscript.setPadding(16,6,16,6);voiceTranscript.setContentDescription("实时语音转写");
+        FrameLayout.LayoutParams caption=new FrameLayout.LayoutParams(-1,-2,Gravity.BOTTOM);caption.setMargins(20,0,20,8);root.addView(voiceTranscript,caption);
         expressions=new ExpressionController(main,(action,id,index,state)->{
             expressionIntensity=action.intensity;setExpression(action.name);
             android.util.Log.i("PetChat","action request="+id+" index="+index+" name="+action.name+" intensity="+action.intensity+" state="+state);
         });
-        speech=new SpeechOutput(this,(stateName,detail)->main.post(()->{
-            android.util.Log.i("PetVoice","tts_state="+stateName+" detail="+detail);
-            if("speaking".equals(stateName)){speaking=true;mood.setText("小七正在说话");}
-            else if("completed".equals(stateName)){speaking=false;if(!busy)mood.setText("我在听你说");}
-            else if("failed".equals(stateName)||"unavailable".equals(stateName)){speaking=false;if("unavailable".equals(stateName))mood.setText("本机中文语音不可用，文字对话仍可使用");}
-            pet.invalidate();
-        }));
+        assistant=cn.aihongbo.voiceweather.VoiceController.create(this,new cn.aihongbo.voiceweather.VoiceController.Listener(){
+            public void transcript(String value){latestVoiceText=value;voiceTranscript.setText(value);}
+            public void status(String value){mood.setText(value);if(!latestVoiceText.isEmpty()&&(value.startsWith("旅行服务正在回复")||value.equals("请说话"))){voiceTranscript.setText(latestVoiceText);return;}if(latestVoiceText.isEmpty()||value.startsWith("正在处理旅行需求")||value.contains("失败")||value.contains("不可用")||value.contains("权限"))voiceTranscript.setText(value);}
+            public void speaking(boolean active){speaking=active;pet.invalidate();}
+        });
         setContentView(root);render();applyDraft(getIntent());
     }
-    void applyDraft(Intent intent){if(intent.hasExtra("draft")){String draft=intent.getStringExtra("draft");intent.removeExtra("draft");if(draft!=null&&!busy){input.setText(draft.substring(0,Math.min(500,draft.length())));showDebug(true);}}}
+    void applyDraft(Intent intent){if(intent.hasExtra("draft")){intent.removeExtra("draft");}}
     void applyConfig(Intent intent){
         for(String name:new String[]{"llm_base","llm_model","llm_key","speech_base","speech_model","speech_key"})if(intent.hasExtra(name)){
             String value=intent.getStringExtra(name);settings.edit().putString(name,"__clear__".equals(value)?"":value).apply();intent.removeExtra(name);
@@ -109,6 +98,8 @@ public class ChatActivity extends Activity {
         android.util.Log.i("PetChat","expression="+expression);
     }
     void showDebug(boolean show){
+        // The board remains voice-only; history is available through the paired phone.
+        show=false;
         debugVisible=show;debugPanel.setVisibility(show?View.VISIBLE:View.GONE);
         if(show)scroll.post(()->scroll.fullScroll(View.FOCUS_DOWN));
         if(!show){((InputMethodManager)getSystemService(INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(input.getWindowToken(),0);input.clearFocus();}
@@ -174,11 +165,19 @@ public class ChatActivity extends Activity {
             }catch(Exception e){main.post(()->{String reason=failureReason(e);voiceTranscribing=false;pet.invalidate();mood.setText("empty_transcript".equals(reason)?"没有听清，请靠近麦克风再试一次":"语音识别失败，可用文字继续");android.util.Log.i("PetVoice","asr_failed="+reason);});}
         },"pet-asr-request").start();
     }
+    boolean beginRemoteVoice(File file,String id){
+        if(busy||voiceRecording||voiceTranscribing||!foreground)return false;
+        if(speechBase.isEmpty()||speechKey.isEmpty()){remoteId=id;remoteState="failed";remoteError="asr_not_configured";return false;}
+        remoteId=id;remoteState="transcribing";remoteReply="";remoteError="";voiceTranscribing=true;mood.setText("正在听手机传来的语音…");pet.invalidate();
+        new Thread(()->{try{String transcript=SpeechApiClient.transcribe(file,speechBase,speechKey,speechModel);main.post(()->{file.delete();voiceTranscribing=false;pet.invalidate();android.util.Log.i("PetVoice","phone_asr_completed chars="+transcript.length());if(!begin(transcript,id)){remoteState="failed";remoteError="chat_busy";}});}
+            catch(Exception e){main.post(()->{file.delete();voiceTranscribing=false;pet.invalidate();remoteState="failed";remoteError=failureReason(e);mood.setText("手机语音识别失败，可用文字继续");android.util.Log.i("PetVoice","phone_asr_failed="+remoteError);});}},"pet-phone-asr").start();
+        return true;
+    }
     @Override public void onRequestPermissionsResult(int requestCode,String[] permissions,int[] results){
         super.onRequestPermissionsResult(requestCode,permissions,results);
-        if(requestCode==9&&results.length>0&&results[0]==android.content.pm.PackageManager.PERMISSION_GRANTED)startVoiceInput();
+        if(requestCode==12&&assistant!=null)assistant.permissionResult(results.length>0&&results[0]==android.content.pm.PackageManager.PERMISSION_GRANTED);
     }
-    void speakReply(String reply){if(autoSpeak&&speech!=null&&!speech.speak(reply))android.util.Log.i("PetVoice","tts_skipped=not_ready");}
+    void speakReply(String reply){if(assistant!=null)assistant.reply(reply);}
     JSONObject msg(String role,String text)throws JSONException{return new JSONObject().put("role",role).put("content",text);}
     boolean begin(String t,String id){return begin(t,id,null);}
     boolean beginPlan(JSONObject data,String id){
@@ -242,12 +241,12 @@ public class ChatActivity extends Activity {
     }
     void finishUi(){busy=false;pending="";input.setEnabled(true);send.setText("发送");newChat.setEnabled(true);render();pet.invalidate();}
     void cancel(){String retry=pending;generation++;if(connection!=null)connection.disconnect();connection=null;remoteState="cancelled";finishUi();input.setText(retry);mood.setText("已取消，你可以重新编辑");}
-    @Override protected void onResume(){super.onResume();foreground=true;expressions.resume();main.post(tick);
+    @Override protected void onResume(){super.onResume();foreground=true;expressions.resume();main.post(tick);if(assistant!=null)assistant.resume();
         SharedPreferences p=getSharedPreferences("phone-speaker",MODE_PRIVATE);String token=p.getString("pair_key","");String debugToken=p.getString("debug_pair_key","");
         if(token.length()>=24||debugToken.length()>=24){inputServer=new TextInputServer(this,token,debugToken);inputServer.start();}
     }
-    @Override protected void onPause(){foreground=false;expressions.pause();main.removeCallbacks(tick);if(voiceRecorder!=null)voiceRecorder.stop();if(busy)cancel();if(inputServer!=null){inputServer.close();inputServer=null;}super.onPause();}
-    @Override protected void onDestroy(){expressions.stop();if(speech!=null)speech.close();main.removeCallbacksAndMessages(null);super.onDestroy();}
+    @Override protected void onPause(){foreground=false;if(assistant!=null)assistant.pause();expressions.pause();main.removeCallbacks(tick);if(voiceRecorder!=null)voiceRecorder.stop();if(busy)cancel();if(inputServer!=null){inputServer.close();inputServer=null;}super.onPause();}
+    @Override protected void onDestroy(){if(assistant!=null)assistant.close();expressions.stop();if(speech!=null)speech.close();main.removeCallbacksAndMessages(null);super.onDestroy();}
     class Pet extends View {
         final Paint p=new Paint(Paint.ANTI_ALIAS_FLAG);
         final Runnable openSettings=new Runnable(){public void run(){
@@ -346,6 +345,38 @@ public class ChatActivity extends Activity {
             else if(worried){Path mouth=new Path();mouth.moveTo(-48,106);mouth.cubicTo(-18,85,12,125,48,103);c.drawPath(mouth,p);}
             else if(angry)c.drawArc(-52,93,52,(float)(115+40*expressionIntensity),200,140,false,p);
             else{c.drawArc(-75,38,0,100,0,145,false,p);c.drawArc(0,38,75,100,35,145,false,p);if(happy)fill(c,0xffd98985,-23,93,23,115,15);}
+            if(shown.equals("nose_pick_666"))drawNosePick666(c);
+            if(shown.equals("eat_lollipop"))drawEatLollipop(c);
+            c.restore();
+        }
+        void drawEatLollipop(Canvas c){
+            float sway=(float)Math.sin(SystemClock.uptimeMillis()/180.0)*7;c.save();c.translate(sway,0);
+            int skin=0xffefb6a4,outline=0xffb9786e;
+            // Open smiling mouth and tongue reaching toward the candy.
+            p.setStyle(Paint.Style.FILL);p.setColor(0xff244c48);c.drawOval(-55,76,55,142,p);p.setColor(0xffdf8c91);c.drawOval(-22,105,38,142,p);p.setColor(0xffffb4b7);c.drawOval(17,111,63,137,p);
+            // White stick enters from the lower-right hand and ends beside the mouth.
+            stroke(c,0xfff8f5e8,8);c.drawLine(52,113,177,224,p);stroke(c,0xffb8aa9b,2);c.drawLine(52,113,177,224,p);
+            // Bright spiral candy ball.
+            p.setStyle(Paint.Style.FILL);p.setColor(0xffff6f91);c.drawCircle(66,100,42,p);stroke(c,0xffb94d70,5);c.drawCircle(66,100,42,p);
+            stroke(c,0xffffd5df,7);Path spiral=new Path();spiral.moveTo(66,100);spiral.cubicTo(83,82,101,101,86,116);spiral.cubicTo(63,139,31,116,39,87);spiral.cubicTo(48,57,91,50,107,80);c.drawPath(spiral,p);
+            // Small hand wraps around the bottom of the stick.
+            p.setStyle(Paint.Style.FILL);p.setColor(skin);Path hand=new Path();hand.moveTo(139,238);hand.cubicTo(134,211,139,188,156,181);hand.cubicTo(169,176,179,185,178,198);hand.cubicTo(184,183,202,184,207,196);hand.cubicTo(213,211,199,228,193,238);hand.close();c.drawPath(hand,p);stroke(c,outline,5);c.drawPath(hand,p);stroke(c,outline,3);c.drawLine(164,193,181,214,p);
+            c.restore();
+        }
+        void drawNosePick666(Canvas c){
+            float bob=(float)Math.sin(SystemClock.uptimeMillis()/150.0)*5;c.save();c.translate(14,bob);
+            int skin=0xffefb6a4,outline=0xffb9786e;p.setStrokeCap(Paint.Cap.ROUND);p.setStrokeJoin(Paint.Join.ROUND);
+            // Palm and wrist. The fist sits below the nose so every finger remains readable.
+            p.setStyle(Paint.Style.FILL);p.setColor(skin);Path palm=new Path();palm.moveTo(45,238);palm.lineTo(42,151);palm.cubicTo(41,116,66,96,98,100);palm.cubicTo(132,104,150,132,148,169);palm.lineTo(153,238);palm.close();c.drawPath(palm,p);stroke(c,outline,5);c.drawPath(palm,p);
+            // Little finger: the only finger extended upward, with its tip touching the nostril.
+            p.setStyle(Paint.Style.FILL);p.setColor(skin);Path pinky=new Path();pinky.moveTo(57,130);pinky.lineTo(8,61);pinky.cubicTo(-4,45,-4,29,8,23);pinky.cubicTo(19,18,29,25,35,37);pinky.lineTo(78,105);pinky.close();c.drawPath(pinky,p);stroke(c,outline,5);c.drawPath(pinky,p);
+            p.setStyle(Paint.Style.FILL);p.setColor(0xffffd9d0);c.drawRoundRect(4,27,24,51,9,9,p);
+            // Thumb: fully opened away from the fist.
+            p.setStyle(Paint.Style.FILL);p.setColor(skin);Path thumb=new Path();thumb.moveTo(119,135);thumb.cubicTo(139,126,153,111,166,91);thumb.cubicTo(173,80,188,78,197,87);thumb.cubicTo(206,97,202,110,193,120);thumb.cubicTo(172,145,154,160,137,166);thumb.close();c.drawPath(thumb,p);stroke(c,outline,5);c.drawPath(thumb,p);
+            // Index, middle and ring fingers are folded tightly into the palm: three knuckles, no raised fingers.
+            p.setStyle(Paint.Style.FILL);p.setColor(skin);float[][] folded={{58,105,87,137},{82,101,113,137},{107,108,137,143}};
+            for(float[] f:folded){c.drawRoundRect(f[0],f[1],f[2],f[3],14,14,p);stroke(c,outline,4);c.drawRoundRect(f[0],f[1],f[2],f[3],14,14,p);p.setStyle(Paint.Style.FILL);p.setColor(skin);}
+            stroke(c,outline,3);c.drawArc(60,112,84,132,205,125,false,p);c.drawArc(85,108,110,132,205,125,false,p);c.drawArc(110,115,134,138,205,125,false,p);
             c.restore();
         }
         void drawHumanFace(Canvas c){

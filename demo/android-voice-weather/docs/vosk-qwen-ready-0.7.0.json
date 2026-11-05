@@ -1,0 +1,181 @@
+[
+  {
+    "interactions": [
+      "focusable",
+      "scrollable"
+    ],
+    "center": "[540,1200]",
+    "bounds": "[0,0][1080,2400]",
+    "key": 3506402
+  },
+  {
+    "text": "小车语音实验室 · Qwen",
+    "center": "[540,151]",
+    "key": 3506402
+  },
+  {
+    "text": "Vosk 识别声音 → Qwen3 理解整句 → 确认后查询",
+    "center": "[540,259]",
+    "key": 3506402
+  },
+  {
+    "text": "仅前台录音，不保存声音。无正则关键词、拼音候选或城市别名替换。每次讲话停顿约 0.7 秒后提交，最长一段 10 秒。",
+    "center": "[540,398]",
+    "key": 3506402
+  },
+  {
+    "text": "Vosk + Qwen3 已就绪 · 总加载 1521 ms\nVosk 加载 649 ms · Qwen 加载 846 ms\nQwen 加载后 PSS 522 MiB · 双模型 PSS 651 MiB（快照，非峰值）",
+    "center": "[540,611]",
+    "key": 3506402
+  },
+  {
+    "text": "状态：实验就绪 · 麦克风关闭",
+    "center": "[540,785]",
+    "key": 3506402
+  },
+  {
+    "text": "原始转写：—",
+    "center": "[540,884]",
+    "key": 3506402
+  },
+  {
+    "text": "处理说明：等待讲话；普通聊天只记录",
+    "center": "[540,974]",
+    "key": 3506402
+  },
+  {
+    "text": "模型语义 JSON：—",
+    "interactions": [
+      "focusable"
+    ],
+    "center": "[540,1062]",
+    "key": 3506402
+  },
+  {
+    "text": "耗时：等待输入；分别统计 ASR 与语义模型",
+    "center": "[540,1148]",
+    "key": 3506402
+  },
+  {
+    "text": "真实天气请求：0 次 · 麦克风未开启",
+    "center": "[540,1234]",
+    "key": 3506402
+  },
+  {
+    "text": "默认城市（模型判断未提城市时使用）",
+    "center": "[540,1320]",
+    "key": 3506402
+  },
+  {
+    "interactions": [
+      "clickable",
+      "focusable",
+      "scrollable",
+      "long-clickable"
+    ],
+    "center": "[540,1429]",
+    "bounds": "[55,1363][1025,1495]",
+    "key": 3506402
+  },
+  {
+    "text": "启用天气助手（关闭只转写，不调用语义模型）",
+    "interactions": [
+      "checkable",
+      "clickable",
+      "focusable"
+    ],
+    "state": [
+      "checked"
+    ],
+    "center": "[540,1532]",
+    "key": 3506402
+  },
+  {
+    "text": "真实天气 · 联网（关闭时使用模拟数据）",
+    "interactions": [
+      "checkable",
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,1606]",
+    "key": 3506402
+  },
+  {
+    "text": "开始麦克风监听",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,1709]",
+    "key": 3506402
+  },
+  {
+    "text": "停止 / 重置当前流程",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,1841]",
+    "key": 3506402
+  },
+  {
+    "text": "文字模拟（只测试 Qwen 语义理解）",
+    "center": "[540,1955]",
+    "key": 3506402
+  },
+  {
+    "text": "例如：郑州明天天气怎么样",
+    "interactions": [
+      "clickable",
+      "focusable",
+      "long-clickable"
+    ],
+    "center": "[540,2081]",
+    "key": 3506402
+  },
+  {
+    "text": "送入一句文字",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[540,2225]",
+    "key": 3506402
+  },
+  {
+    "text": "北京",
+    "interactions": [
+      "checkable"
+    ],
+    "center": "[474,1429]",
+    "resource-id": "text1",
+    "key": 3506402
+  },
+  {
+    "text": "上海天气",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[216,2345]",
+    "key": 3506402
+  },
+  {
+    "text": "是的",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[539,2345]",
+    "key": 3506402
+  },
+  {
+    "text": "不用",
+    "interactions": [
+      "clickable",
+      "focusable"
+    ],
+    "center": "[863,2345]",
+    "key": 3506402
+  }
+]

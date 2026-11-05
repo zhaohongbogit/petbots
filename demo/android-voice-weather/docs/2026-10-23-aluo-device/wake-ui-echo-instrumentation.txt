@@ -1,0 +1,53 @@
+
+cn.aihongbo.voiceweather.WakeCommandDeviceTest:.
+Error in speakerMicrophoneEchoAndTaggedEchoCannotTriggerTasks(cn.aihongbo.voiceweather.WakeCommandDeviceTest):
+java.lang.RuntimeException: This method can not be called from the main application thread
+	at android.app.Instrumentation.validateNotAppThread(Instrumentation.java:2507)
+	at android.app.Instrumentation.runOnMainSync(Instrumentation.java:489)
+	at androidx.test.runner.MonitoringInstrumentation.runOnMainSync(MonitoringInstrumentation.java:485)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.field(WakeCommandDeviceTest.java:150)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.number(WakeCommandDeviceTest.java:153)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.lambda$speakerMicrophoneEchoAndTaggedEchoCannotTriggerTasks$10(WakeCommandDeviceTest.java:119)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.$r8$lambda$vQZDipgmLx-Jk4-rEPSiWD2javk(Unknown Source:0)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest$$ExternalSyntheticLambda5.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2652)
+	at android.os.Handler.handleCallback(Handler.java:959)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loopOnce(Looper.java:249)
+	at android.os.Looper.loop(Looper.java:337)
+	at android.app.ActivityThread.main(ActivityThread.java:9682)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+
+
+Time: 50.971
+There was 1 failure:
+1) speakerMicrophoneEchoAndTaggedEchoCannotTriggerTasks(cn.aihongbo.voiceweather.WakeCommandDeviceTest)
+java.lang.RuntimeException: This method can not be called from the main application thread
+	at android.app.Instrumentation.validateNotAppThread(Instrumentation.java:2507)
+	at android.app.Instrumentation.runOnMainSync(Instrumentation.java:489)
+	at androidx.test.runner.MonitoringInstrumentation.runOnMainSync(MonitoringInstrumentation.java:485)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.field(WakeCommandDeviceTest.java:150)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.number(WakeCommandDeviceTest.java:153)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.lambda$speakerMicrophoneEchoAndTaggedEchoCannotTriggerTasks$10(WakeCommandDeviceTest.java:119)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.$r8$lambda$vQZDipgmLx-Jk4-rEPSiWD2javk(Unknown Source:0)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest$$ExternalSyntheticLambda5.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2652)
+	at android.os.Handler.handleCallback(Handler.java:959)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loopOnce(Looper.java:249)
+	at android.os.Looper.loop(Looper.java:337)
+	at android.app.ActivityThread.main(ActivityThread.java:9682)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:944)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+

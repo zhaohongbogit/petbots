@@ -1,0 +1,51 @@
+{
+  "capture_wall_ms": 120287,
+  "pcm_audio_ms": 120000.0,
+  "wall_minus_pcm_ms": 287.0,
+  "first_read_delay_ms": 124,
+  "max_read_gap_ms": 333,
+  "read_call_ms": {
+    "sum": 119205,
+    "median": 85.0,
+    "max": 332
+  },
+  "capture_work_ms": {
+    "sum": 980,
+    "median": 0.0,
+    "max": 117
+  },
+  "between_reads_ms": {
+    "sum": 102,
+    "max": 43
+  },
+  "read_rows": 1500,
+  "sample_sum": 1920000,
+  "samples_contiguous": true,
+  "omitted_read_timings": 0,
+  "slow_read_rows": [
+    {
+      "first_sample": 839680,
+      "samples": 1280,
+      "start_ms": 52520,
+      "returned_ms": 52852,
+      "work_end_ms": 52852
+    }
+  ],
+  "slow_work_rows": [
+    {
+      "first_sample": 986880,
+      "samples": 1280,
+      "start_ms": 61961,
+      "returned_ms": 62052,
+      "work_end_ms": 62169
+    }
+  ],
+  "listening_pss_peak_mib": 149.9228515625,
+  "process_pss_peak_mib": 149.9228515625,
+  "max_swap_mib": 58.97265625,
+  "live_max_decode_ms": 641.400875,
+  "live_rtf": 0.7001629406250001,
+  "live_results": [],
+  "queue_dropped_samples": 0,
+  "report_write_ms": 3579.23475
+}

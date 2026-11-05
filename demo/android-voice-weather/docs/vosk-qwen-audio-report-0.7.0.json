@@ -1,0 +1,133 @@
+{
+  "rows": [
+    {
+      "sample": "zhengzhou",
+      "expected_city": "郑州",
+      "city_recovered": true,
+      "raw_asr": "郑州 明天 的 天气 怎么样",
+      "asr_ms": 1400,
+      "semantic_ms": 3581,
+      "audio_seconds": 2.09025,
+      "semantic": {
+        "intent": "weather",
+        "city": "郑州",
+        "date": "明天"
+      },
+      "pss_before_kb": 710817,
+      "pss_after_asr_kb": 745713,
+      "pss_kb": 728984
+    },
+    {
+      "sample": "zhengzhou-fast",
+      "expected_city": "郑州",
+      "city_recovered": true,
+      "raw_asr": "郑州 明天 的 天气 怎么样",
+      "asr_ms": 389,
+      "semantic_ms": 3568,
+      "audio_seconds": 1.6653125,
+      "semantic": {
+        "intent": "weather",
+        "city": "郑州",
+        "date": "明天"
+      },
+      "pss_before_kb": 729308,
+      "pss_after_asr_kb": 734028,
+      "pss_kb": 729936
+    },
+    {
+      "sample": "zhengzhou-hard",
+      "expected_city": "郑州",
+      "city_recovered": false,
+      "raw_asr": "你 能 查 一下 中 明天 的 坚强",
+      "asr_ms": 3084,
+      "semantic_ms": 3687,
+      "audio_seconds": 2.1605,
+      "semantic": {
+        "intent": "other",
+        "city": "null",
+        "date": "null"
+      },
+      "pss_before_kb": 730380,
+      "pss_after_asr_kb": 806768,
+      "pss_kb": 784417,
+      "safely_blocked": true
+    },
+    {
+      "sample": "city-weather",
+      "raw_asr": "上海 明天 天气 怎么样",
+      "asr_ms": 234,
+      "semantic_ms": 3618,
+      "audio_seconds": 2.265125,
+      "semantic": {
+        "intent": "weather",
+        "city": "上海",
+        "date": "明天"
+      },
+      "pss_before_kb": 785037,
+      "pss_after_asr_kb": 780481,
+      "pss_kb": 780909
+    },
+    {
+      "sample": "zhengzhong-warning",
+      "raw_asr": "郑重 提醒 大家 明天 天气 有 变化",
+      "asr_ms": 477,
+      "semantic_ms": 3663,
+      "audio_seconds": 3.135125,
+      "semantic": {
+        "intent": "other",
+        "city": "null",
+        "date": "明天"
+      },
+      "pss_before_kb": 781481,
+      "pss_after_asr_kb": 786485,
+      "pss_kb": 786458
+    },
+    {
+      "sample": "center",
+      "raw_asr": "把 东西 放在 正 中间",
+      "asr_ms": 342,
+      "semantic_ms": 3320,
+      "audio_seconds": 1.930125,
+      "semantic": {
+        "intent": "other",
+        "city": null,
+        "date": null
+      },
+      "pss_before_kb": 786854,
+      "pss_after_asr_kb": 799430,
+      "pss_kb": 800786
+    },
+    {
+      "sample": "yes",
+      "raw_asr": "是 的",
+      "asr_ms": 94,
+      "semantic_ms": 1669,
+      "audio_seconds": 0.570125,
+      "semantic": {
+        "intent": "yes"
+      },
+      "pss_before_kb": 801109,
+      "pss_after_asr_kb": 795933,
+      "pss_kb": 713597
+    },
+    {
+      "sample": "no",
+      "raw_asr": "不用",
+      "asr_ms": 234,
+      "semantic_ms": 1655,
+      "audio_seconds": 0.6036875,
+      "semantic": {
+        "intent": "no"
+      },
+      "pss_before_kb": 713749,
+      "pss_after_asr_kb": 717101,
+      "pss_kb": 717415
+    }
+  ],
+  "asr_load_ms": 544,
+  "pss_after_asr_load_kb": 306844,
+  "qwen_load_ms": 603,
+  "pss_after_both_load_kb": 710313,
+  "pss_with_two_models_kb": 717447,
+  "failures": []
+}

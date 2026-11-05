@@ -1,0 +1,21 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'cn.aihongbo.voiceweather.board'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'cn.aihongbo.voiceweather.board'
+        minSdk 27
+        targetSdk 35
+        versionCode 7
+        versionName '0.4.1'
+        ndk { abiFilters 'armeabi-v7a' }
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    sourceSets.main.assets.srcDirs = ['../app/src/main/assets']
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies {
+    implementation 'com.alphacephei:vosk-android:0.3.75@aar'
+    implementation 'net.java.dev.jna:jna:5.18.1@aar'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+}

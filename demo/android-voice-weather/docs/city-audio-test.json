@@ -1,0 +1,75 @@
+{
+  "case": "local_asr_city_extraction_and_live_weather",
+  "method": "Android instrumentation; shell launch; direct widget actions",
+  "default_city": "北京",
+  "spoken_city": "上海",
+  "day": "明天",
+  "passed": true,
+  "entries": [
+    {
+      "timestamp": 1792659385573,
+      "source": "模型",
+      "text": "Vosk 中文模型就绪，识别无需网络"
+    },
+    {
+      "timestamp": 1792659387287,
+      "source": "自检",
+      "text": "音频 2.27 秒，推理 1657 ms，RTF 0.73（合成样本）"
+    },
+    {
+      "timestamp": 1792659387287,
+      "source": "离线音频",
+      "text": "上海 明天 天气 怎么样"
+    },
+    {
+      "timestamp": 1792659387287,
+      "source": "城市",
+      "text": "语音/文字指定城市：上海"
+    },
+    {
+      "timestamp": 1792659387287,
+      "source": "助手",
+      "text": "需要帮主人查询上海明天的天气吗？"
+    },
+    {
+      "timestamp": 1792659391508,
+      "source": "流程",
+      "text": "等待明确回答，8 秒后超时"
+    },
+    {
+      "timestamp": 1792659392238,
+      "source": "自检",
+      "text": "音频 0.57 秒，推理 707 ms，RTF 1.24（合成样本）"
+    },
+    {
+      "timestamp": 1792659392238,
+      "source": "离线音频",
+      "text": "是 的"
+    },
+    {
+      "timestamp": 1792659392239,
+      "source": "天气",
+      "text": "明确确认后请求 Open-Meteo，城市：上海"
+    },
+    {
+      "timestamp": 1792659394339,
+      "source": "预报",
+      "text": "上海明天，有雨，最低17度，最高22度，降水概率百分之94。"
+    },
+    {
+      "timestamp": 1792659394345,
+      "source": "助手",
+      "text": "上海明天，有雨，最低17度，最高22度，降水概率百分之94。"
+    },
+    {
+      "timestamp": 1792659401710,
+      "source": "流程",
+      "text": "播报流程结束，继续安静记录，冷却 30 秒"
+    },
+    {
+      "timestamp": 1792659401782,
+      "source": "流程",
+      "text": "已离开前台，停止监听及当前交互"
+    }
+  ]
+}

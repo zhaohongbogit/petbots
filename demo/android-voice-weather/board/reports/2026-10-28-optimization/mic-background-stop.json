@@ -1,0 +1,176 @@
+{
+  "version": "0.3.0",
+  "sample_rate": 16000,
+  "frame_samples": 1280,
+  "queue_capacity": 32,
+  "pipeline_reset_interval_s": 20,
+  "decoder_profile": "weather_vocabulary",
+  "max_queue_age_limit_ms": 1500,
+  "audio_diagnostic_enabled": false,
+  "audio_levels": [
+    {
+      "captured_samples": 1280,
+      "samples": 1280,
+      "rms": 0,
+      "dc_mean": 0,
+      "peak": 0
+    },
+    {
+      "captured_samples": 17920,
+      "samples": 16640,
+      "rms": 44.145911230434294,
+      "dc_mean": 3.3493389423076922,
+      "peak": 162
+    },
+    {
+      "captured_samples": 34560,
+      "samples": 16640,
+      "rms": 50.01237527141119,
+      "dc_mean": -3.0215745192307693,
+      "peak": 168
+    },
+    {
+      "captured_samples": 51200,
+      "samples": 16640,
+      "rms": 49.987446741464694,
+      "dc_mean": 1.517548076923077,
+      "peak": 182
+    }
+  ],
+  "duration_limit_s": 120,
+  "source": 6,
+  "qwen_enabled": false,
+  "recognizer_count": 1,
+  "memory_samples": [
+    {
+      "phase": "待开始",
+      "elapsed_ms": 2251910,
+      "pss_kib": 34217,
+      "native_allocated_kib": 3375,
+      "VmHWM": "65432 kB",
+      "VmRSS": "65416 kB",
+      "VmSwap": "4392 kB"
+    },
+    {
+      "phase": "加载模型",
+      "elapsed_ms": 2255559,
+      "pss_kib": 75094,
+      "native_allocated_kib": 41969,
+      "VmHWM": "107900 kB",
+      "VmRSS": "107900 kB",
+      "VmSwap": "4232 kB"
+    },
+    {
+      "phase": "预热 1\/2（尚未录音）",
+      "elapsed_ms": 2258800,
+      "pss_kib": 123634,
+      "native_allocated_kib": 102633,
+      "VmHWM": "141540 kB",
+      "VmRSS": "141336 kB",
+      "VmSwap": "4248 kB"
+    },
+    {
+      "phase": "监听就绪，请说话",
+      "elapsed_ms": 2262001,
+      "pss_kib": 129537,
+      "native_allocated_kib": 103692,
+      "VmHWM": "147208 kB",
+      "VmRSS": "145252 kB",
+      "VmSwap": "4224 kB"
+    },
+    {
+      "phase": "监听就绪，请说话",
+      "elapsed_ms": 2265749,
+      "pss_kib": 129572,
+      "native_allocated_kib": 102786,
+      "VmHWM": "147892 kB",
+      "VmRSS": "145256 kB",
+      "VmSwap": "4260 kB"
+    },
+    {
+      "phase": "已停止",
+      "elapsed_ms": 2266565,
+      "pss_kib": 104363,
+      "native_allocated_kib": 3928,
+      "VmHWM": "147892 kB",
+      "VmRSS": "125756 kB",
+      "VmSwap": "4840 kB"
+    }
+  ],
+  "warmup": [
+    {
+      "round": 0,
+      "decode_ms": 1219.47975,
+      "audio_ms": 2090.25
+    },
+    {
+      "round": 1,
+      "decode_ms": 1081.3505,
+      "audio_ms": 2090.25
+    }
+  ],
+  "results": [],
+  "timestamps": [
+    {
+      "frame_position": 1408,
+      "nano_time": 2261552492000,
+      "captured_samples": 1280,
+      "elapsed_ms": 2261552
+    },
+    {
+      "frame_position": 17952,
+      "nano_time": 2262576440875,
+      "captured_samples": 17920,
+      "elapsed_ms": 2262576
+    },
+    {
+      "frame_position": 34848,
+      "nano_time": 2263643018750,
+      "captured_samples": 34560,
+      "elapsed_ms": 2263643
+    },
+    {
+      "frame_position": 51392,
+      "nano_time": 2264667231250,
+      "captured_samples": 51200,
+      "elapsed_ms": 2264667
+    }
+  ],
+  "note": "Queue drops include overflow and stale frames. Timestamps do not prove zero driver loss. Optional WAV contains first 30s of original capture, before queue drops; local only.",
+  "model_and_recognizer_load_ms": 6663,
+  "phase": "已停止",
+  "error": "",
+  "capture_start_ms": 2261419,
+  "capture_end_ms": 2264766,
+  "capture_wall_ms": 3347,
+  "captured_samples": 52480,
+  "decoded_samples": 52480,
+  "queue_dropped_samples": 0,
+  "overflow_dropped_samples": 0,
+  "stale_dropped_samples": 0,
+  "queue_frames": 0,
+  "max_queue_frames": 2,
+  "read_errors": 0,
+  "zero_reads": 0,
+  "max_read_gap_ms": 107,
+  "first_read_delay_ms": 133,
+  "decode_ms": 2437.626125,
+  "decode_rtf": 0.7431786966463415,
+  "max_decode_frame_ms": 568.095,
+  "max_queue_age_ms": 111,
+  "zero_sample_ratio": 0.16276676829268294,
+  "clipped_samples": 0,
+  "peak": 182,
+  "last_rms": 64.61654925404171,
+  "energetic_frames": 0,
+  "partial_updates": 0,
+  "natural_finals": 0,
+  "segment_flushes": 0,
+  "decoder_gap_resets": 0,
+  "timestamp_ok": 4,
+  "timestamp_errors": 0,
+  "routed_input": "id=4, type=15, iot_imx7d_pico",
+  "sample_wall_delta_ms": -67,
+  "record_buffer_frames": 32000,
+  "preferred_input_id": -1
+}

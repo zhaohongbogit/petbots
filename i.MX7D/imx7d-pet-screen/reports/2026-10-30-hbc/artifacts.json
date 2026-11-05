@@ -1,0 +1,17 @@
+{
+  "pet-screen.apk": {
+    "bytes": 93591153,
+    "sha256": "a29ecee9d7242c72a9591bac3d522dc6125e560af377efdf1e33ed753249a2b4"
+  },
+  "pet-screen-update.apk": {
+    "bytes": 18879860,
+    "sha256": "a3d8a25874cbb8610ed9748b4066d050ed4d3c80db8882195f767bb6a42acc2a"
+  },
+  "aluotest/test.apk": {
+    "bytes": 648134,
+    "sha256": "2b0048efc5a05537b06c1771b4a2c4c210ef5ae38beda51f8c868a8b716898c6"
+  },
+  "installed_update_matches": true,
+  "full_update_code_native_private_login_match": true,
+  "fixed_test_login_asset_present": true
+}

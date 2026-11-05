@@ -1,0 +1,14 @@
+.gradle/
+.gradle-user-home/
+local.properties
+**/build/
+__pycache__/
+*.pyc
+
+.cxx/
+third_party/
+models/
+
+app/libs/*.aar
+
+app/src/main/assets/model-cn/

@@ -1,0 +1,13 @@
+{
+  "version": "0.4.0",
+  "versionCode": 6,
+  "apk": "/Users/hongbozhao/Source/ZHB-iot/demo/android-voice-weather/board/build/outputs/apk/debug/board-debug.apk",
+  "sha256": "0e7cfc3601c4a2fa8639017496fd6a819457bd683486052b90f45438899bf66a",
+  "native_libraries": [
+    "lib/armeabi-v7a/libjnidispatch.so",
+    "lib/armeabi-v7a/libvosk.so"
+  ],
+  "build": "board assembleDebug and assembleDebugAndroidTest passed",
+  "lint": "0 errors, 11 warnings",
+  "no_firmware_or_system_library_changes": true
+}

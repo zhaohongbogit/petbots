@@ -1,0 +1,2 @@
+# Optional hardware adapter; install only after confirming wiring and pin factory.
+gpiozero==2.0.1

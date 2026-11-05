@@ -1,0 +1,10 @@
+{
+  "blocked_qwen_asr_completed_ms": 5098,
+  "transcripts_before_qwen_completed": 4,
+  "transcripts_during_qwen": 3,
+  "all_transcripts_after_burst": 24,
+  "bounded_semantic_backlog": 8,
+  "semantic_overflow_skipped": 15,
+  "persisted_before_semantic_completion": true,
+  "reset_prevented_old_action": true
+}

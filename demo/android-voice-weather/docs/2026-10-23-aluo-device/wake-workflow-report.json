@@ -1,0 +1,14 @@
+{
+  "input": "final-text injection through the actual Activity; real Qwen and offline TTS",
+  "ordinary_speech_does_not_ack_or_call_qwen": true,
+  "ack_tts_playback_observed": true,
+  "model_waits_for_ack": true,
+  "wake_prefix_removed_for_qwen_only": true,
+  "qwen_weather_and_city_recognized": true,
+  "unwoken_rejection_has_no_extra_ack_or_query": true,
+  "standalone_wake_next_sentence": true,
+  "vosk_yes_confirmed_simulated_forecast": true,
+  "real_weather_request_count": 0,
+  "reset_during_ack_prevents_old_task": true,
+  "activity_log": "13:36:46 [流程] 已重置，旧推理结果将丢弃\n13:36:46 [助手] 收到\n13:36:46 [转写 · 设备验证文字注入] 阿洛，上海明天天气怎么样\n13:36:45 [流程] 已重置，旧推理结果将丢弃\n13:36:45 [流程] 播报流程结束，继续安静记录；同一城市和日期冷却 30 秒\n13:36:40 [判断] 已明确同意，正在查询天气\n13:36:40 [助手] 模拟数据：上海明天晴，最低18度，最高25度。\n13:36:39 [预报] 模拟数据：上海明天晴，最低18度，最高25度。\n13:36:39 [天气] 模拟模式：未发出网络请求\n13:36:39 [Qwen 语义] {\"intent\": \"yes\"} · 推理 3841 ms · 排队 1 ms · PSS 690 MiB\n13:36:36 [转写 · 合成音频 yes] 是 的\n13:36:34 [流程] 等待明确回答，8 秒窗口\n13:36:30 [判断] 已提取目标：上海 2026-10-24，准备询问是否查询\n13:36:30 [助手] 需要帮主人查询上海明天的天气吗？\n13:36:30 [Qwen 语义] {\"intent\": \"weather\",\"city\": \"上海\",\"date\": \"明天\"} · 推理 7522 ms · 排队 1338 ms · PSS 747 MiB\n13:36:21 [助手] 收到\n13:36:21 [转写 · 设备验证文字注入] 上海明天天气怎么样\n13:36:21 [唤醒] 回应完成，开启 8 秒下一句接收窗口；未调用 Qwen\n13:36:20 [助手] 收到\n13:36:20 [转写 · 设备验证文字注入] 阿洛\n13:36:20 [流程] 已重置，旧推理结果将丢弃\n13:36:20 [判断] 已拒绝，不查询、不追加播报；只冷却当前城市和日期\n13:36:20 [流程] 已拒绝，未查询、不追加播报\n13:36:20 [Qwen 语义] {\"intent\": \"no\"} · 推理 3801 ms · 排队 3 ms · PSS 675 MiB\n13:36:16 [转写 · 设备验证文字注入] 不用\n13:36:16 [流程] 等待明确回答，8 秒窗口\n13:36:12 [判断] 已提取目标：上海 2026-10-24，准备询问是否查询\n13:36:12 [助手] 需要帮主人查询上海明天的天气吗？\n13:36:12 [Qwen 语义] {\"intent\": \"weather\",\"city\": \"上海\",\"date\": \"明天\"} · 推理 7531 ms · 排队 1621 ms · PSS 744 MiB\n13:36:03 [助手] 收到\n13:36:03 [转写 · 设备验证文字注入] 阿洛，上海明天天气怎么样\n13:36:03 [仅记录] 未以“阿洛”唤醒，且不在下一句接收窗口；不调用 Qwen\n13:36:03 [转写 · 设备验证文字注入] 上海明天天气怎么样\n13:36:03 [流程] 已重置，旧推理结果将丢弃\n13:36:02 [播报] 中文离线语音就绪\n"
+}

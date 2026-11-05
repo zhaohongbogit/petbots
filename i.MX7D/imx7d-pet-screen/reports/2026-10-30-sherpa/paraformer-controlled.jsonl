@@ -1,0 +1,8 @@
+{"load_s":20.210}
+{"sample_start":0,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "", "timestamps": [], "durations": [], "tokens":[], "ys_log_probs": [], "words": []}}
+{"sample_start":160000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "阿路上海明天天气怎么样阿路今天", "timestamps": [], "durations": [], "tokens":["阿", "路", "上", "海", "明", "天", "天", "气", "怎", "么", "样", "阿", "路", "今", "天"], "ys_log_probs": [], "words": []}}
+{"sample_start":320000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "是星期五我正在测试麦克风", "timestamps": [], "durations": [], "tokens":["是", "星", "期", "五", "我", "正", "在", "测", "试", "麦", "克", "风"], "ys_log_probs": [], "words": []}}
+{"sample_start":480000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "不想看不想了", "timestamps": [], "durations": [], "tokens":["不", "想", "看", "不", "想", "了"], "ys_log_probs": [], "words": []}}
+{"sample_start":640000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "是", "timestamps": [], "durations": [], "tokens":["是"], "ys_log_probs": [], "words": []}}
+{"sample_start":800000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "不在", "timestamps": [], "durations": [], "tokens":["不", "在"], "ys_log_probs": [], "words": []}}
+{"samples":960000,"decode_s":65.027,"peak_rss_kib":137896}

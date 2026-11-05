@@ -1,0 +1,99 @@
+[
+  {
+    "sample": "zhengzhou",
+    "baseline": "郑州 明天 的 天气 怎么样",
+    "baseline_city": "郑州",
+    "baseline_ms": 1454,
+    "enhanced_alternatives": [
+      "郑州 明天 的 天气 怎么样"
+    ],
+    "enhanced_interpreted": "郑州 明天 的 天气 怎么样",
+    "enhanced_city": "郑州",
+    "correction": "通用识别原文，未作城市纠错",
+    "enhanced_ms": 1442,
+    "expected_city": "郑州",
+    "recovered_city": true
+  },
+  {
+    "sample": "zhengzhou-fast",
+    "baseline": "郑州 明天 的 天气 怎么样",
+    "baseline_city": "郑州",
+    "baseline_ms": 1661,
+    "enhanced_alternatives": [
+      "郑州 明天 的 天气 怎么样"
+    ],
+    "enhanced_interpreted": "郑州 明天 的 天气 怎么样",
+    "enhanced_city": "郑州",
+    "correction": "通用识别原文，未作城市纠错",
+    "enhanced_ms": 1664,
+    "expected_city": "郑州",
+    "recovered_city": true
+  },
+  {
+    "sample": "zhengzhou-lowpass",
+    "baseline": "郑州 明天 的 天气 怎么样",
+    "baseline_city": "郑州",
+    "baseline_ms": 1439,
+    "enhanced_alternatives": [
+      "郑州 明天 的 天气 怎么样",
+      "上周 明天 的 天气 怎么样"
+    ],
+    "enhanced_interpreted": "郑州 明天 的 天气 怎么样",
+    "enhanced_city": "郑州",
+    "correction": "通用识别原文，未作城市纠错",
+    "enhanced_ms": 1464,
+    "expected_city": "郑州",
+    "recovered_city": true
+  },
+  {
+    "sample": "zhengzhou-hard",
+    "baseline": "你 能 查 一下 中 明天 的 坚强",
+    "baseline_city": "unresolved",
+    "baseline_ms": 4327,
+    "enhanced_alternatives": [
+      "你 能 查 一下 叫做 明天 的 坚强",
+      "你 能 查 一下 郑州 明天 的 坚强",
+      "你 能 查 一下 这么 做 明天 的 坚强",
+      "你 能 查 一下 种种 明天 的 坚强",
+      "你 能 查 一下 重装 明天 的 坚强"
+    ],
+    "enhanced_interpreted": "你 能 查 一下 叫做 明天 的 坚强",
+    "enhanced_city": "unresolved",
+    "correction": "通用识别原文，未作城市纠错",
+    "enhanced_ms": 4251,
+    "expected_city": "郑州",
+    "recovered_city": false
+  },
+  {
+    "sample": "zhengzhong-warning",
+    "baseline": "郑重 提醒 大家 明天 天气 有 变化",
+    "baseline_city": "unresolved",
+    "baseline_ms": 1884,
+    "enhanced_alternatives": [
+      "郑重 提醒 大家 明天 天气 有 变化",
+      "郑重 提醒 大家 明天 天气 又 变化"
+    ],
+    "enhanced_interpreted": "郑重 提醒 大家 明天 天气 有 变化",
+    "enhanced_city": "unresolved",
+    "correction": "通用识别原文，未作城市纠错",
+    "enhanced_ms": 1928,
+    "expected_city": "none",
+    "recovered_city": false
+  },
+  {
+    "sample": "center",
+    "baseline": "把 东西 放在 正 中间",
+    "baseline_city": "unresolved",
+    "baseline_ms": 1564,
+    "enhanced_alternatives": [
+      "把 东西 放在 正 中间",
+      "那 东西 放在 正 中间"
+    ],
+    "enhanced_interpreted": "把 东西 放在 正 中间",
+    "enhanced_city": "unresolved",
+    "correction": "通用识别原文，未作城市纠错",
+    "enhanced_ms": 1540,
+    "expected_city": "none",
+    "recovered_city": false
+  }
+]

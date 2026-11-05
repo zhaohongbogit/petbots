@@ -1,0 +1,64 @@
+{
+  "device": {
+    "fingerprint": "Things/iot_imx7d_pico/imx7d_pico:8.1.0/OIM1.180327.097/5796897:userdebug/dev-keys",
+    "things_version": "1.0.15",
+    "kernel_commit": "d7aad6b094830bf4cafd113cd8e34efd85f9c965",
+    "kernel_version": "4.9.78",
+    "bluetooth_module": "/system/lib/hw/bluetooth.default.so",
+    "bluetooth_sha256": "174e801e5aa824a126895b14edc90829727f9ed4b4df90226b5050920cf901b1",
+    "bluetooth_build_id": "73ececa52c7ebbd9515c20a2148de0a3"
+  },
+  "exact_1_0_15_public_tag_found": false,
+  "mirrors": [
+    {
+      "directory": "system-bt",
+      "url": "https://android.googlesource.com/platform/system/bt",
+      "tag": "android-o-mr1-iot-release-1.0.14",
+      "commit": "b9ecf192dea541f0f5625fa4d3dce10996257705",
+      "classification": "Official Things release candidate; module layout differs from installed firmware; not drop-in"
+    },
+    {
+      "directory": "Bluetooth",
+      "url": "https://android.googlesource.com/platform/packages/apps/Bluetooth",
+      "tag": "android-o-mr1-iot-release-1.0.14",
+      "commit": "7ae7948f46a0d3064412b05097ac2b8463973b46",
+      "classification": "Official Things reference; not verified identical to installed APK"
+    }
+  ],
+  "snapshots": [
+    {
+      "directory": "system-bt-8.1",
+      "mirror": "system-bt",
+      "tag": "android-8.1.0_r74",
+      "commit": "19547d22872708095470ef4aad7100d4f112b940",
+      "classification": "API27 and bluetooth.default module compatible research baseline; not exact device source"
+    },
+    {
+      "directory": "Bluetooth-8.1",
+      "mirror": "Bluetooth",
+      "tag": "android-8.1.0_r74",
+      "commit": "00febcc68cb6f4d40fc38dbee14c9bb9ae21c7ab",
+      "classification": "AOSP8.1 framework/JNI reference; not exact device source"
+    }
+  ],
+  "bsp_references": [
+    {
+      "url": "https://android.googlesource.com/platform/hardware/bsp/kernel/nxp/imx-v4.9",
+      "tag": "android-o-mr1-iot-release-1.0.14",
+      "commit": "d7aad6b094830bf4cafd113cd8e34efd85f9c965",
+      "classification": "Commit matches running kernel; build configuration equivalence not established"
+    },
+    {
+      "url": "https://android.googlesource.com/platform/hardware/bsp/bootloader/nxp/uboot-imx",
+      "tag": "android-o-mr1-iot-release-1.0.14",
+      "commit": "d2b6658d4d16855b85c9802f279c6dec52664dea",
+      "classification": "Official same-generation bootloader source; running bootloader match not established"
+    },
+    {
+      "url": "https://android.googlesource.com/platform/manifest",
+      "tag": "android-o-mr1-iot-release-1.0.14",
+      "commit": "52246f4c19aedc4bdedc465e3b3ee04afa558ec8",
+      "classification": "Partial public manifest; not a complete rebuildable device BSP"
+    }
+  ]
+}

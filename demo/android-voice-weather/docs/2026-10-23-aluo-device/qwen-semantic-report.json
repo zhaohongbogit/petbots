@@ -1,0 +1,128 @@
+[
+  {
+    "input": "把东西放在正中间",
+    "expected_intent": "other",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": null
+    },
+    "ms": 12459
+  },
+  {
+    "input": "郑州明天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "郑州",
+    "expected_day": 1,
+    "output": {
+      "intent": "weather",
+      "city": "郑州",
+      "date": "明天"
+    },
+    "ms": 13124
+  },
+  {
+    "input": "上海今天天气如何",
+    "expected_intent": "weather",
+    "expected_city": "上海",
+    "expected_day": 0,
+    "output": {
+      "intent": "weather",
+      "city": "上海",
+      "date": "今天"
+    },
+    "ms": 13219
+  },
+  {
+    "input": "今天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "weather",
+      "city": null,
+      "date": "今天"
+    },
+    "ms": 12749
+  },
+  {
+    "input": "今天工作有点忙",
+    "expected_intent": "other",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": "今天"
+    },
+    "ms": 12744
+  },
+  {
+    "input": "郑重提醒大家明天天气有变化",
+    "expected_intent": "other",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "ms": 13231
+  },
+  {
+    "input": "不要查询上海的天气",
+    "expected_intent": "no",
+    "expected_city": "上海",
+    "expected_day": 0,
+    "output": {
+      "intent": "no",
+      "city": "null",
+      "date": "null"
+    },
+    "ms": 13176
+  },
+  {
+    "input": "上海后天天气怎么样",
+    "expected_intent": "weather",
+    "expected_city": "上海",
+    "expected_day": -1,
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "null"
+    },
+    "ms": 12944
+  },
+  {
+    "input": "是的",
+    "expected_intent": "yes",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "yes"
+    },
+    "ms": 6695
+  },
+  {
+    "input": "不是的",
+    "expected_intent": "no",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "no"
+    },
+    "ms": 6733
+  },
+  {
+    "input": "不用",
+    "expected_intent": "no",
+    "expected_city": "null",
+    "expected_day": 0,
+    "output": {
+      "intent": "no"
+    },
+    "ms": 6688
+  }
+]

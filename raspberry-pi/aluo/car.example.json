@@ -1,0 +1,13 @@
+{
+  "armed": false,
+  "numbering": "BCM",
+  "pins_confirmed": false,
+  "echo_3v3_safe": false,
+  "external_servo_power_common_ground": false,
+  "ena_jumper_removed": false,
+  "calibration_confirmed": false,
+  "reverse_enabled": false,
+  "pins": {"in1": null, "in2": null, "ena": null, "steering": null, "radar": null, "trig": null, "echo": null},
+  "steering": {"min": 80, "center": 90, "max": 100, "min_pulse_ms": 1.0, "max_pulse_ms": 2.0},
+  "radar": {"min": 75, "center": 90, "max": 105, "min_pulse_ms": 1.0, "max_pulse_ms": 2.0}
+}

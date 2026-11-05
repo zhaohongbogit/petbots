@@ -1,0 +1,46 @@
+
+cn.aihongbo.voiceweather.AcousticWakeDeviceTest:.
+cn.aihongbo.voiceweather.WakeCommandDeviceTest:.
+Error in acousticSpeakerCommandAndConfirmation(cn.aihongbo.voiceweather.WakeCommandDeviceTest):
+java.lang.AssertionError: Real microphone did not wake and reach confirmation
+14:33:07 [流程] 已离开前台，停止录音及交互
+14:32:57 [仅记录] 未以“阿洛”唤醒，且不在下一句接收窗口；不调用 Qwen
+14:32:57 [转写 · 麦克风] 饭
+14:32:46 [判断] 模型判断为普通聊天或否定，不插话
+14:32:46 [Qwen 语义] {"intent": "other","city": null,"date": "明天"} · 推理 7831 ms · 排队 1474 ms · PSS 805 MiB
+14:32:37 [助手] 收到
+14:32:37 [独立声学唤醒] 检测到阿洛；原始转写未改写；后续命令：上海 明天；置信度：1.0
+14:32:37 [转写 · 麦克风] 阿诺 上海 明天
+14:32:32 [流程] 开始 Vosk 麦克风实验
+14:32:32 [流程] 已重置，旧推理结果将丢弃
+14:32:32 [播报] 中文离线语音就绪
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.await(WakeCommandDeviceTest.java:206)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.acousticSpeakerCommandAndConfirmation(WakeCommandDeviceTest.java:159)
+.
+
+Time: 145.262
+There was 1 failure:
+1) acousticSpeakerCommandAndConfirmation(cn.aihongbo.voiceweather.WakeCommandDeviceTest)
+java.lang.AssertionError: Real microphone did not wake and reach confirmation
+14:33:07 [流程] 已离开前台，停止录音及交互
+14:32:57 [仅记录] 未以“阿洛”唤醒，且不在下一句接收窗口；不调用 Qwen
+14:32:57 [转写 · 麦克风] 饭
+14:32:46 [判断] 模型判断为普通聊天或否定，不插话
+14:32:46 [Qwen 语义] {"intent": "other","city": null,"date": "明天"} · 推理 7831 ms · 排队 1474 ms · PSS 805 MiB
+14:32:37 [助手] 收到
+14:32:37 [独立声学唤醒] 检测到阿洛；原始转写未改写；后续命令：上海 明天；置信度：1.0
+14:32:37 [转写 · 麦克风] 阿诺 上海 明天
+14:32:32 [流程] 开始 Vosk 麦克风实验
+14:32:32 [流程] 已重置，旧推理结果将丢弃
+14:32:32 [播报] 中文离线语音就绪
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.await(WakeCommandDeviceTest.java:206)
+	at cn.aihongbo.voiceweather.WakeCommandDeviceTest.acousticSpeakerCommandAndConfirmation(WakeCommandDeviceTest.java:159)
+
+FAILURES!!!
+Tests run: 4,  Failures: 1
+
+

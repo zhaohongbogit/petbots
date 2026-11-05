@@ -1,0 +1,3 @@
+注: src/cn/aihongbo/voiceweather/HbcAgentClient.java使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+PASS 12 quote flow assertions; no real audio/network/SMS/order

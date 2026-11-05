@@ -1,0 +1,13 @@
+{
+  "phone_files_unchanged": 79,
+  "artifacts": {
+    "build/outputs/apk/debug/board-debug.apk": {
+      "sha256": "020b04149e86a539a53e3237cd55d16851576ac0a925cd49efbdf1949da1bd3a",
+      "bytes": 54727668
+    },
+    "build/outputs/apk/androidTest/debug/board-debug-androidTest.apk": {
+      "sha256": "1a18f5bf0a394c8a90178dffaf9a838a73bcfcc6f4489a036486949fc7ce92c7",
+      "bytes": 1110061
+    }
+  }
+}

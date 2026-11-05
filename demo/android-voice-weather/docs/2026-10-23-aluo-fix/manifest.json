@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-23",
+  "device": {
+    "serial": "9c79ecb0",
+    "model": "23049RAD8C",
+    "android": "15"
+  },
+  "artifacts": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "bytes": 62461108,
+      "sha256": "c26241ce3fc3fd0017ff954f0ced148ceaa3ede8f2616a274292289b1b9797d4"
+    },
+    {
+      "path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "bytes": 1757950,
+      "sha256": "ccd1c3d7fd9326d2e31f5ceb00dd782fe10ac13d2c5cb601c01be8734351c02d"
+    }
+  ],
+  "fixtures": [
+    {
+      "path": "app/src/androidTest/assets/wake/abo.pcm",
+      "bytes": 95366,
+      "duration_seconds": 2.9801875,
+      "sha256": "fd560337cc953444eed11254477b9784c89803a939e7cc23467120cde28a437b",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/aluo-weather.pcm",
+      "bytes": 95366,
+      "duration_seconds": 2.9801875,
+      "sha256": "c27a6145675a2ef2d0c7be4ae6d12861e7ea4235e4ebf3940babac92f4aaa584",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/aluo.pcm",
+      "bytes": 17718,
+      "duration_seconds": 0.5536875,
+      "sha256": "e17f2c5b15ac3152bf249232357f1b4181d3d30625dfb0d36a67c9a99087cb00",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/annuo.pcm",
+      "bytes": 96852,
+      "duration_seconds": 3.026625,
+      "sha256": "83d18610ca707f9eea37cd717ff39b75f1936571bf8331611c9b06e340f0b1bc",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/fast.pcm",
+      "bytes": 77266,
+      "duration_seconds": 2.4145625,
+      "sha256": "48bccceb9976670214189f7e0d217c69f7ad44f885931a6f85893a4442866f79",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/hallo.pcm",
+      "bytes": 98316,
+      "duration_seconds": 3.072375,
+      "sha256": "7e29ed5441b6da08f8e52f305a70c154be7fa3a777c66c282cce503bd0f06412",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/mention.pcm",
+      "bytes": 45450,
+      "duration_seconds": 1.4203125,
+      "sha256": "66b339e7d17579389ffc5b04b01b4045686408493c692961017ef25665773a40",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/slow.pcm",
+      "bytes": 104604,
+      "duration_seconds": 3.268875,
+      "sha256": "cfd635ca6afe4d3b4fad8cc7008a08a0d8fed96767c5eda2680148796e4fe619",
+      "source": "offline macOS Tingting; 16kHz mono PCM16; slow=125, fast=220, other=165 words/min"
+    }
+  ],
+  "unit_tests": {
+    "tests": 53,
+    "failures": 0,
+    "errors": 0
+  },
+  "installed_main_sha256": "c26241ce3fc3fd0017ff954f0ced148ceaa3ede8f2616a274292289b1b9797d4",
+  "installed_main_matches_build": true,
+  "weather": "simulation only; no live=true arguments and no audio uploads",
+  "installed_test_sha256": "ccd1c3d7fd9326d2e31f5ceb00dd782fe10ac13d2c5cb601c01be8734351c02d",
+  "installed_test_matches_build": true,
+  "verification": {
+    "native_regression": "passed: 4 positive, 10 negative, continuous source state; original dictation unchanged",
+    "pcm_workflow": "passed",
+    "assistant_echo": "passed",
+    "same_device_full_command": "failed: wake succeeded but raw command was truncated; Qwen returned other",
+    "external_speaker_microphone_workflow": "passed, 40.005 seconds; synthetic audio, real microphone, Qwen, TTS and simulation",
+    "all_live_weather_requests": 0,
+    "audio_uploads": 0,
+    "post_volume_constraint": "all automatic volume writes removed; no additional audible tests; compile, unit tests and Lint only"
+  },
+  "volume_readback": {
+    "mac_output_percent": 6,
+    "phone_media": 40,
+    "phone_media_max": 150,
+    "not_changed_after_user_instruction": true
+  }
+}

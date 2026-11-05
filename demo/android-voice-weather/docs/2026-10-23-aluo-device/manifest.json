@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-23",
+  "device": {
+    "serial": "9c79ecb0",
+    "model": "23049RAD8C",
+    "android": "15"
+  },
+  "artifacts": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "bytes": 62458795,
+      "sha256": "89e7561234b2c807054f8cb49f126fde145e0c7355a41fe944f194e30394d4d6"
+    },
+    {
+      "path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "bytes": 1396954,
+      "sha256": "f0357fdbec3061c8eba4ca86a384c7eee6c269ef2a2b0e3b541e6034746027ff"
+    }
+  ],
+  "fixtures": [
+    {
+      "path": "app/src/androidTest/assets/wake/aluo-weather.pcm",
+      "bytes": 95366,
+      "duration_seconds": 2.9801875,
+      "sha256": "c27a6145675a2ef2d0c7be4ae6d12861e7ea4235e4ebf3940babac92f4aaa584",
+      "source": "macOS Tingting, say -r 165; ffmpeg 16kHz mono s16le"
+    },
+    {
+      "path": "app/src/androidTest/assets/wake/aluo.pcm",
+      "bytes": 17718,
+      "duration_seconds": 0.5536875,
+      "sha256": "e17f2c5b15ac3152bf249232357f1b4181d3d30625dfb0d36a67c9a99087cb00",
+      "source": "macOS Tingting, say -r 165; ffmpeg 16kHz mono s16le"
+    }
+  ],
+  "unit_tests": {
+    "tests": 46,
+    "failures": 0,
+    "errors": 0
+  },
+  "ui_tests_status": "workflow passed in initial run; echo passed after test-only threading correction",
+  "weather": "simulation_only; no weather requests performed",
+  "installed_main_apk_sha256": "89e7561234b2c807054f8cb49f126fde145e0c7355a41fe944f194e30394d4d6",
+  "installed_main_apk_matches_build": true,
+  "native_wake_test": {
+    "status": "failed",
+    "synthetic_cases": 2,
+    "accepted": 0,
+    "streamed_frames_ms": 80,
+    "instrumentation_seconds": 3.727
+  },
+  "isolated_qwen_test": {
+    "status": "passed",
+    "semantic_cases": 11,
+    "test_seconds": 127.1,
+    "inference_ms_min": 6688,
+    "inference_ms_max": 13231
+  },
+  "lint": {
+    "status": "completed",
+    "warnings": 34,
+    "errors": 0
+  },
+  "actual_tts_and_echo_test": {
+    "status": "passed",
+    "retest_seconds": 13.727,
+    "real_microphone_echo_transcript_observed": true,
+    "unexpected_acknowledgements": 0,
+    "qwen_called": false,
+    "real_weather_request_count": 0
+  },
+  "workflow_test": {
+    "status": "passed",
+    "input": "final text commands plus native Vosk yes fixture",
+    "actual_tts_playback_observed": true,
+    "real_weather_request_count": 0
+  },
+  "first_ui_run": {
+    "tests": 2,
+    "passed": 1,
+    "failed": 1,
+    "seconds": 50.971,
+    "failure": "test fixture called runOnMainSync from main thread; corrected and echo retested"
+  }
+}

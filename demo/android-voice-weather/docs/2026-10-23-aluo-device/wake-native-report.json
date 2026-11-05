@@ -1,0 +1,19 @@
+{
+  "input": "macOS Tingting synthetic PCM, 16kHz mono PCM16, streamed in 80ms frames; not a live microphone",
+  "cases": [
+    {
+      "fixture": "aluo",
+      "raw_vosk": "那 咯",
+      "gate": "IGNORE",
+      "command": "",
+      "accepted": false
+    },
+    {
+      "fixture": "aluo-weather",
+      "raw_vosk": "落 上海 明天 天气 怎么样",
+      "gate": "IGNORE",
+      "command": "",
+      "accepted": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "input": "synthetic PCM through actual Activity streaming Vosk, independent wake decoder, real Qwen and offline TTS; reset cancellation uses final-text injection",
+  "ordinary_speech_does_not_ack_or_call_qwen": true,
+  "ack_tts_playback_observed": true,
+  "model_waits_for_ack": true,
+  "raw_vosk_wake_error_preserved": true,
+  "command_started_from_native_audio": true,
+  "wake_prefix_removed_for_qwen_only": true,
+  "qwen_weather_and_city_recognized": true,
+  "unwoken_rejection_has_no_extra_ack_or_query": true,
+  "standalone_wake_next_sentence": true,
+  "vosk_yes_confirmed_simulated_forecast": true,
+  "real_weather_request_count": 0,
+  "reset_during_ack_prevents_old_task": true,
+  "activity_log": "14:32:28 [流程] 已重置，旧推理结果将丢弃\n14:32:28 [助手] 收到\n14:32:28 [转写 · 设备验证文字注入] 阿洛，上海明天天气怎么样\n14:32:28 [流程] 已重置，旧推理结果将丢弃\n14:32:28 [流程] 播报流程结束，继续安静记录；同一城市和日期冷却 30 秒\n14:32:22 [判断] 已明确同意，正在查询天气\n14:32:22 [助手] 模拟数据：上海明天晴，最低18度，最高25度。\n14:32:22 [预报] 模拟数据：上海明天晴，最低18度，最高25度。\n14:32:22 [天气] 模拟模式：未发出网络请求\n14:32:22 [Qwen 语义] {\"intent\": \"yes\"} · 推理 3930 ms · 排队 1 ms · PSS 701 MiB\n14:32:18 [转写 · 合成音频 yes] 是 的\n14:32:17 [流程] 等待明确回答，8 秒窗口\n14:32:13 [判断] 已提取目标：上海 2026-10-24，准备询问是否查询\n14:32:13 [助手] 需要帮主人查询上海明天的天气吗？\n14:32:13 [Qwen 语义] {\"intent\": \"weather\",\"city\": \"上海\",\"date\": \"明天\"} · 推理 7936 ms · 排队 1370 ms · PSS 758 MiB\n14:32:04 [助手] 收到\n14:32:04 [转写 · 合成音频 city-weather] 上海 明天 天气 怎么样\n14:32:01 [唤醒] 回应完成，开启 8 秒下一句接收窗口；未调用 Qwen\n14:32:00 [助手] 收到\n14:32:00 [独立声学唤醒] 检测到阿洛；原始转写未改写；后续命令：；置信度：1.0\n14:32:00 [转写 · 唤醒PCM注入] 那 咯\n14:31:58 [流程] 已重置，旧推理结果将丢弃\n14:31:58 [判断] 已拒绝，不查询、不追加播报；只冷却当前城市和日期\n14:31:58 [流程] 已拒绝，未查询、不追加播报\n14:31:58 [Qwen 语义] {\"intent\": \"no\"} · 推理 3897 ms · 排队 1 ms · PSS 708 MiB\n14:31:54 [转写 · 合成音频 no] 不用\n14:31:52 [流程] 等待明确回答，8 秒窗口\n14:31:48 [判断] 已提取目标：上海 2026-10-24，准备询问是否查询\n14:31:48 [助手] 需要帮主人查询上海明天的天气吗？\n14:31:48 [Qwen 语义] {\"intent\": \"weather\",\"city\": \"上海\",\"date\": \"明天\"} · 推理 7915 ms · 排队 1380 ms · PSS 754 MiB\n14:31:39 [助手] 收到\n14:31:39 [独立声学唤醒] 检测到阿洛；原始转写未改写；后续命令：上海 明天 天气 怎么样；置信度：1.0\n14:31:39 [转写 · 唤醒PCM注入] 落 上海 明天 天气 怎么样\n14:31:36 [仅记录] 未以“阿洛”唤醒，且不在下一句接收窗口；不调用 Qwen\n14:31:36 [转写 · 合成音频 city-weather] 上海 明天 天气 怎么样\n14:31:33 [流程] 已重置，旧推理结果将丢弃\n14:31:33 [播报] 中文离线语音就绪\n"
+}

@@ -1,0 +1,10 @@
+
+cn.aihongbo.voiceweather.QwenAsrDeviceTest:.
+cn.aihongbo.voiceweather.QwenOnlyUiTest:.
+cn.aihongbo.voiceweather.QwenSemanticDeviceTest:.
+
+Time: 131.705
+
+OK (3 tests)
+
+

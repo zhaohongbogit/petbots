@@ -1,0 +1,10 @@
+{
+  "sample": "samples\/zhengzhou.pcm",
+  "repetitions": 3,
+  "volume_changed": false,
+  "route_name": "AirPods Pro",
+  "route_type": 8,
+  "route_id": 21,
+  "playback_head_frames": 100332,
+  "expected_frames": 100332
+}

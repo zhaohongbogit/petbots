@@ -1,0 +1,1551 @@
+{
+  "mode": "dual",
+  "abi": "armeabi-v7a",
+  "sample_rate": 16000,
+  "frame_samples": 1280,
+  "qwen_enabled": false,
+  "memory_samples": [
+    {
+      "elapsed_ms": 1147887,
+      "phase": "baseline",
+      "pss_kib": 30511,
+      "native_allocated_kib": 1786,
+      "java_used_kib": 1047,
+      "VmHWM": "52896 kB",
+      "VmRSS": "52880 kB"
+    },
+    {
+      "elapsed_ms": 1148042,
+      "phase": "model_load",
+      "pss_kib": 32120,
+      "native_allocated_kib": 1883,
+      "java_used_kib": 1180,
+      "VmHWM": "55772 kB",
+      "VmRSS": "55688 kB"
+    },
+    {
+      "elapsed_ms": 1148409,
+      "phase": "model_load",
+      "pss_kib": 37780,
+      "native_allocated_kib": 8818,
+      "java_used_kib": 1123,
+      "VmHWM": "63032 kB",
+      "VmRSS": "63032 kB"
+    },
+    {
+      "elapsed_ms": 1148766,
+      "phase": "model_load",
+      "pss_kib": 51883,
+      "native_allocated_kib": 20017,
+      "java_used_kib": 1143,
+      "VmHWM": "74484 kB",
+      "VmRSS": "74484 kB"
+    },
+    {
+      "elapsed_ms": 1149122,
+      "phase": "model_load",
+      "pss_kib": 54941,
+      "native_allocated_kib": 19159,
+      "java_used_kib": 1179,
+      "VmHWM": "75976 kB",
+      "VmRSS": "75976 kB"
+    },
+    {
+      "elapsed_ms": 1149481,
+      "phase": "model_load",
+      "pss_kib": 55453,
+      "native_allocated_kib": 20721,
+      "java_used_kib": 1215,
+      "VmHWM": "76300 kB",
+      "VmRSS": "76300 kB"
+    },
+    {
+      "elapsed_ms": 1149839,
+      "phase": "model_load",
+      "pss_kib": 55670,
+      "native_allocated_kib": 21162,
+      "java_used_kib": 1251,
+      "VmHWM": "76564 kB",
+      "VmRSS": "76564 kB"
+    },
+    {
+      "elapsed_ms": 1150196,
+      "phase": "model_load",
+      "pss_kib": 56418,
+      "native_allocated_kib": 23887,
+      "java_used_kib": 1287,
+      "VmHWM": "79376 kB",
+      "VmRSS": "79376 kB"
+    },
+    {
+      "elapsed_ms": 1151234,
+      "phase": "model_load",
+      "pss_kib": 64997,
+      "native_allocated_kib": 42485,
+      "java_used_kib": 1307,
+      "VmHWM": "97000 kB",
+      "VmRSS": "97000 kB"
+    },
+    {
+      "elapsed_ms": 1151739,
+      "phase": "model_load",
+      "pss_kib": 81417,
+      "native_allocated_kib": 56210,
+      "java_used_kib": 1343,
+      "VmHWM": "108484 kB",
+      "VmRSS": "108484 kB"
+    },
+    {
+      "elapsed_ms": 1152099,
+      "phase": "model_load",
+      "pss_kib": 86851,
+      "native_allocated_kib": 59659,
+      "java_used_kib": 1379,
+      "VmHWM": "111364 kB",
+      "VmRSS": "108888 kB"
+    },
+    {
+      "elapsed_ms": 1152492,
+      "phase": "model_load",
+      "pss_kib": 91243,
+      "native_allocated_kib": 64363,
+      "java_used_kib": 1415,
+      "VmHWM": "114688 kB",
+      "VmRSS": "114688 kB"
+    },
+    {
+      "elapsed_ms": 1152856,
+      "phase": "model_load",
+      "pss_kib": 98323,
+      "native_allocated_kib": 69977,
+      "java_used_kib": 1451,
+      "VmHWM": "120476 kB",
+      "VmRSS": "120476 kB"
+    },
+    {
+      "elapsed_ms": 1153223,
+      "phase": "model_load",
+      "pss_kib": 102267,
+      "native_allocated_kib": 99997,
+      "java_used_kib": 1129,
+      "VmHWM": "126860 kB",
+      "VmRSS": "126860 kB"
+    },
+    {
+      "elapsed_ms": 1153701,
+      "phase": "model_load",
+      "pss_kib": 109424,
+      "native_allocated_kib": 99999,
+      "java_used_kib": 1165,
+      "VmHWM": "134252 kB",
+      "VmRSS": "133068 kB"
+    },
+    {
+      "elapsed_ms": 1153983,
+      "phase": "model_load",
+      "pss_kib": 116111,
+      "native_allocated_kib": 100140,
+      "java_used_kib": 1201,
+      "VmHWM": "134252 kB",
+      "VmRSS": "131776 kB"
+    },
+    {
+      "elapsed_ms": 1154080,
+      "phase": "recognizer_load",
+      "pss_kib": 116042,
+      "native_allocated_kib": 102552,
+      "java_used_kib": 1221,
+      "VmHWM": "134252 kB",
+      "VmRSS": "132228 kB"
+    },
+    {
+      "elapsed_ms": 1154452,
+      "phase": "recognizer_load",
+      "pss_kib": 116982,
+      "native_allocated_kib": 103303,
+      "java_used_kib": 1257,
+      "VmHWM": "134252 kB",
+      "VmRSS": "133304 kB"
+    },
+    {
+      "elapsed_ms": 1154813,
+      "phase": "recognizer_load",
+      "pss_kib": 117982,
+      "native_allocated_kib": 104610,
+      "java_used_kib": 1293,
+      "VmHWM": "135464 kB",
+      "VmRSS": "135464 kB"
+    },
+    {
+      "elapsed_ms": 1155015,
+      "phase": "recognizer_load",
+      "pss_kib": 120676,
+      "native_allocated_kib": 104785,
+      "java_used_kib": 1329,
+      "VmHWM": "135840 kB",
+      "VmRSS": "135840 kB"
+    },
+    {
+      "elapsed_ms": 1155187,
+      "phase": "throughput",
+      "pss_kib": 121112,
+      "native_allocated_kib": 105399,
+      "java_used_kib": 1184,
+      "VmHWM": "138176 kB",
+      "VmRSS": "138176 kB"
+    },
+    {
+      "elapsed_ms": 1155574,
+      "phase": "throughput",
+      "pss_kib": 122288,
+      "native_allocated_kib": 106321,
+      "java_used_kib": 1220,
+      "VmHWM": "138276 kB",
+      "VmRSS": "138276 kB"
+    },
+    {
+      "elapsed_ms": 1155932,
+      "phase": "throughput",
+      "pss_kib": 122440,
+      "native_allocated_kib": 106689,
+      "java_used_kib": 1256,
+      "VmHWM": "138652 kB",
+      "VmRSS": "138652 kB"
+    },
+    {
+      "elapsed_ms": 1156291,
+      "phase": "throughput",
+      "pss_kib": 123836,
+      "native_allocated_kib": 108410,
+      "java_used_kib": 1292,
+      "VmHWM": "140628 kB",
+      "VmRSS": "140628 kB"
+    },
+    {
+      "elapsed_ms": 1156651,
+      "phase": "throughput",
+      "pss_kib": 125272,
+      "native_allocated_kib": 109250,
+      "java_used_kib": 1328,
+      "VmHWM": "141304 kB",
+      "VmRSS": "141304 kB"
+    },
+    {
+      "elapsed_ms": 1157010,
+      "phase": "throughput",
+      "pss_kib": 125700,
+      "native_allocated_kib": 110349,
+      "java_used_kib": 1364,
+      "VmHWM": "142584 kB",
+      "VmRSS": "142584 kB"
+    },
+    {
+      "elapsed_ms": 1157369,
+      "phase": "throughput",
+      "pss_kib": 126980,
+      "native_allocated_kib": 111293,
+      "java_used_kib": 1384,
+      "VmHWM": "143108 kB",
+      "VmRSS": "143108 kB"
+    },
+    {
+      "elapsed_ms": 1157729,
+      "phase": "throughput",
+      "pss_kib": 127860,
+      "native_allocated_kib": 112525,
+      "java_used_kib": 1420,
+      "VmHWM": "144612 kB",
+      "VmRSS": "144612 kB"
+    },
+    {
+      "elapsed_ms": 1158088,
+      "phase": "throughput",
+      "pss_kib": 129268,
+      "native_allocated_kib": 113382,
+      "java_used_kib": 1456,
+      "VmHWM": "145480 kB",
+      "VmRSS": "145480 kB"
+    },
+    {
+      "elapsed_ms": 1158448,
+      "phase": "throughput",
+      "pss_kib": 131680,
+      "native_allocated_kib": 115472,
+      "java_used_kib": 1492,
+      "VmHWM": "147792 kB",
+      "VmRSS": "147792 kB"
+    },
+    {
+      "elapsed_ms": 1158808,
+      "phase": "throughput",
+      "pss_kib": 132172,
+      "native_allocated_kib": 116013,
+      "java_used_kib": 1528,
+      "VmHWM": "148056 kB",
+      "VmRSS": "148052 kB"
+    },
+    {
+      "elapsed_ms": 1159177,
+      "phase": "throughput",
+      "pss_kib": 132256,
+      "native_allocated_kib": 116886,
+      "java_used_kib": 1196,
+      "VmHWM": "148164 kB",
+      "VmRSS": "148104 kB"
+    },
+    {
+      "elapsed_ms": 1159536,
+      "phase": "throughput",
+      "pss_kib": 132744,
+      "native_allocated_kib": 117731,
+      "java_used_kib": 1232,
+      "VmHWM": "149012 kB",
+      "VmRSS": "149012 kB"
+    },
+    {
+      "elapsed_ms": 1159896,
+      "phase": "throughput",
+      "pss_kib": 133635,
+      "native_allocated_kib": 118503,
+      "java_used_kib": 1252,
+      "VmHWM": "149728 kB",
+      "VmRSS": "149728 kB"
+    },
+    {
+      "elapsed_ms": 1160264,
+      "phase": "throughput",
+      "pss_kib": 134479,
+      "native_allocated_kib": 119192,
+      "java_used_kib": 1304,
+      "VmHWM": "151044 kB",
+      "VmRSS": "151044 kB"
+    },
+    {
+      "elapsed_ms": 1160626,
+      "phase": "throughput",
+      "pss_kib": 136227,
+      "native_allocated_kib": 120316,
+      "java_used_kib": 1356,
+      "VmHWM": "153576 kB",
+      "VmRSS": "153576 kB"
+    },
+    {
+      "elapsed_ms": 1160992,
+      "phase": "throughput",
+      "pss_kib": 137647,
+      "native_allocated_kib": 121241,
+      "java_used_kib": 1408,
+      "VmHWM": "153576 kB",
+      "VmRSS": "153576 kB"
+    },
+    {
+      "elapsed_ms": 1161352,
+      "phase": "throughput",
+      "pss_kib": 137799,
+      "native_allocated_kib": 121487,
+      "java_used_kib": 1444,
+      "VmHWM": "153948 kB",
+      "VmRSS": "153948 kB"
+    },
+    {
+      "elapsed_ms": 1161896,
+      "phase": "throughput",
+      "pss_kib": 136425,
+      "native_allocated_kib": 122244,
+      "java_used_kib": 1464,
+      "VmHWM": "153948 kB",
+      "VmRSS": "149388 kB"
+    },
+    {
+      "elapsed_ms": 1162346,
+      "phase": "throughput",
+      "pss_kib": 135019,
+      "native_allocated_kib": 122634,
+      "java_used_kib": 1500,
+      "VmHWM": "153948 kB",
+      "VmRSS": "148588 kB"
+    },
+    {
+      "elapsed_ms": 1162855,
+      "phase": "throughput",
+      "pss_kib": 137528,
+      "native_allocated_kib": 123215,
+      "java_used_kib": 1212,
+      "VmHWM": "153968 kB",
+      "VmRSS": "153968 kB"
+    },
+    {
+      "elapsed_ms": 1163373,
+      "phase": "throughput",
+      "pss_kib": 142569,
+      "native_allocated_kib": 123839,
+      "java_used_kib": 1344,
+      "VmHWM": "155880 kB",
+      "VmRSS": "153188 kB"
+    },
+    {
+      "elapsed_ms": 1163735,
+      "phase": "throughput",
+      "pss_kib": 141780,
+      "native_allocated_kib": 124168,
+      "java_used_kib": 1380,
+      "VmHWM": "155880 kB",
+      "VmRSS": "153540 kB"
+    },
+    {
+      "elapsed_ms": 1164094,
+      "phase": "throughput",
+      "pss_kib": 144872,
+      "native_allocated_kib": 127255,
+      "java_used_kib": 1416,
+      "VmHWM": "156704 kB",
+      "VmRSS": "156704 kB"
+    },
+    {
+      "elapsed_ms": 1164453,
+      "phase": "throughput",
+      "pss_kib": 145396,
+      "native_allocated_kib": 127734,
+      "java_used_kib": 1452,
+      "VmHWM": "157092 kB",
+      "VmRSS": "157092 kB"
+    },
+    {
+      "elapsed_ms": 1164815,
+      "phase": "throughput",
+      "pss_kib": 145496,
+      "native_allocated_kib": 128499,
+      "java_used_kib": 1488,
+      "VmHWM": "157188 kB",
+      "VmRSS": "157188 kB"
+    },
+    {
+      "elapsed_ms": 1165179,
+      "phase": "throughput",
+      "pss_kib": 145612,
+      "native_allocated_kib": 126151,
+      "java_used_kib": 1524,
+      "VmHWM": "157292 kB",
+      "VmRSS": "157028 kB"
+    },
+    {
+      "elapsed_ms": 1165560,
+      "phase": "throughput",
+      "pss_kib": 145544,
+      "native_allocated_kib": 127167,
+      "java_used_kib": 1250,
+      "VmHWM": "157872 kB",
+      "VmRSS": "157260 kB"
+    },
+    {
+      "elapsed_ms": 1165918,
+      "phase": "throughput",
+      "pss_kib": 145788,
+      "native_allocated_kib": 127865,
+      "java_used_kib": 1286,
+      "VmHWM": "157872 kB",
+      "VmRSS": "156600 kB"
+    },
+    {
+      "elapsed_ms": 1166282,
+      "phase": "throughput",
+      "pss_kib": 145232,
+      "native_allocated_kib": 128864,
+      "java_used_kib": 1322,
+      "VmHWM": "157872 kB",
+      "VmRSS": "157044 kB"
+    },
+    {
+      "elapsed_ms": 1166642,
+      "phase": "throughput",
+      "pss_kib": 145756,
+      "native_allocated_kib": 129011,
+      "java_used_kib": 1358,
+      "VmHWM": "157872 kB",
+      "VmRSS": "157584 kB"
+    },
+    {
+      "elapsed_ms": 1167005,
+      "phase": "throughput",
+      "pss_kib": 146136,
+      "native_allocated_kib": 128092,
+      "java_used_kib": 1394,
+      "VmHWM": "157908 kB",
+      "VmRSS": "157908 kB"
+    },
+    {
+      "elapsed_ms": 1167364,
+      "phase": "throughput",
+      "pss_kib": 146376,
+      "native_allocated_kib": 129184,
+      "java_used_kib": 1430,
+      "VmHWM": "158056 kB",
+      "VmRSS": "158056 kB"
+    },
+    {
+      "elapsed_ms": 1167746,
+      "phase": "throughput",
+      "pss_kib": 146516,
+      "native_allocated_kib": 129767,
+      "java_used_kib": 1466,
+      "VmHWM": "158248 kB",
+      "VmRSS": "158248 kB"
+    },
+    {
+      "elapsed_ms": 1168108,
+      "phase": "throughput",
+      "pss_kib": 147456,
+      "native_allocated_kib": 130256,
+      "java_used_kib": 1518,
+      "VmHWM": "159244 kB",
+      "VmRSS": "159128 kB"
+    },
+    {
+      "elapsed_ms": 1168476,
+      "phase": "throughput",
+      "pss_kib": 147780,
+      "native_allocated_kib": 129997,
+      "java_used_kib": 1554,
+      "VmHWM": "159788 kB",
+      "VmRSS": "159784 kB"
+    },
+    {
+      "elapsed_ms": 1168844,
+      "phase": "throughput",
+      "pss_kib": 148052,
+      "native_allocated_kib": 130448,
+      "java_used_kib": 1253,
+      "VmHWM": "159812 kB",
+      "VmRSS": "159796 kB"
+    },
+    {
+      "elapsed_ms": 1169213,
+      "phase": "throughput",
+      "pss_kib": 148427,
+      "native_allocated_kib": 130077,
+      "java_used_kib": 1321,
+      "VmHWM": "160116 kB",
+      "VmRSS": "160116 kB"
+    },
+    {
+      "elapsed_ms": 1169573,
+      "phase": "throughput",
+      "pss_kib": 148755,
+      "native_allocated_kib": 129943,
+      "java_used_kib": 1357,
+      "VmHWM": "160408 kB",
+      "VmRSS": "160408 kB"
+    },
+    {
+      "elapsed_ms": 1169937,
+      "phase": "throughput",
+      "pss_kib": 149219,
+      "native_allocated_kib": 131247,
+      "java_used_kib": 1409,
+      "VmHWM": "160868 kB",
+      "VmRSS": "160868 kB"
+    },
+    {
+      "elapsed_ms": 1170302,
+      "phase": "throughput",
+      "pss_kib": 149687,
+      "native_allocated_kib": 132041,
+      "java_used_kib": 1461,
+      "VmHWM": "161396 kB",
+      "VmRSS": "161396 kB"
+    },
+    {
+      "elapsed_ms": 1170669,
+      "phase": "throughput",
+      "pss_kib": 149919,
+      "native_allocated_kib": 131018,
+      "java_used_kib": 1497,
+      "VmHWM": "161396 kB",
+      "VmRSS": "161396 kB"
+    },
+    {
+      "elapsed_ms": 1171034,
+      "phase": "throughput",
+      "pss_kib": 149951,
+      "native_allocated_kib": 131439,
+      "java_used_kib": 1549,
+      "VmHWM": "161768 kB",
+      "VmRSS": "161768 kB"
+    },
+    {
+      "elapsed_ms": 1171398,
+      "phase": "throughput",
+      "pss_kib": 149911,
+      "native_allocated_kib": 130604,
+      "java_used_kib": 1585,
+      "VmHWM": "161768 kB",
+      "VmRSS": "161656 kB"
+    },
+    {
+      "elapsed_ms": 1171774,
+      "phase": "throughput",
+      "pss_kib": 150050,
+      "native_allocated_kib": 131119,
+      "java_used_kib": 1258,
+      "VmHWM": "161852 kB",
+      "VmRSS": "161852 kB"
+    },
+    {
+      "elapsed_ms": 1172140,
+      "phase": "throughput",
+      "pss_kib": 150254,
+      "native_allocated_kib": 129025,
+      "java_used_kib": 1294,
+      "VmHWM": "161852 kB",
+      "VmRSS": "161852 kB"
+    },
+    {
+      "elapsed_ms": 1172307,
+      "phase": "throughput",
+      "pss_kib": 150314,
+      "native_allocated_kib": 129025,
+      "java_used_kib": 1330,
+      "VmHWM": "161852 kB",
+      "VmRSS": "161852 kB"
+    },
+    {
+      "elapsed_ms": 1172505,
+      "phase": "throughput",
+      "pss_kib": 149742,
+      "native_allocated_kib": 129826,
+      "java_used_kib": 1230,
+      "VmHWM": "162288 kB",
+      "VmRSS": "161212 kB"
+    },
+    {
+      "elapsed_ms": 1172874,
+      "phase": "throughput",
+      "pss_kib": 149630,
+      "native_allocated_kib": 131278,
+      "java_used_kib": 1266,
+      "VmHWM": "162288 kB",
+      "VmRSS": "161536 kB"
+    },
+    {
+      "elapsed_ms": 1173240,
+      "phase": "throughput",
+      "pss_kib": 150166,
+      "native_allocated_kib": 131781,
+      "java_used_kib": 1302,
+      "VmHWM": "162288 kB",
+      "VmRSS": "161720 kB"
+    },
+    {
+      "elapsed_ms": 1173604,
+      "phase": "throughput",
+      "pss_kib": 150654,
+      "native_allocated_kib": 130050,
+      "java_used_kib": 1354,
+      "VmHWM": "162288 kB",
+      "VmRSS": "162208 kB"
+    },
+    {
+      "elapsed_ms": 1173972,
+      "phase": "throughput",
+      "pss_kib": 150698,
+      "native_allocated_kib": 131248,
+      "java_used_kib": 1406,
+      "VmHWM": "162288 kB",
+      "VmRSS": "162208 kB"
+    },
+    {
+      "elapsed_ms": 1174336,
+      "phase": "throughput",
+      "pss_kib": 150638,
+      "native_allocated_kib": 130100,
+      "java_used_kib": 1458,
+      "VmHWM": "162316 kB",
+      "VmRSS": "161812 kB"
+    },
+    {
+      "elapsed_ms": 1174700,
+      "phase": "throughput",
+      "pss_kib": 150202,
+      "native_allocated_kib": 130306,
+      "java_used_kib": 1494,
+      "VmHWM": "162316 kB",
+      "VmRSS": "161720 kB"
+    },
+    {
+      "elapsed_ms": 1175066,
+      "phase": "throughput",
+      "pss_kib": 150194,
+      "native_allocated_kib": 130801,
+      "java_used_kib": 1546,
+      "VmHWM": "162316 kB",
+      "VmRSS": "161852 kB"
+    },
+    {
+      "elapsed_ms": 1175464,
+      "phase": "throughput",
+      "pss_kib": 150186,
+      "native_allocated_kib": 129985,
+      "java_used_kib": 1247,
+      "VmHWM": "162316 kB",
+      "VmRSS": "161520 kB"
+    },
+    {
+      "elapsed_ms": 1175823,
+      "phase": "throughput",
+      "pss_kib": 149914,
+      "native_allocated_kib": 130591,
+      "java_used_kib": 1267,
+      "VmHWM": "162316 kB",
+      "VmRSS": "161668 kB"
+    },
+    {
+      "elapsed_ms": 1176188,
+      "phase": "throughput",
+      "pss_kib": 150314,
+      "native_allocated_kib": 132140,
+      "java_used_kib": 1319,
+      "VmHWM": "162400 kB",
+      "VmRSS": "162124 kB"
+    },
+    {
+      "elapsed_ms": 1176554,
+      "phase": "throughput",
+      "pss_kib": 150658,
+      "native_allocated_kib": 132882,
+      "java_used_kib": 1371,
+      "VmHWM": "162452 kB",
+      "VmRSS": "162452 kB"
+    },
+    {
+      "elapsed_ms": 1176944,
+      "phase": "throughput",
+      "pss_kib": 150962,
+      "native_allocated_kib": 131395,
+      "java_used_kib": 1407,
+      "VmHWM": "162708 kB",
+      "VmRSS": "162708 kB"
+    },
+    {
+      "elapsed_ms": 1177310,
+      "phase": "throughput",
+      "pss_kib": 151066,
+      "native_allocated_kib": 131985,
+      "java_used_kib": 1459,
+      "VmHWM": "162720 kB",
+      "VmRSS": "162716 kB"
+    },
+    {
+      "elapsed_ms": 1177695,
+      "phase": "throughput",
+      "pss_kib": 151022,
+      "native_allocated_kib": 131686,
+      "java_used_kib": 1495,
+      "VmHWM": "162732 kB",
+      "VmRSS": "162636 kB"
+    },
+    {
+      "elapsed_ms": 1178059,
+      "phase": "throughput",
+      "pss_kib": 151334,
+      "native_allocated_kib": 131647,
+      "java_used_kib": 1547,
+      "VmHWM": "162868 kB",
+      "VmRSS": "162868 kB"
+    },
+    {
+      "elapsed_ms": 1178424,
+      "phase": "throughput",
+      "pss_kib": 151252,
+      "native_allocated_kib": 130301,
+      "java_used_kib": 1250,
+      "VmHWM": "162888 kB",
+      "VmRSS": "162616 kB"
+    },
+    {
+      "elapsed_ms": 1178668,
+      "phase": "throughput",
+      "pss_kib": 151292,
+      "native_allocated_kib": 129905,
+      "java_used_kib": 1270,
+      "VmHWM": "162888 kB",
+      "VmRSS": "162616 kB"
+    },
+    {
+      "elapsed_ms": 1178804,
+      "phase": "throughput",
+      "pss_kib": 151288,
+      "native_allocated_kib": 130007,
+      "java_used_kib": 1230,
+      "VmHWM": "163068 kB",
+      "VmRSS": "161908 kB"
+    },
+    {
+      "elapsed_ms": 1179168,
+      "phase": "throughput",
+      "pss_kib": 150076,
+      "native_allocated_kib": 131899,
+      "java_used_kib": 1266,
+      "VmHWM": "163068 kB",
+      "VmRSS": "162152 kB"
+    },
+    {
+      "elapsed_ms": 1179533,
+      "phase": "throughput",
+      "pss_kib": 150764,
+      "native_allocated_kib": 132453,
+      "java_used_kib": 1302,
+      "VmHWM": "163068 kB",
+      "VmRSS": "162392 kB"
+    },
+    {
+      "elapsed_ms": 1179919,
+      "phase": "throughput",
+      "pss_kib": 151584,
+      "native_allocated_kib": 130671,
+      "java_used_kib": 1354,
+      "VmHWM": "163076 kB",
+      "VmRSS": "163076 kB"
+    },
+    {
+      "elapsed_ms": 1180284,
+      "phase": "throughput",
+      "pss_kib": 151620,
+      "native_allocated_kib": 131883,
+      "java_used_kib": 1406,
+      "VmHWM": "163076 kB",
+      "VmRSS": "163076 kB"
+    },
+    {
+      "elapsed_ms": 1180649,
+      "phase": "throughput",
+      "pss_kib": 151500,
+      "native_allocated_kib": 130725,
+      "java_used_kib": 1458,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162772 kB"
+    },
+    {
+      "elapsed_ms": 1181013,
+      "phase": "throughput",
+      "pss_kib": 151100,
+      "native_allocated_kib": 130996,
+      "java_used_kib": 1494,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162680 kB"
+    },
+    {
+      "elapsed_ms": 1181383,
+      "phase": "throughput",
+      "pss_kib": 151040,
+      "native_allocated_kib": 131446,
+      "java_used_kib": 1546,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162540 kB"
+    },
+    {
+      "elapsed_ms": 1181749,
+      "phase": "throughput",
+      "pss_kib": 150848,
+      "native_allocated_kib": 131141,
+      "java_used_kib": 1253,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162324 kB"
+    },
+    {
+      "elapsed_ms": 1182114,
+      "phase": "throughput",
+      "pss_kib": 151060,
+      "native_allocated_kib": 131626,
+      "java_used_kib": 1289,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162800 kB"
+    },
+    {
+      "elapsed_ms": 1182492,
+      "phase": "throughput",
+      "pss_kib": 151460,
+      "native_allocated_kib": 132615,
+      "java_used_kib": 1325,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162996 kB"
+    },
+    {
+      "elapsed_ms": 1182856,
+      "phase": "throughput",
+      "pss_kib": 151336,
+      "native_allocated_kib": 131432,
+      "java_used_kib": 1377,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162656 kB"
+    },
+    {
+      "elapsed_ms": 1183222,
+      "phase": "throughput",
+      "pss_kib": 151236,
+      "native_allocated_kib": 131875,
+      "java_used_kib": 1429,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162656 kB"
+    },
+    {
+      "elapsed_ms": 1183587,
+      "phase": "throughput",
+      "pss_kib": 151160,
+      "native_allocated_kib": 131565,
+      "java_used_kib": 1481,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162572 kB"
+    },
+    {
+      "elapsed_ms": 1183951,
+      "phase": "throughput",
+      "pss_kib": 151336,
+      "native_allocated_kib": 131272,
+      "java_used_kib": 1517,
+      "VmHWM": "163280 kB",
+      "VmRSS": "163024 kB"
+    },
+    {
+      "elapsed_ms": 1184371,
+      "phase": "throughput",
+      "pss_kib": 151426,
+      "native_allocated_kib": 130331,
+      "java_used_kib": 1553,
+      "VmHWM": "163280 kB",
+      "VmRSS": "163016 kB"
+    },
+    {
+      "elapsed_ms": 1184665,
+      "phase": "throughput",
+      "pss_kib": 151092,
+      "native_allocated_kib": 129478,
+      "java_used_kib": 1269,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162776 kB"
+    },
+    {
+      "elapsed_ms": 1184750,
+      "phase": "paced",
+      "pss_kib": 151096,
+      "native_allocated_kib": 129508,
+      "java_used_kib": 1233,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162532 kB"
+    },
+    {
+      "elapsed_ms": 1185118,
+      "phase": "paced",
+      "pss_kib": 150760,
+      "native_allocated_kib": 130058,
+      "java_used_kib": 1285,
+      "VmHWM": "163280 kB",
+      "VmRSS": "161540 kB"
+    },
+    {
+      "elapsed_ms": 1185482,
+      "phase": "paced",
+      "pss_kib": 148700,
+      "native_allocated_kib": 131450,
+      "java_used_kib": 1321,
+      "VmHWM": "163280 kB",
+      "VmRSS": "161256 kB"
+    },
+    {
+      "elapsed_ms": 1185847,
+      "phase": "paced",
+      "pss_kib": 150380,
+      "native_allocated_kib": 132743,
+      "java_used_kib": 1373,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162296 kB"
+    },
+    {
+      "elapsed_ms": 1186213,
+      "phase": "paced",
+      "pss_kib": 151328,
+      "native_allocated_kib": 133373,
+      "java_used_kib": 1425,
+      "VmHWM": "163280 kB",
+      "VmRSS": "163064 kB"
+    },
+    {
+      "elapsed_ms": 1186578,
+      "phase": "paced",
+      "pss_kib": 151504,
+      "native_allocated_kib": 131782,
+      "java_used_kib": 1477,
+      "VmHWM": "163280 kB",
+      "VmRSS": "163064 kB"
+    },
+    {
+      "elapsed_ms": 1186965,
+      "phase": "paced",
+      "pss_kib": 151388,
+      "native_allocated_kib": 132437,
+      "java_used_kib": 1513,
+      "VmHWM": "163280 kB",
+      "VmRSS": "163084 kB"
+    },
+    {
+      "elapsed_ms": 1187330,
+      "phase": "paced",
+      "pss_kib": 150952,
+      "native_allocated_kib": 131090,
+      "java_used_kib": 1549,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162604 kB"
+    },
+    {
+      "elapsed_ms": 1187704,
+      "phase": "paced",
+      "pss_kib": 150708,
+      "native_allocated_kib": 131541,
+      "java_used_kib": 1292,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162364 kB"
+    },
+    {
+      "elapsed_ms": 1188068,
+      "phase": "paced",
+      "pss_kib": 150352,
+      "native_allocated_kib": 131008,
+      "java_used_kib": 1360,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162076 kB"
+    },
+    {
+      "elapsed_ms": 1188431,
+      "phase": "paced",
+      "pss_kib": 150648,
+      "native_allocated_kib": 131356,
+      "java_used_kib": 1396,
+      "VmHWM": "163280 kB",
+      "VmRSS": "162584 kB"
+    },
+    {
+      "elapsed_ms": 1188796,
+      "phase": "paced",
+      "pss_kib": 151156,
+      "native_allocated_kib": 132612,
+      "java_used_kib": 1432,
+      "VmHWM": "163280 kB",
+      "VmRSS": "163216 kB"
+    },
+    {
+      "elapsed_ms": 1189175,
+      "phase": "paced",
+      "pss_kib": 151626,
+      "native_allocated_kib": 133668,
+      "java_used_kib": 1484,
+      "VmHWM": "163476 kB",
+      "VmRSS": "163472 kB"
+    },
+    {
+      "elapsed_ms": 1189540,
+      "phase": "paced",
+      "pss_kib": 151734,
+      "native_allocated_kib": 132311,
+      "java_used_kib": 1536,
+      "VmHWM": "163476 kB",
+      "VmRSS": "163472 kB"
+    },
+    {
+      "elapsed_ms": 1189906,
+      "phase": "paced",
+      "pss_kib": 151642,
+      "native_allocated_kib": 132707,
+      "java_used_kib": 1588,
+      "VmHWM": "163512 kB",
+      "VmRSS": "163332 kB"
+    },
+    {
+      "elapsed_ms": 1190270,
+      "phase": "paced",
+      "pss_kib": 151470,
+      "native_allocated_kib": 131938,
+      "java_used_kib": 1640,
+      "VmHWM": "163512 kB",
+      "VmRSS": "163360 kB"
+    },
+    {
+      "elapsed_ms": 1190645,
+      "phase": "paced",
+      "pss_kib": 151614,
+      "native_allocated_kib": 132360,
+      "java_used_kib": 1291,
+      "VmHWM": "163512 kB",
+      "VmRSS": "163104 kB"
+    },
+    {
+      "elapsed_ms": 1191010,
+      "phase": "paced",
+      "pss_kib": 151646,
+      "native_allocated_kib": 130226,
+      "java_used_kib": 1343,
+      "VmHWM": "163512 kB",
+      "VmRSS": "163104 kB"
+    },
+    {
+      "elapsed_ms": 1191138,
+      "phase": "paced",
+      "pss_kib": 151654,
+      "native_allocated_kib": 130226,
+      "java_used_kib": 1363,
+      "VmHWM": "163512 kB",
+      "VmRSS": "163340 kB"
+    },
+    {
+      "elapsed_ms": 1191367,
+      "phase": "paced",
+      "pss_kib": 151594,
+      "native_allocated_kib": 130113,
+      "java_used_kib": 1262,
+      "VmHWM": "163680 kB",
+      "VmRSS": "162528 kB"
+    },
+    {
+      "elapsed_ms": 1191744,
+      "phase": "paced",
+      "pss_kib": 150066,
+      "native_allocated_kib": 131057,
+      "java_used_kib": 1282,
+      "VmHWM": "163680 kB",
+      "VmRSS": "160980 kB"
+    },
+    {
+      "elapsed_ms": 1192131,
+      "phase": "paced",
+      "pss_kib": 150318,
+      "native_allocated_kib": 132765,
+      "java_used_kib": 1350,
+      "VmHWM": "163680 kB",
+      "VmRSS": "162932 kB"
+    },
+    {
+      "elapsed_ms": 1192495,
+      "phase": "paced",
+      "pss_kib": 151210,
+      "native_allocated_kib": 133808,
+      "java_used_kib": 1402,
+      "VmHWM": "163680 kB",
+      "VmRSS": "163272 kB"
+    },
+    {
+      "elapsed_ms": 1192858,
+      "phase": "paced",
+      "pss_kib": 151902,
+      "native_allocated_kib": 131721,
+      "java_used_kib": 1454,
+      "VmHWM": "163680 kB",
+      "VmRSS": "163536 kB"
+    },
+    {
+      "elapsed_ms": 1193224,
+      "phase": "paced",
+      "pss_kib": 151954,
+      "native_allocated_kib": 132656,
+      "java_used_kib": 1490,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163708 kB"
+    },
+    {
+      "elapsed_ms": 1193588,
+      "phase": "paced",
+      "pss_kib": 151874,
+      "native_allocated_kib": 131920,
+      "java_used_kib": 1526,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163176 kB"
+    },
+    {
+      "elapsed_ms": 1193957,
+      "phase": "paced",
+      "pss_kib": 151349,
+      "native_allocated_kib": 131720,
+      "java_used_kib": 1578,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163156 kB"
+    },
+    {
+      "elapsed_ms": 1194323,
+      "phase": "paced",
+      "pss_kib": 150973,
+      "native_allocated_kib": 131898,
+      "java_used_kib": 1273,
+      "VmHWM": "163736 kB",
+      "VmRSS": "162368 kB"
+    },
+    {
+      "elapsed_ms": 1194688,
+      "phase": "paced",
+      "pss_kib": 150813,
+      "native_allocated_kib": 131101,
+      "java_used_kib": 1309,
+      "VmHWM": "163736 kB",
+      "VmRSS": "162676 kB"
+    },
+    {
+      "elapsed_ms": 1195076,
+      "phase": "paced",
+      "pss_kib": 151549,
+      "native_allocated_kib": 132569,
+      "java_used_kib": 1361,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163332 kB"
+    },
+    {
+      "elapsed_ms": 1195440,
+      "phase": "paced",
+      "pss_kib": 151473,
+      "native_allocated_kib": 133353,
+      "java_used_kib": 1413,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163168 kB"
+    },
+    {
+      "elapsed_ms": 1195806,
+      "phase": "paced",
+      "pss_kib": 151661,
+      "native_allocated_kib": 132261,
+      "java_used_kib": 1449,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163332 kB"
+    },
+    {
+      "elapsed_ms": 1196198,
+      "phase": "paced",
+      "pss_kib": 151417,
+      "native_allocated_kib": 132679,
+      "java_used_kib": 1517,
+      "VmHWM": "163736 kB",
+      "VmRSS": "162996 kB"
+    },
+    {
+      "elapsed_ms": 1196561,
+      "phase": "paced",
+      "pss_kib": 151249,
+      "native_allocated_kib": 132007,
+      "java_used_kib": 1553,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163248 kB"
+    },
+    {
+      "elapsed_ms": 1196926,
+      "phase": "paced",
+      "pss_kib": 151685,
+      "native_allocated_kib": 132398,
+      "java_used_kib": 1605,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163504 kB"
+    },
+    {
+      "elapsed_ms": 1197304,
+      "phase": "paced",
+      "pss_kib": 151485,
+      "native_allocated_kib": 130884,
+      "java_used_kib": 1290,
+      "VmHWM": "163736 kB",
+      "VmRSS": "163032 kB"
+    },
+    {
+      "elapsed_ms": 1197522,
+      "phase": "paced",
+      "pss_kib": 150298,
+      "native_allocated_kib": 130065,
+      "java_used_kib": 1326,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159148 kB"
+    },
+    {
+      "elapsed_ms": 1197715,
+      "phase": "paced",
+      "pss_kib": 148505,
+      "native_allocated_kib": 130232,
+      "java_used_kib": 1271,
+      "VmHWM": "163736 kB",
+      "VmRSS": "158664 kB"
+    },
+    {
+      "elapsed_ms": 1198083,
+      "phase": "paced",
+      "pss_kib": 147220,
+      "native_allocated_kib": 130747,
+      "java_used_kib": 1291,
+      "VmHWM": "163736 kB",
+      "VmRSS": "156912 kB"
+    },
+    {
+      "elapsed_ms": 1198446,
+      "phase": "paced",
+      "pss_kib": 146184,
+      "native_allocated_kib": 132604,
+      "java_used_kib": 1343,
+      "VmHWM": "163736 kB",
+      "VmRSS": "158164 kB"
+    },
+    {
+      "elapsed_ms": 1198812,
+      "phase": "paced",
+      "pss_kib": 147288,
+      "native_allocated_kib": 133203,
+      "java_used_kib": 1379,
+      "VmHWM": "163736 kB",
+      "VmRSS": "158744 kB"
+    },
+    {
+      "elapsed_ms": 1199181,
+      "phase": "paced",
+      "pss_kib": 148296,
+      "native_allocated_kib": 131532,
+      "java_used_kib": 1463,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159708 kB"
+    },
+    {
+      "elapsed_ms": 1199545,
+      "phase": "paced",
+      "pss_kib": 148352,
+      "native_allocated_kib": 132494,
+      "java_used_kib": 1499,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159772 kB"
+    },
+    {
+      "elapsed_ms": 1199909,
+      "phase": "paced",
+      "pss_kib": 148204,
+      "native_allocated_kib": 131904,
+      "java_used_kib": 1535,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159144 kB"
+    },
+    {
+      "elapsed_ms": 1200274,
+      "phase": "paced",
+      "pss_kib": 147744,
+      "native_allocated_kib": 131634,
+      "java_used_kib": 1587,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159220 kB"
+    },
+    {
+      "elapsed_ms": 1200654,
+      "phase": "paced",
+      "pss_kib": 147464,
+      "native_allocated_kib": 131361,
+      "java_used_kib": 1298,
+      "VmHWM": "163736 kB",
+      "VmRSS": "158724 kB"
+    },
+    {
+      "elapsed_ms": 1201034,
+      "phase": "paced",
+      "pss_kib": 147392,
+      "native_allocated_kib": 131107,
+      "java_used_kib": 1366,
+      "VmHWM": "163736 kB",
+      "VmRSS": "158732 kB"
+    },
+    {
+      "elapsed_ms": 1201399,
+      "phase": "paced",
+      "pss_kib": 147600,
+      "native_allocated_kib": 132608,
+      "java_used_kib": 1386,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159080 kB"
+    },
+    {
+      "elapsed_ms": 1201765,
+      "phase": "paced",
+      "pss_kib": 148280,
+      "native_allocated_kib": 133539,
+      "java_used_kib": 1438,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159536 kB"
+    },
+    {
+      "elapsed_ms": 1202128,
+      "phase": "paced",
+      "pss_kib": 148348,
+      "native_allocated_kib": 132050,
+      "java_used_kib": 1490,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159612 kB"
+    },
+    {
+      "elapsed_ms": 1202494,
+      "phase": "paced",
+      "pss_kib": 148400,
+      "native_allocated_kib": 132486,
+      "java_used_kib": 1542,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159740 kB"
+    },
+    {
+      "elapsed_ms": 1202859,
+      "phase": "paced",
+      "pss_kib": 148224,
+      "native_allocated_kib": 132212,
+      "java_used_kib": 1594,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159132 kB"
+    },
+    {
+      "elapsed_ms": 1203222,
+      "phase": "paced",
+      "pss_kib": 148184,
+      "native_allocated_kib": 132039,
+      "java_used_kib": 1614,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159556 kB"
+    },
+    {
+      "elapsed_ms": 1203586,
+      "phase": "paced",
+      "pss_kib": 148060,
+      "native_allocated_kib": 131498,
+      "java_used_kib": 1283,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159292 kB"
+    },
+    {
+      "elapsed_ms": 1203934,
+      "phase": "paced",
+      "pss_kib": 148108,
+      "native_allocated_kib": 130544,
+      "java_used_kib": 1303,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159292 kB"
+    },
+    {
+      "elapsed_ms": 1203943,
+      "phase": "paced",
+      "pss_kib": 148108,
+      "native_allocated_kib": 125421,
+      "java_used_kib": 1339,
+      "VmHWM": "163736 kB",
+      "VmRSS": "159100 kB"
+    },
+    {
+      "elapsed_ms": 1204327,
+      "phase": "released",
+      "pss_kib": 146816,
+      "native_allocated_kib": 2790,
+      "java_used_kib": 1375,
+      "VmHWM": "163736 kB",
+      "VmRSS": "153056 kB"
+    },
+    {
+      "elapsed_ms": 1204417,
+      "phase": "released",
+      "pss_kib": 141604,
+      "native_allocated_kib": 2790,
+      "java_used_kib": 1411,
+      "VmHWM": "163736 kB",
+      "VmRSS": "153056 kB"
+    }
+  ],
+  "note": "Synthetic PCM; sampled PSS is whole process, not exact peak or model-only memory. Dual matches production decoder calls, excluding UI\/WAV\/wake-evidence parsing.",
+  "copy_ms": 82,
+  "model_load_ms": 5928,
+  "recognizer_load_ms": 854,
+  "runs": [
+    {
+      "paced": false,
+      "round": 0,
+      "audio_ms": 5090.25,
+      "decode_ms": 17021.086875,
+      "rtf": 3.3438606895535585,
+      "wall_ms": 17053,
+      "frame_p95_ms": 859.01175,
+      "frame_max_ms": 5058.4595,
+      "frames_over_80ms": 28,
+      "first_partial_wall_ms": 5768,
+      "max_completion_lag_ms": 0,
+      "finals": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    },
+    {
+      "paced": false,
+      "round": 1,
+      "audio_ms": 5090.25,
+      "decode_ms": 6164.05675,
+      "rtf": 1.2109536368547713,
+      "wall_ms": 6184,
+      "frame_p95_ms": 296.717125,
+      "frame_max_ms": 466.403625,
+      "frames_over_80ms": 28,
+      "first_partial_wall_ms": 714,
+      "max_completion_lag_ms": 0,
+      "finals": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    },
+    {
+      "paced": false,
+      "round": 2,
+      "audio_ms": 5090.25,
+      "decode_ms": 5825.567125,
+      "rtf": 1.1444559943028338,
+      "wall_ms": 5834,
+      "frame_p95_ms": 282.731625,
+      "frame_max_ms": 439.296375,
+      "frames_over_80ms": 28,
+      "first_partial_wall_ms": 692,
+      "max_completion_lag_ms": 0,
+      "finals": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    },
+    {
+      "paced": true,
+      "round": 0,
+      "audio_ms": 5090.25,
+      "decode_ms": 5921.679125,
+      "rtf": 1.163337581651196,
+      "wall_ms": 6311,
+      "frame_p95_ms": 285.38425,
+      "frame_max_ms": 445.954375,
+      "frames_over_80ms": 28,
+      "first_partial_wall_ms": 1078,
+      "max_completion_lag_ms": 924,
+      "finals": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    },
+    {
+      "paced": true,
+      "round": 1,
+      "audio_ms": 5090.25,
+      "decode_ms": 5781.25,
+      "rtf": 1.1357497175973674,
+      "wall_ms": 6169,
+      "frame_p95_ms": 264.15225,
+      "frame_max_ms": 446.66725,
+      "frames_over_80ms": 28,
+      "first_partial_wall_ms": 1078,
+      "max_completion_lag_ms": 760,
+      "finals": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    },
+    {
+      "paced": true,
+      "round": 2,
+      "audio_ms": 5090.25,
+      "decode_ms": 5857.26625,
+      "rtf": 1.1506834143706104,
+      "wall_ms": 6244,
+      "frame_p95_ms": 282.694125,
+      "frame_max_ms": 432.244,
+      "frames_over_80ms": 28,
+      "first_partial_wall_ms": 1064,
+      "max_completion_lag_ms": 858,
+      "finals": [
+        "郑州 明天 的 天气 怎么样"
+      ]
+    }
+  ]
+}

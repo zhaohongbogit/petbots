@@ -1,0 +1,5 @@
+{
+  "consent_before_prompt_discarded": true,
+  "confirmation_waited_beyond_8_seconds_for_qwen": true,
+  "timely_consent_executed_simulated_weather": true
+}

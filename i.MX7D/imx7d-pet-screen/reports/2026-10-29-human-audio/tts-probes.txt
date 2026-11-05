@@ -1,0 +1,11 @@
+--------- beginning of system
+--------- beginning of crash
+--------- beginning of main
+10-29 20:58:38.461 17900 17900 I AluoTts : initialized offline_zh=true
+10-29 20:58:38.493 17900 17900 I AluoTts : queued id=2
+10-29 20:58:42.447 17900 17914 I AluoTts : started id=2
+10-29 20:58:46.132 17900 17914 I AluoTts : completed id=2
+10-29 21:00:36.364 18590 18590 I AluoTts : initialized offline_zh=true
+10-29 21:00:36.403 18590 18590 I AluoTts : queued id=2
+10-29 21:00:40.503 18590 18604 I AluoTts : started id=2
+10-29 21:00:44.147 18590 18604 I AluoTts : completed id=2

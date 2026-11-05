@@ -1,0 +1,17 @@
+--------- beginning of main
+--------- beginning of system
+10-30 14:39:02.654 I/AluoSherpa(11987): models_ready_ms=43143
+10-30 14:39:03.100 I/AluoSherpa(11987): ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:39:03.537 I/AluoLiveProbe(11987): READY actual microphone; wake bypassed; no weather/network
+10-30 14:39:08.211 I/AluoLevel(11987): mode=COMMAND rms=884 peak=2495
+10-30 14:39:13.266 I/AluoLevel(11987): mode=COMMAND rms=464 peak=1655
+10-30 14:39:13.606 I/AluoSherpa(11987): mode=COMMAND captured=917280 decoded=917280 queue=0
+10-30 14:39:18.367 I/AluoLevel(11987): mode=COMMAND rms=265 peak=1832
+10-30 14:39:22.344 I/AluoLiveProbe(11987): VOICE_DETECTED
+10-30 14:39:23.426 I/AluoLevel(11987): mode=COMMAND rms=1012 peak=6298
+10-30 14:39:23.657 I/AluoSherpa(11987): mode=COMMAND captured=1790460 decoded=1790460 queue=0
+10-30 14:39:26.869 I/AluoSherpa(11987): final mode=COMMAND asr_ms=2297 text=上海明天天气怎么样
+10-30 14:39:26.879 I/AluoLiveProbe(11987): RESULT=上海明天天气怎么样
+10-30 14:39:27.072 I/AluoTts (11987): queued id=2
+10-30 14:39:27.509 I/AluoTts (11987): started id=2
+10-30 14:39:31.609 I/AluoTts (11987): completed id=2

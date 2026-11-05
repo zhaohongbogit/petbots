@@ -1,0 +1,12 @@
+{
+  "input": "real device speaker -> microphone plus separately labelled tagged final-text injection",
+  "speaker_volume": 75,
+  "real_tts_playback_observed": true,
+  "tagged_echo_guard_passed": true,
+  "microphone_final_count": 2,
+  "microphone_transcript_observed": true,
+  "unexpected_acknowledgements": 0,
+  "qwen_called": false,
+  "real_weather_request_count": 0,
+  "activity_log": "14:33:24 [流程] 已重置，旧推理结果将丢弃\n14:33:20 [仅记录] 未以“阿洛”唤醒，且不在下一句接收窗口；不调用 Qwen\n14:33:20 [转写 · 麦克风] 的\n14:33:19 [仅记录] 播报重叠或对话阶段已改变，不触发助手\n14:33:19 [转写 · 麦克风] 安诺 上海 明天 天气 怎么样\n14:33:14 [仅记录] 播报重叠或对话阶段已改变，不触发助手\n14:33:14 [转写 · 标记回声注入] 阿洛 上海 明天 天气 怎么样 是的\n14:33:14 [助手] 阿洛，上海明天天气怎么样。是的。\n14:33:13 [流程] 开始 Vosk 麦克风实验\n14:33:13 [流程] 已重置，旧推理结果将丢弃\n14:33:13 [播报] 中文离线语音就绪\n"
+}

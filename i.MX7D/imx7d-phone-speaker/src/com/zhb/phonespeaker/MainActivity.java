@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/** Foreground-only LAN prototype. No cloud, microphone or storage permission. */
+/** LAN audio receiver kept alive while navigating between this app's screens. */
 public class MainActivity extends Activity {
     final Handler main=new Handler();
     final AtomicBoolean busy=new AtomicBoolean();
@@ -42,18 +42,18 @@ public class MainActivity extends Activity {
         info=new TextView(this);info.setTextSize(19);info.setPadding(0,30,0,30);root.addView(info);
         Button stop=new Button(this);stop.setText("停止当前播放");stop.setOnClickListener(v -> {if(busy.get())finishJob("cancelled","user_stopped");});root.addView(stop);
         Button chat=new Button(this);chat.setText("给小七发文字");chat.setOnClickListener(v->startActivity(new android.content.Intent(this,TextChatActivity.class)));root.addView(chat);
-        TextView tip=new TextView(this);tip.setText("请保持此页面在前台。\n用手机音量键调整音量。\n只接收已配置 iMX7 的局域网音频，不上传云端。\n离开页面会停止接收和播放。");tip.setTextSize(16);root.addView(tip);
+        TextView tip=new TextView(this);tip.setText("用手机音量键调整音量。\n进入“给小七发文字”后，音频接收仍会继续。\n只接收持有配对凭据的局域网音频，不上传云端。\n退出应用或进程被系统结束后停止接收。");tip.setTextSize(16);root.addView(tip);
         setContentView(root);show();
     }
     String stateLabel(String value){switch(value){case "ready":return "等待 iMX7 音频";case "accepted":return "已接收";case "preparing":return "准备播放";case "playing":return "正在播放";case "completed":return "播放完成";case "cancelled":return "已停止播放";case "stopped":return "接收已关闭";case "failed":return "播放失败";default:return value;}}
-    void show(){info.setText("接收地址："+bindIp+":8765\n允许设备："+allowedIp+"\n状态："+stateLabel(phase)+"\n音频时长："+duration+" ms\n实际输出："+(route.equals("phone_speaker")?"手机内置扬声器":route.equals("unverified")?"等待播放确认":route)+"\n媒体音量："+audio.getStreamVolume(AudioManager.STREAM_MUSIC)+"/"+audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC)+(error.isEmpty()?"":"\n详情："+error));}
+    void show(){info.setText("接收端口：8765（所有本机网络）\n连接验证：配对凭据（调试模式不限IP）\n状态："+stateLabel(phase)+"\n音频时长："+duration+" ms\n实际输出："+(route.equals("phone_speaker")?"手机内置扬声器":route.equals("unverified")?"等待播放确认":route)+"\n媒体音量："+audio.getStreamVolume(AudioManager.STREAM_MUSIC)+"/"+audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC)+(error.isEmpty()?"":"\n详情："+error));}
     @Override protected void onResume(){super.onResume();
-        if(key.length()<24 || allowedIp.isEmpty() || bindIp.isEmpty()){phase="需要配置连接";show();return;}
+        if(key.length()<24){phase="需要配置连接";show();return;}
         active=true;new Thread(this::serve,"pet-lan-server").start();
     }
     void serve(){
         try(ServerSocket ss=new ServerSocket()){
-            ss.setReuseAddress(true);ss.bind(new InetSocketAddress(bindIp,8765));listener=ss;
+            ss.setReuseAddress(true);ss.bind(new InetSocketAddress(8765));listener=ss;
             if(!active)return;
             main.post(()->{phase="ready";show();});
             while(active){try(Socket s=ss.accept()){client=s;s.setSoTimeout(10000);handle(s);}catch(Exception e){if(active)android.util.Log.i("PetSpeaker","request_failed="+e.getClass().getSimpleName());}finally{client=null;}}
@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
         String[] first=line(in).split(" ");if(first.length!=3){reply(s,400,"{}");return;}
         Map<String,String> headers=new HashMap<>();int total=0;
         for(String l;(l=line(in)).length()>0;){total+=l.length();if(total>8192)throw new IOException("headers_too_long");int n=l.indexOf(':');if(n>0)headers.put(l.substring(0,n).toLowerCase(Locale.ROOT),l.substring(n+1).trim());}
-        if(!s.getInetAddress().getHostAddress().equals(allowedIp) || !java.security.MessageDigest.isEqual(key.getBytes(StandardCharsets.UTF_8),headers.getOrDefault("x-pet-key","").getBytes(StandardCharsets.UTF_8))){reply(s,403,"{\"error\":\"forbidden\"}");return;}
+        if(!java.security.MessageDigest.isEqual(key.getBytes(StandardCharsets.UTF_8),headers.getOrDefault("x-pet-key","").getBytes(StandardCharsets.UTF_8))){reply(s,403,"{\"error\":\"forbidden\"}");return;}
         if(first[0].equals("GET") && first[1].startsWith("/status?id=")){
             if(!first[1].substring(11).equals(job)){reply(s,404,"{}");return;}
             JSONObject j=new JSONObject();j.put("id",job);j.put("state",phase);j.put("route",route);j.put("duration_ms",duration);j.put("error",error);reply(s,200,j.toString());return;
@@ -122,5 +122,8 @@ public class MainActivity extends Activity {
         if(audioFile!=null){audioFile.delete();audioFile=null;}
         phase=result;error=detail;busy.set(false);show();android.util.Log.i("PetSpeaker","state="+result+" route="+route+" error="+detail);
     }
-    @Override protected void onPause(){active=false;try{if(listener!=null)listener.close();if(client!=null)client.close();}catch(IOException ignored){}finishJob("stopped","");super.onPause();}
+    @Override protected void onPause(){super.onPause();}
+    @Override protected void onDestroy(){
+        active=false;try{if(listener!=null)listener.close();if(client!=null)client.close();}catch(IOException ignored){}finishJob("stopped","");super.onDestroy();
+    }
 }

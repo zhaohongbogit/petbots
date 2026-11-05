@@ -1,0 +1,1 @@
+PASS 42 checks: local HTTP, login/SMS/order voice gates, isolated session, fixed test login, no retry, weather regression and controller audio substitution. No real SMS/order/payment/audio.

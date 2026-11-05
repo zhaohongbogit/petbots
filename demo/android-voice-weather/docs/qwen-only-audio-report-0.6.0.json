@@ -1,0 +1,107 @@
+{
+  "rows": [
+    {
+      "sample": "zhengzhou",
+      "raw_asr": "郑州明天的天气怎么样？",
+      "asr_ms": 735,
+      "semantic_ms": 3413,
+      "audio_seconds": 2.09025,
+      "semantic": {
+        "intent": "weather",
+        "city": "郑州",
+        "date": "明天"
+      },
+      "pss_kb": 1859313
+    },
+    {
+      "sample": "zhengzhou-fast",
+      "raw_asr": "郑州明天的天气怎么样？",
+      "asr_ms": 612,
+      "semantic_ms": 3374,
+      "audio_seconds": 1.6653125,
+      "semantic": {
+        "intent": "weather",
+        "city": "郑州",
+        "date": "明天"
+      },
+      "pss_kb": 1869323
+    },
+    {
+      "sample": "zhengzhou-hard",
+      "raw_asr": "你能查一下郑州明天的天气吗？",
+      "asr_ms": 771,
+      "semantic_ms": 3571,
+      "audio_seconds": 2.1605,
+      "semantic": {
+        "intent": "weather",
+        "city": "郑州",
+        "date": "明天"
+      },
+      "pss_kb": 1900236
+    },
+    {
+      "sample": "city-weather",
+      "raw_asr": "上海明天天气怎么样？",
+      "asr_ms": 613,
+      "semantic_ms": 3372,
+      "audio_seconds": 2.265125,
+      "semantic": {
+        "intent": "weather",
+        "city": "上海",
+        "date": "明天"
+      },
+      "pss_kb": 1900576
+    },
+    {
+      "sample": "zhengzhong-warning",
+      "raw_asr": "郑重提醒大家：明天天气有变化。",
+      "asr_ms": 810,
+      "semantic_ms": 3271,
+      "audio_seconds": 3.135125,
+      "semantic": {
+        "intent": "other",
+        "city": null,
+        "date": "明天"
+      },
+      "pss_kb": 1945004
+    },
+    {
+      "sample": "center",
+      "raw_asr": "把东西放在正中间。",
+      "asr_ms": 626,
+      "semantic_ms": 3138,
+      "audio_seconds": 1.930125,
+      "semantic": {
+        "intent": "other",
+        "city": null,
+        "date": null
+      },
+      "pss_kb": 1945852
+    },
+    {
+      "sample": "yes",
+      "raw_asr": "是的。",
+      "asr_ms": 385,
+      "semantic_ms": 1605,
+      "audio_seconds": 0.570125,
+      "semantic": {
+        "intent": "yes"
+      },
+      "pss_kb": 1877308
+    },
+    {
+      "sample": "no",
+      "raw_asr": "不用。",
+      "asr_ms": 359,
+      "semantic_ms": 1581,
+      "audio_seconds": 0.6036875,
+      "semantic": {
+        "intent": "no"
+      },
+      "pss_kb": 1877540
+    }
+  ],
+  "asr_load_ms": 7136,
+  "pss_after_asr_load_kb": 1625951,
+  "pss_with_two_models_kb": 1877560
+}

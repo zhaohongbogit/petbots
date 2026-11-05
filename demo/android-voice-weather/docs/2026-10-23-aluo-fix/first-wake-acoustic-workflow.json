@@ -1,0 +1,4 @@
+{
+  "input": "synthetic user command played by test MediaPlayer through device speaker into real microphone, not tagged as assistant playback; not human speech",
+  "activity_log": "14:28:07 [仅记录] 未以“阿洛”唤醒，且不在下一句接收窗口；不调用 Qwen\n14:28:07 [转写 · 麦克风] 饭\n14:27:47 [仅记录] 未以“阿洛”唤醒，且不在下一句接收窗口；不调用 Qwen\n14:27:47 [转写 · 麦克风] 阿诺 上海 明天 天气 怎么样\n14:27:41 [流程] 开始 Vosk 麦克风实验\n14:27:41 [流程] 已重置，旧推理结果将丢弃\n14:27:40 [播报] 中文离线语音就绪\n"
+}

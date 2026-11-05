@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "kind": "partial",
+      "id": 1,
+      "text": "郑州",
+      "audio_ms": 640,
+      "decode_ms": 649
+    },
+    {
+      "kind": "partial",
+      "id": 1,
+      "text": "郑州 明天 的",
+      "audio_ms": 1120,
+      "decode_ms": 1091
+    },
+    {
+      "kind": "partial",
+      "id": 1,
+      "text": "郑州 明天 的 天气",
+      "audio_ms": 1600,
+      "decode_ms": 1239
+    },
+    {
+      "kind": "partial",
+      "id": 1,
+      "text": "郑州 明天 的 天气 怎么样",
+      "audio_ms": 1840,
+      "decode_ms": 1285
+    },
+    {
+      "kind": "final",
+      "id": 1,
+      "text": "郑州 明天 的 天气 怎么样",
+      "audio_ms": 1920,
+      "decode_ms": 1343
+    },
+    {
+      "kind": "partial",
+      "id": 2,
+      "text": "郑州",
+      "audio_ms": 5690,
+      "decode_ms": 50
+    },
+    {
+      "kind": "partial",
+      "id": 2,
+      "text": "郑州 明天",
+      "audio_ms": 6170,
+      "decode_ms": 139
+    },
+    {
+      "kind": "partial",
+      "id": 2,
+      "text": "郑州 明天 的",
+      "audio_ms": 6410,
+      "decode_ms": 152
+    },
+    {
+      "kind": "partial",
+      "id": 2,
+      "text": "郑州 明天 的 天气 怎么样",
+      "audio_ms": 6890,
+      "decode_ms": 185
+    },
+    {
+      "kind": "final",
+      "id": 2,
+      "text": "郑州 明天 的 天气 怎么样",
+      "audio_ms": 7050,
+      "decode_ms": 235
+    }
+  ],
+  "model_kept_alive_until_stream_closed": true,
+  "first_partial_audio_ms": 640,
+  "input_audio_ms": 2090,
+  "natural_endpoint_finals": [
+    "郑州 明天 的 天气 怎么样",
+    "郑州 明天 的 天气 怎么样"
+  ],
+  "wall_ms": 2581
+}

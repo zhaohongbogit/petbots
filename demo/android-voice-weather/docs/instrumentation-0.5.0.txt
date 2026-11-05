@@ -1,0 +1,11 @@
+
+cn.aihongbo.voiceweather.CitySpeechAccuracyTest:.
+cn.aihongbo.voiceweather.CityWeatherFlowTest:.
+cn.aihongbo.voiceweather.QwenCityTest:.
+cn.aihongbo.voiceweather.QwenUiFlowTest:.
+
+Time: 107.489
+
+OK (4 tests)
+
+

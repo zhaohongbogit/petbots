@@ -1,0 +1,19 @@
+A2DP State:
+  TxQueue:
+  Counts (enqueue/dequeue/readbuf)                        : 1220 / 1214 / 2434
+  Last update time ago in ms (enqueue/dequeue/readbuf)    : 0 / 0 / 0
+  Frames per packet (total/max/ave)                       : 8362 / 7 / 6
+  Counts (flushed/dropped/dropouts)                       : 0 / 0 / 0
+  Counts (max dropped)                                    : 0
+  Last update time ago in ms (flushed/dropped)            : 0 / 0
+  Counts (underflow)                                      : 0
+  Bytes (underflow)                                       : 0
+  Last update time ago in ms (underflow)                  : 0
+  Enqueue deviation counts (overdue/premature)            : 512 / 689
+  Enqueue overdue scheduling time in ms (total/max/ave)   : 31 / 6 / 0
+  Enqueue premature scheduling time in ms (total/max/ave) : 31 / 6 / 0
+  Dequeue deviation counts (overdue/premature)            : 529 / 670
+  Dequeue overdue scheduling time in ms (total/max/ave)   : 45 / 6 / 0
+  Dequeue premature scheduling time in ms (total/max/ave) : 46 / 6 / 0
+
+A2DP Codecs State:

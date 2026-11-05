@@ -1,0 +1,28 @@
+{
+  "pet-screen.apk": {
+    "bytes": 93574697,
+    "sha256": "c9768c988b67b455656079d8ee90d7c18fc23bba1f4176e045befc946e9b2003"
+  },
+  "pet-screen-update.apk": {
+    "bytes": 18879788,
+    "sha256": "1459d71a7b1fd328d1b687aebf44648531738b0866e38f0d08196317e8bb074b"
+  },
+  "aluotest/test.apk": {
+    "bytes": 639942,
+    "sha256": "7bb1b44f53d97734e34358cfe8ad0a6766da7de5ccaf64fd3be929b289e8d35a"
+  },
+  "controlled-stereo.wav": {
+    "bytes": 10584044,
+    "sha256": "0f6da867d925c607dad478b169938356eb63720409f3417ce15511c335d12e92"
+  },
+  "controlled-mono.wav": {
+    "bytes": 1920044,
+    "sha256": "21434dd0bbcd76b8bc467e83aeb9fafb376a915772f4c9f284223be93c68459e"
+  },
+  "pet-screen-before-sherpa.apk": {
+    "bytes": 3470280,
+    "sha256": "282f47c3d2b1e4254f1e041752fa34658ac19058ddfe75b61a3667020b447d7b"
+  },
+  "installed_update_matches": true,
+  "full_update_code_and_native_match": true
+}

@@ -1,0 +1,9 @@
+
+cn.aihongbo.voiceweather.StreamingVoskDeviceTest:.
+cn.aihongbo.voiceweather.StreamingUiDeviceTest:.
+
+Time: 9.294
+
+OK (2 tests)
+
+

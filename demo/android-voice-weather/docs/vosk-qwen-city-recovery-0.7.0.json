@@ -1,0 +1,26 @@
+[
+  {
+    "input": "正中明天天气怎么样",
+    "expected_city": "郑州",
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "city_recovered": false,
+    "safely_blocked": true,
+    "ms": 3280
+  },
+  {
+    "input": "郑重明天的天气怎么样",
+    "expected_city": "郑州",
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "city_recovered": false,
+    "safely_blocked": true,
+    "ms": 3263
+  }
+]

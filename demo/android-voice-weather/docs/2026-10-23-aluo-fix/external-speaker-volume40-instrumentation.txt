@@ -1,0 +1,8 @@
+
+cn.aihongbo.voiceweather.WakeCommandDeviceTest:.
+
+Time: 40.005
+
+OK (1 test)
+
+

@@ -32,10 +32,18 @@ final class TextInputServer {
             if(!app.remoteId.equals(first[1].substring(11))){reply(s,404,new JSONObject());return;}
             reply(s,200,new JSONObject().put("state",app.remoteState).put("reply",app.remoteReply).put("error",app.remoteError).put("homework",app.remoteHomework));return;
         }
-        boolean homework=first[1].equals("/homework"),plan=first[1].equals("/homework/plan");
-        if(!first[0].equals("POST")||!(first[1].equals("/input")||homework||plan)){reply(s,404,new JSONObject());return;}
-        int n=Integer.parseInt(h.getOrDefault("content-length","0"));if(n<1||n>(homework?1500000:plan?16000:4096)||h.containsKey("transfer-encoding")){reply(s,413,new JSONObject());return;}
+        boolean voice=first[1].startsWith("/voice?id="),homework=first[1].equals("/homework"),plan=first[1].equals("/homework/plan");
+        if(!first[0].equals("POST")||!(first[1].equals("/input")||voice||homework||plan)){reply(s,404,new JSONObject());return;}
+        int n=Integer.parseInt(h.getOrDefault("content-length","0"));int limit=voice?300000:homework?1500000:plan?16000:4096;if(n<(voice?44:1)||n>limit||h.containsKey("transfer-encoding")){reply(s,413,new JSONObject());return;}
         byte[] bytes=new byte[n];int at=0;while(at<n){int read=in.read(bytes,at,n-at);if(read<0)throw new EOFException();at+=read;}
+        if(voice){
+            String id=first[1].substring(10);if(!id.matches("[a-zA-Z0-9-]{16,64}")){reply(s,400,new JSONObject());return;}
+            File file=File.createTempFile("phone-voice-",".wav",app.getCacheDir());try(OutputStream out=new FileOutputStream(file)){out.write(bytes);}
+            CountDownLatch latch=new CountDownLatch(1);AtomicBoolean valid=new AtomicBoolean(true),accepted=new AtomicBoolean();
+            app.main.post(()->{if(open&&valid.get())accepted.set(app.beginRemoteVoice(file,id));latch.countDown();});
+            if(!latch.await(5,TimeUnit.SECONDS)){valid.set(false);file.delete();reply(s,503,new JSONObject());return;}
+            if(!accepted.get())file.delete();android.util.Log.i("PetVoice","phone_voice_upload bytes="+n+" accepted="+accepted.get());reply(s,accepted.get()?202:409,new JSONObject().put("id",id));return;
+        }
         JSONObject data=new JSONObject(new String(bytes,"UTF-8"));String text=data.optString("text",homework?"请识别截图中的作业":plan?"规划作业":"").trim(),id=data.optString("id","");
         if(text.isEmpty()||text.length()>500||!id.matches("[a-zA-Z0-9-]{16,64}")){reply(s,400,new JSONObject());return;}
         String image=homework?data.optString("image",""):null;

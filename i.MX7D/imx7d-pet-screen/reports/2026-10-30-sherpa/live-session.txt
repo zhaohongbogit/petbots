@@ -1,0 +1,316 @@
+--------- beginning of system
+--------- beginning of main
+10-30 14:09:35.655 I/AluoBoard(10485): 正在准备语音…
+10-30 14:09:38.337 I/AluoTts (10485): initialized offline_zh=true
+10-30 14:09:38.362 I/AluoBoard(10485): 正在准备监听…
+10-30 14:10:15.453 I/AluoSherpa(10485): models_ready_ms=37085
+10-30 14:10:15.801 I/AluoSherpa(10485): ready mode=WAKE route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:10:16.023 I/AluoBoard(10485): 正在聆听，说“阿洛”唤醒
+10-30 14:10:25.876 I/AluoSherpa(10485): mode=WAKE captured=154880 decoded=153600 queue=1
+10-30 14:10:36.082 I/AluoSherpa(10485): mode=WAKE captured=313600 decoded=309760 queue=3
+10-30 14:10:46.290 I/AluoSherpa(10485): mode=WAKE captured=472320 decoded=468480 queue=3
+10-30 14:10:56.680 I/AluoSherpa(10485): mode=WAKE captured=632320 decoded=627200 queue=4
+10-30 14:11:06.858 I/AluoSherpa(10485): mode=WAKE captured=789760 decoded=785920 queue=3
+10-30 14:11:17.104 I/AluoSherpa(10485): mode=WAKE captured=947200 decoded=944640 queue=2
+10-30 14:11:27.379 I/AluoSherpa(10485): mode=WAKE captured=1107200 decoded=1103360 queue=3
+10-30 14:11:37.647 I/AluoSherpa(10485): mode=WAKE captured=1264640 decoded=1262080 queue=2
+10-30 14:11:47.899 I/AluoSherpa(10485): mode=WAKE captured=1423360 decoded=1420800 queue=2
+10-30 14:11:58.148 I/AluoSherpa(10485): mode=WAKE captured=1583360 decoded=1579520 queue=3
+10-30 14:12:08.423 I/AluoSherpa(10485): mode=WAKE captured=1740800 decoded=1738240 queue=2
+10-30 14:12:18.667 I/AluoSherpa(10485): mode=WAKE captured=1900800 decoded=1896960 queue=3
+10-30 14:12:28.932 I/AluoSherpa(10485): mode=WAKE captured=2058240 decoded=2055680 queue=2
+10-30 14:12:39.174 I/AluoSherpa(10485): mode=WAKE captured=2218240 decoded=2214400 queue=3
+10-30 14:12:49.482 I/AluoSherpa(10485): mode=WAKE captured=2376960 decoded=2373120 queue=3
+10-30 14:12:59.701 I/AluoSherpa(10485): mode=WAKE captured=2534400 decoded=2531840 queue=2
+10-30 14:13:09.937 I/AluoSherpa(10485): mode=WAKE captured=2693120 decoded=2690560 queue=2
+10-30 14:13:20.260 I/AluoSherpa(10485): mode=WAKE captured=2853120 decoded=2849280 queue=3
+10-30 14:13:30.475 I/AluoSherpa(10485): mode=WAKE captured=3011840 decoded=3008000 queue=3
+10-30 14:13:40.749 I/AluoSherpa(10485): mode=WAKE captured=3170560 decoded=3166720 queue=3
+10-30 14:13:51.017 I/AluoSherpa(10485): mode=WAKE captured=3328000 decoded=3325440 queue=2
+10-30 14:14:01.324 I/AluoSherpa(10485): mode=WAKE captured=3488000 decoded=3484160 queue=3
+10-30 14:15:46.501 I/AluoBoard(10682): 正在准备语音…
+10-30 14:15:46.521 I/AluoBoard(10682): 正在准备监听…
+10-30 14:15:46.728 I/AluoBoard(10682): 正在聆听，说“阿洛”唤醒
+10-30 14:19:41.610 I/AluoTts (10756): initialized offline_zh=true
+10-30 14:19:41.614 I/AluoTts (10756): queued id=2
+10-30 14:19:45.179 I/AluoTts (10756): started id=2
+10-30 14:19:49.216 I/AluoTts (10756): completed id=2
+--------- beginning of crash
+10-30 14:21:06.142 E/AndroidRuntime(10852): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+10-30 14:21:06.142 E/AndroidRuntime(10852): java.lang.IllegalStateException: playback did not complete
+10-30 14:21:06.142 E/AndroidRuntime(10852): 	at AluoWavPlayer.main(AluoWavPlayer.java:25)
+10-30 14:21:06.142 E/AndroidRuntime(10852): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+10-30 14:21:06.142 E/AndroidRuntime(10852): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:285)
+10-30 14:21:06.147 E/AndroidRuntime(10852): Error reporting crash
+10-30 14:21:06.147 E/AndroidRuntime(10852): java.lang.RuntimeException: Bad file descriptor
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.os.BinderProxy.transactNative(Native Method)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.os.BinderProxy.transact(Binder.java:764)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.os.ServiceManager.getService(ServiceManager.java:56)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.app.ActivityManager$1.create(ActivityManager.java:4223)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.app.ActivityManager$1.create(ActivityManager.java:4221)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.util.Singleton.get(Singleton.java:34)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at android.app.ActivityManager.getService(ActivityManager.java:4216)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:116)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1063)
+10-30 14:21:06.147 E/AndroidRuntime(10852): 	at java.lang.Thread.dispatchUncaughtException(Thread.java:1955)
+10-30 14:25:02.220 I/AluoBoard(11076): 正在准备语音…
+10-30 14:25:04.833 I/AluoTts (11076): initialized offline_zh=true
+10-30 14:25:04.854 I/AluoBoard(11076): 正在准备监听…
+10-30 14:25:40.919 I/AluoSherpa(11076): models_ready_ms=36049
+10-30 14:25:41.576 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:25:41.757 E/AluoSherpa(11076): capture failed
+10-30 14:25:41.757 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:25:41.757 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:25:41.757 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:25:41.757 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:25:41.757 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:25:41.892 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:25:41.922 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:25:44.961 I/AluoBoard(11076): 正在准备监听…
+10-30 14:25:45.044 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:25:45.051 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:25:45.080 E/AluoSherpa(11076): capture failed
+10-30 14:25:45.080 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:25:45.080 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:25:45.080 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:25:45.080 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:25:45.080 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:25:45.122 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:25:48.123 I/AluoBoard(11076): 正在准备监听…
+10-30 14:25:48.297 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:25:48.299 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:25:48.311 E/AluoSherpa(11076): capture failed
+10-30 14:25:48.311 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:25:48.311 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:25:48.311 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:25:48.311 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:25:48.311 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:25:48.369 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:25:51.371 I/AluoBoard(11076): 正在准备监听…
+10-30 14:25:51.407 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:25:51.427 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:25:51.451 E/AluoSherpa(11076): capture failed
+10-30 14:25:51.451 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:25:51.451 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:25:51.451 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:25:51.451 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:25:51.451 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:25:51.494 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:25:54.496 I/AluoBoard(11076): 正在准备监听…
+10-30 14:25:54.604 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:25:54.661 E/AluoSherpa(11076): capture failed
+10-30 14:25:54.661 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:25:54.661 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:25:54.661 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:25:54.661 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:25:54.661 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:25:54.666 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:25:54.666 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:25:57.668 I/AluoBoard(11076): 正在准备监听…
+10-30 14:25:57.765 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:25:57.766 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:25:57.782 E/AluoSherpa(11076): capture failed
+10-30 14:25:57.782 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:25:57.782 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:25:57.782 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:25:57.782 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:25:57.782 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:25:57.842 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:00.844 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:01.037 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:01.040 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:01.111 E/AluoSherpa(11076): capture failed
+10-30 14:26:01.111 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:01.111 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:01.111 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:01.111 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:01.111 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:01.115 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:04.117 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:04.190 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:04.191 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:04.236 E/AluoSherpa(11076): capture failed
+10-30 14:26:04.236 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:04.236 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:04.236 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:04.236 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:04.236 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:04.269 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:07.271 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:07.306 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:07.317 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:07.352 E/AluoSherpa(11076): capture failed
+10-30 14:26:07.352 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:07.352 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:07.352 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:07.352 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:07.352 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:07.380 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:10.381 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:10.450 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:10.464 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:10.506 E/AluoSherpa(11076): capture failed
+10-30 14:26:10.506 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:10.506 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:10.506 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:10.506 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:10.506 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:10.530 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:13.531 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:13.641 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:13.642 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:13.682 E/AluoSherpa(11076): capture failed
+10-30 14:26:13.682 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:13.682 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:13.682 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:13.682 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:13.682 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:13.700 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:16.702 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:16.734 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:16.775 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:16.778 E/AluoSherpa(11076): capture failed
+10-30 14:26:16.778 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:16.778 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:16.778 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:16.778 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:16.778 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:16.828 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:19.830 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:19.943 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:19.945 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:19.995 E/AluoSherpa(11076): capture failed
+10-30 14:26:19.995 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:19.995 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:19.995 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:19.995 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:19.995 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:20.019 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:23.020 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:23.095 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:23.153 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:23.160 E/AluoSherpa(11076): capture failed
+10-30 14:26:23.160 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:23.160 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:23.160 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:23.160 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:23.160 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:23.201 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:26.205 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:26.248 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:26.266 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:26.310 E/AluoSherpa(11076): capture failed
+10-30 14:26:26.310 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:26.310 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:26.310 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:26.310 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:26.310 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:26.344 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:29.347 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:29.421 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:29.423 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:29.489 E/AluoSherpa(11076): capture failed
+10-30 14:26:29.489 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:29.489 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:29.489 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:29.489 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:29.489 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:29.494 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:32.496 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:32.568 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:32.570 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:32.640 E/AluoSherpa(11076): capture failed
+10-30 14:26:32.640 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:32.640 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:32.640 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:32.640 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:32.640 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:32.642 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:35.644 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:35.758 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:35.759 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:35.771 E/AluoSherpa(11076): capture failed
+10-30 14:26:35.771 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:35.771 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:35.771 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:35.771 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:35.771 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:35.801 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:38.802 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:38.872 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:38.910 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:38.943 E/AluoSherpa(11076): capture failed
+10-30 14:26:38.943 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:38.943 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:38.943 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:38.943 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:38.943 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:38.986 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:41.988 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:42.053 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:42.064 E/AluoSherpa(11076): capture failed
+10-30 14:26:42.064 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:42.064 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:42.064 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:42.064 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:42.064 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:42.073 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:42.073 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:45.104 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:45.201 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:45.226 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:45.342 E/AluoSherpa(11076): capture failed
+10-30 14:26:45.342 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:45.342 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:45.342 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:45.342 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:45.342 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:45.344 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:48.347 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:48.782 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:48.787 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:48.833 E/AluoSherpa(11076): capture failed
+10-30 14:26:48.833 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:48.833 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:48.833 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:48.833 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:48.833 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:48.838 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:51.851 I/AluoBoard(11076): 正在准备监听…
+10-30 14:26:52.073 I/AluoSherpa(11076): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:26:52.075 I/AluoBoard(11076): 正在聆听，说“阿洛”唤醒
+10-30 14:26:52.091 E/AluoSherpa(11076): capture failed
+10-30 14:26:52.091 E/AluoSherpa(11076): java.io.IOException: Audio read
+10-30 14:26:52.091 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.capture(SherpaSpeech.java:98)
+10-30 14:26:52.091 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech.lambda$run$1$cn-aihongbo-voiceweather-SherpaSpeech(SherpaSpeech.java:64)
+10-30 14:26:52.091 E/AluoSherpa(11076): 	at cn.aihongbo.voiceweather.SherpaSpeech$$ExternalSyntheticLambda2.run(D8$$SyntheticClass:0)
+10-30 14:26:52.091 E/AluoSherpa(11076): 	at java.lang.Thread.run(Thread.java:764)
+10-30 14:26:52.164 I/AluoBoard(11076): 收音或识别积压，正在重新监听
+10-30 14:26:55.321 I/AluoBoard(11422): 正在准备语音…
+10-30 14:26:56.645 I/AluoTts (11422): initialized offline_zh=true
+10-30 14:26:56.660 I/AluoBoard(11422): 正在准备监听…
+10-30 14:27:34.170 I/AluoSherpa(11422): models_ready_ms=37470
+10-30 14:27:34.798 I/AluoSherpa(11422): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 14:27:35.069 I/AluoBoard(11422): 正在聆听，说“阿洛”唤醒
+10-30 14:27:45.197 I/AluoSherpa(11422): mode=WAKE captured=882000 decoded=864360 queue=2
+10-30 14:27:55.254 I/AluoSherpa(11422): mode=WAKE captured=1755180 decoded=1737540 queue=2
+10-30 14:28:05.264 I/AluoSherpa(11422): mode=WAKE captured=2628360 decoded=2610720 queue=2
+10-30 14:28:15.436 I/AluoSherpa(11422): mode=WAKE captured=3510360 decoded=3492720 queue=2
+10-30 14:28:25.480 I/AluoSherpa(11422): mode=WAKE captured=4383540 decoded=4365900 queue=2
+10-30 14:28:35.525 I/AluoSherpa(11422): mode=WAKE captured=5256720 decoded=5239080 queue=2
+10-30 14:28:45.593 I/AluoSherpa(11422): mode=WAKE captured=6129900 decoded=6112260 queue=2
+10-30 14:28:55.613 I/AluoSherpa(11422): mode=WAKE captured=7003080 decoded=6985440 queue=2
+10-30 14:29:05.779 I/AluoSherpa(11422): mode=WAKE captured=7885080 decoded=7867440 queue=2
+10-30 14:29:15.841 I/AluoSherpa(11422): mode=WAKE captured=8758260 decoded=8740620 queue=2
+10-30 14:29:25.903 I/AluoSherpa(11422): mode=WAKE captured=9631440 decoded=9613800 queue=2
+10-30 14:29:35.950 I/AluoSherpa(11422): mode=WAKE captured=10504620 decoded=10486980 queue=2
+10-30 14:29:45.953 I/AluoSherpa(11422): mode=WAKE captured=11377800 decoded=11360160 queue=2
+10-30 14:29:56.136 I/AluoSherpa(11422): mode=WAKE captured=12259800 decoded=12242160 queue=2
+10-30 14:30:06.188 I/AluoSherpa(11422): mode=WAKE captured=13132980 decoded=13115340 queue=2
+10-30 14:30:16.396 I/AluoSherpa(11422): mode=WAKE captured=14023800 decoded=13962060 queue=7
+10-30 14:30:26.607 I/AluoSherpa(11422): mode=WAKE captured=14905800 decoded=14888160 queue=2
+10-30 14:30:36.723 I/AluoSherpa(11422): mode=WAKE captured=15787800 decoded=15770160 queue=2
+10-30 14:30:46.773 I/AluoSherpa(11422): mode=WAKE captured=16660980 decoded=16643340 queue=2
+10-30 14:30:56.845 I/AluoSherpa(11422): mode=WAKE captured=17534160 decoded=17516520 queue=2

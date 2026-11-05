@@ -1,0 +1,335 @@
+[
+  {
+    "grammar": "[\"阿 洛\",\"[unk]\"]",
+    "sample": "aluo",
+    "raw": "那 咯",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.12,
+            "start": 0.03,
+            "word": "阿"
+          },
+          {
+            "conf": 1,
+            "end": 0.42,
+            "start": 0.12,
+            "word": "洛"
+          }
+        ],
+        "text": "阿 洛"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"[unk]\"]",
+    "sample": "aluo-weather",
+    "raw": "落 上海 明天 天气 怎么样",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.12,
+            "start": 0.03,
+            "word": "阿"
+          },
+          {
+            "conf": 1,
+            "end": 0.48,
+            "start": 0.12,
+            "word": "洛"
+          },
+          {
+            "conf": 1,
+            "end": 1.2,
+            "start": 0.66,
+            "word": "[unk]"
+          }
+        ],
+        "text": "阿 洛 [unk]"
+      },
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 2.82,
+            "start": 1.270519,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"[unk]\"]",
+    "sample": "city-weather",
+    "raw": "上海 明天 天气 怎么样",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 2.1,
+            "start": 0.108823,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"[unk]\"]",
+    "sample": "yes",
+    "raw": "是 的",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.45,
+            "start": 0.043952,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"[unk]\"]",
+    "sample": "no",
+    "raw": "不用",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.45,
+            "start": 0.031623,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"[unk]\"]",
+    "sample": "zhengzhong-warning",
+    "raw": "郑重 提醒 大家 明天 天气 有 变化",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 3.019468,
+            "start": 0.154724,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"[unk]\"]",
+    "sample": "center",
+    "raw": "把 东西 放在 正 中间",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 0.599082,
+            "end": 0.170211,
+            "start": 0.03,
+            "word": "阿"
+          },
+          {
+            "conf": 1,
+            "end": 0.714883,
+            "start": 0.170211,
+            "word": "[unk]"
+          }
+        ],
+        "text": "阿 [unk]"
+      },
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 1.77,
+            "start": 0.728975,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"哈 喽\",\"阿 波\",\"安 诺\",\"[unk]\"]",
+    "sample": "aluo",
+    "raw": "那 咯",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.12,
+            "start": 0.03,
+            "word": "阿"
+          },
+          {
+            "conf": 1,
+            "end": 0.45,
+            "start": 0.12,
+            "word": "洛"
+          }
+        ],
+        "text": "阿 洛"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"哈 喽\",\"阿 波\",\"安 诺\",\"[unk]\"]",
+    "sample": "aluo-weather",
+    "raw": "落 上海 明天 天气 怎么样",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.12,
+            "start": 0.03,
+            "word": "阿"
+          },
+          {
+            "conf": 1,
+            "end": 0.48,
+            "start": 0.12,
+            "word": "洛"
+          },
+          {
+            "conf": 0.883869,
+            "end": 1.2,
+            "start": 0.66,
+            "word": "[unk]"
+          }
+        ],
+        "text": "阿 洛 [unk]"
+      },
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 2.82,
+            "start": 1.2,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"哈 喽\",\"阿 波\",\"安 诺\",\"[unk]\"]",
+    "sample": "city-weather",
+    "raw": "上海 明天 天气 怎么样",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 2.1,
+            "start": 0.03,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"哈 喽\",\"阿 波\",\"安 诺\",\"[unk]\"]",
+    "sample": "yes",
+    "raw": "是 的",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.45,
+            "start": 0.03,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"哈 喽\",\"阿 波\",\"安 诺\",\"[unk]\"]",
+    "sample": "no",
+    "raw": "不用",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 0.45,
+            "start": 0.03,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"哈 喽\",\"阿 波\",\"安 诺\",\"[unk]\"]",
+    "sample": "zhengzhong-warning",
+    "raw": "郑重 提醒 大家 明天 天气 有 变化",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 1,
+            "end": 3.006534,
+            "start": 0.06,
+            "word": "[unk]"
+          }
+        ],
+        "text": "[unk]"
+      }
+    ]
+  },
+  {
+    "grammar": "[\"阿 洛\",\"哈 喽\",\"阿 波\",\"安 诺\",\"[unk]\"]",
+    "sample": "center",
+    "raw": "把 东西 放在 正 中间",
+    "restricted": [
+      {
+        "result": [
+          {
+            "conf": 0.472506,
+            "end": 0.174733,
+            "start": 0.03,
+            "word": "阿"
+          },
+          {
+            "conf": 1,
+            "end": 1.77,
+            "start": 0.174733,
+            "word": "[unk]"
+          }
+        ],
+        "text": "阿 [unk]"
+      }
+    ]
+  }
+]

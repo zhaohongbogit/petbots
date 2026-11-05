@@ -1,0 +1,152 @@
+[
+  {
+    "prompt_index": 0,
+    "input": "郑州明天天气怎么样",
+    "output": {
+      "intent": "weather",
+      "city": "郑州",
+      "date": "明天"
+    },
+    "ms": 3325
+  },
+  {
+    "prompt_index": 0,
+    "input": "正中明天天气怎么样",
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": "明天"
+    },
+    "ms": 3134
+  },
+  {
+    "prompt_index": 0,
+    "input": "郑重明天的天气怎么样",
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": "明天"
+    },
+    "ms": 3153
+  },
+  {
+    "prompt_index": 0,
+    "input": "郑重提醒大家明天天气有变化",
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": "明天"
+    },
+    "ms": 3165
+  },
+  {
+    "prompt_index": 0,
+    "input": "上海今天天气如何",
+    "output": {
+      "intent": "weather",
+      "city": "上海",
+      "date": "今天"
+    },
+    "ms": 3304
+  },
+  {
+    "prompt_index": 1,
+    "input": "郑州明天天气怎么样",
+    "output": {
+      "intent": "weather",
+      "city": null,
+      "date": "明天"
+    },
+    "ms": 3353
+  },
+  {
+    "prompt_index": 1,
+    "input": "正中明天天气怎么样",
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "ms": 3466
+  },
+  {
+    "prompt_index": 1,
+    "input": "郑重明天的天气怎么样",
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "ms": 3481
+  },
+  {
+    "prompt_index": 1,
+    "input": "郑重提醒大家明天天气有变化",
+    "output": {
+      "intent": "other",
+      "city": null,
+      "date": "明天"
+    },
+    "ms": 3386
+  },
+  {
+    "prompt_index": 1,
+    "input": "上海今天天气如何",
+    "output": {
+      "intent": "weather",
+      "city": "上海",
+      "date": "今天"
+    },
+    "ms": 3531
+  },
+  {
+    "prompt_index": 2,
+    "input": "郑州明天天气怎么样",
+    "output": {
+      "intent": "weather",
+      "city": "郑州",
+      "date": "明天"
+    },
+    "ms": 3307
+  },
+  {
+    "prompt_index": 2,
+    "input": "正中明天天气怎么样",
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "ms": 3239
+  },
+  {
+    "prompt_index": 2,
+    "input": "郑重明天的天气怎么样",
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "ms": 3247
+  },
+  {
+    "prompt_index": 2,
+    "input": "郑重提醒大家明天天气有变化",
+    "output": {
+      "intent": "other",
+      "city": "null",
+      "date": "明天"
+    },
+    "ms": 3351
+  },
+  {
+    "prompt_index": 2,
+    "input": "上海今天天气如何",
+    "output": {
+      "intent": "weather",
+      "city": "上海",
+      "date": "今天"
+    },
+    "ms": 3310
+  }
+]

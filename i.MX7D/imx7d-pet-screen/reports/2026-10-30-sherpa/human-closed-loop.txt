@@ -1,0 +1,34 @@
+10-30 15:10:00.986 I/AluoSherpa(12923): final mode=WAKE asr_ms=953 text=你好阿洛
+10-30 15:10:00.989 I/AluoSherpa(12923): wake_utterance=你好阿洛
+10-30 15:10:01.092 I/AluoBoard(12923): 阿洛：收到
+10-30 15:10:01.161 I/AluoTts (12923): queued id=2
+10-30 15:10:01.431 I/AluoTts (12923): started id=2
+10-30 15:10:02.635 I/AluoTts (12923): completed id=2
+10-30 15:10:03.138 I/AluoBoard(12923): 正在准备监听…
+10-30 15:10:03.277 I/AluoSherpa(12923): ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:10:03.285 I/AluoBoard(12923): 请说话
+10-30 15:10:08.287 I/AluoLevel(12923): mode=COMMAND rms=1535 peak=23070
+10-30 15:10:13.364 I/AluoLevel(12923): mode=COMMAND rms=1292 peak=20648
+10-30 15:10:13.383 I/AluoSherpa(12923): mode=COMMAND captured=873180 decoded=873180 queue=0
+10-30 15:10:18.395 I/AluoLevel(12923): mode=COMMAND rms=1578 peak=27507
+10-30 15:10:21.581 I/AluoSherpa(12923): final mode=COMMAND asr_ms=2441 text=北京明天的天气怎么样
+10-30 15:10:21.824 I/AluoBoard(12923): 阿洛：需要帮主人查询北京明天的天气吗？
+10-30 15:10:21.826 I/AluoTts (12923): queued id=4
+10-30 15:10:21.857 I/AluoTts (12923): started id=4
+10-30 15:10:25.676 I/AluoTts (12923): completed id=4
+10-30 15:10:26.177 I/AluoBoard(12923): 正在准备监听…
+10-30 15:10:26.240 I/AluoSherpa(12923): ready mode=CONFIRM capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:10:26.248 I/AluoBoard(12923): 请回答“是的”或“不用”
+10-30 15:10:31.305 I/AluoLevel(12923): mode=CONFIRM rms=1031 peak=7877
+10-30 15:10:36.791 I/AluoSherpa(12923): final mode=CONFIRM asr_ms=1281 text=是的
+10-30 15:10:36.807 I/AluoBoard(12923): 正在查询北京明天的天气
+10-30 15:10:38.916 I/AluoBoard(12923): 阿洛：北京明天，多云或阴天，最低4度，最高11度，降水概率百分之27。
+10-30 15:10:38.918 I/AluoTts (12923): queued id=6
+10-30 15:10:38.931 I/AluoTts (12923): started id=6
+10-30 15:10:47.324 I/AluoTts (12923): completed id=6
+10-30 15:10:47.827 I/AluoBoard(12923): 正在准备监听…
+10-30 15:10:47.997 I/AluoSherpa(12923): ready mode=WAKE capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 15:10:48.001 I/AluoBoard(12923): 正在聆听，说“你好阿洛”唤醒
+10-30 15:10:53.071 I/AluoLevel(12923): mode=WAKE rms=710 peak=29352
+10-30 15:10:58.011 I/AluoSherpa(12923): mode=WAKE captured=855540 decoded=855540 queue=0
+10-30 15:10:58.078 I/AluoLevel(12923): mode=WAKE rms=307 peak=953

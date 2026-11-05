@@ -1,0 +1,58 @@
+Bluetooth Status
+  enabled: true
+  state: ON
+  address: 22:22:56:9A:C2:FC
+  name: iMX7
+  time since enabled: 156204:32:39.159
+
+Enable log:
+  01-01 08:00:03  Enabled  by system boot
+Bluetooth crashed 0 times
+
+No BLE Apps registered.
+
+Bonded devices:
+  42:C1:12:35:FC:A7 [BR/EDR] AirPods Pro
+  24:B7:26:EF:FF:73 [BR/EDR] Remember me
+
+Profile: BtGatt.GattService
+  mAdvertisingServiceUuids:
+  mMaxScanFilters: 0
+
+GATT Scanner Map
+  Entries: 0
+
+GATT Client Map
+  Entries: 0
+
+GATT Server Map
+  Entries: 0
+
+GATT Handle Map
+  Entries: 0
+  Requests: 0
+
+Profile: HeadsetService
+  mCurrentDevice: null
+  mTargetDevice: null
+  mIncomingDevice: null
+  mActiveScoDevice: null
+  mMultiDisconnectDevice: null
+  mVirtualCallStarted: false
+  mVoiceRecognitionStarted: false
+  mWaitingForVoiceRecognition: false
+  StateMachine: name=HeadsetStateMachine state=Disconnected
+  mPhoneState: com.android.bluetooth.hfp.HeadsetPhoneState@86cfa7
+  mAudioState: 10
+
+Profile: A2dpService
+  mCurrentDevice: 42:C1:12:35:FC:A7
+  mTargetDevice: null
+  mIncomingDevice: null
+  mPlayingA2dpDevice: null
+  StateMachine: name=A2dpStateMachine state=Connected
+AVRCP:
+  mMediaAttributes: [MediaAttributes: none]
+  mTransportControlFlags: 0
+  mCurrentPlayState: PlaybackState {state=0, position=-1, buffered position=0, speed=0.0, updated=2985974, actions=0, custom actions=[], active item id=-1, error=null}
+  mPlayStatusChangedNT: 0

@@ -3,7 +3,7 @@ import java.util.*;
 
 /** Bounded device capability, independent of Android and the model. */
 final class ExpressionAction {
-    static final List<String> NAMES=Arrays.asList("neutral","happy","angry","sad","joyful","worried","surprised");
+    static final List<String> NAMES=Arrays.asList("neutral","happy","angry","sad","joyful","worried","surprised","nose_pick_666","eat_lollipop");
     final String name; final double intensity; final int durationMs;
     ExpressionAction(String name,double intensity,int durationMs){
         if(!NAMES.contains(name)||!Double.isFinite(intensity)||intensity<0||intensity>1||durationMs<1000||durationMs>30000)throw new IllegalArgumentException("invalid_action");
@@ -18,6 +18,8 @@ final class ExpressionAction {
     static List<ExpressionAction> resolve(String input,String previous,double strength){
         String t=input.replaceAll("[\\s，。！？!?,、·]","");
         if(t.matches("(小七)?(请)?(恢复平静|恢复正常|停止表演|停止表情|保持平静)"))return Collections.singletonList(new ExpressionAction("neutral",.5,8000));
+        if(t.matches("(小七)?(请)?(你)?(给我)?(展示|表现|表演|做一个|做个|来一个|来个)?(抠鼻屎666|抠鼻屎)(的)?(动作|表情|样子)?(一下|一个)?(给我看|看看)?(吧)?"))return Collections.singletonList(new ExpressionAction("nose_pick_666",.9,12000));
+        if(t.matches("(小七)?(请)?(你)?(给我)?(展示|表现|表演|做一个|做个|来一个|来个)?(吃|舔)(一根|一个)?棒棒糖(的)?(动作|表情|样子)?(一下|一个)?(给我看|看看)?(吧)?"))return Collections.singletonList(new ExpressionAction("eat_lollipop",.85,12000));
         if(t.matches("(请)?再(生气|愤怒)一点"))return Collections.singletonList(new ExpressionAction("angry",Math.min(1,(previous.equals("angry")?strength:.5)+.25),12000));
         if(t.matches("(请)?再(夸张|强烈)一点")&&!previous.equals("neutral"))return Collections.singletonList(new ExpressionAction(previous,Math.min(1,strength+.25),12000));
         if(t.matches("(请)?先哭(再|然后)笑"))return Arrays.asList(new ExpressionAction("sad",.7,4000),new ExpressionAction("happy",.7,8000));

@@ -1,0 +1,10 @@
+{
+  "complete_apk_sha256": "7c79cf4f68a6d05fe2d7a0fa527608023f5dd448e7cd3a7690d08bdeca658ed6",
+  "update_apk_sha256": "282f47c3d2b1e4254f1e041752fa34658ac19058ddfe75b61a3667020b447d7b",
+  "raw_audio_local_only": "/private/tmp/imx7-human-audio-20261029/h340-stereo.wav",
+  "raw_audio_sha256": "fc023d5e9bed996c2e9bed5da2e7a5ea46450bce41b3c110b1f5a37b3d55a843",
+  "native_regression_checks": 39,
+  "local_command_assertions": 44,
+  "expression_assertions": 36,
+  "end_to_end": "FAILED: no real wake hit, no live command/confirmation/weather invocation"
+}

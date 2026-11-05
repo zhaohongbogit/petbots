@@ -1,0 +1,10 @@
+{"threads":1,"load_s":20.656}
+{"threads":1,"round":0,"case":0,"samples":16992,"asr_ms":1238.9,"result":{"lang": "", "emotion": "", "event": "", "text": "你好阿路", "timestamps": [], "durations": [], "tokens":["你", "好", "阿", "路"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":0,"case":1,"samples":33888,"asr_ms":2275.1,"result":{"lang": "", "emotion": "", "event": "", "text": "上海明天天气怎么样", "timestamps": [], "durations": [], "tokens":["上", "海", "明", "天", "天", "气", "怎", "么", "样"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":0,"case":2,"samples":10336,"asr_ms":823.7,"result":{"lang": "", "emotion": "", "event": "", "text": "是的", "timestamps": [], "durations": [], "tokens":["是", "的"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":1,"case":0,"samples":16992,"asr_ms":1202.7,"result":{"lang": "", "emotion": "", "event": "", "text": "你好阿路", "timestamps": [], "durations": [], "tokens":["你", "好", "阿", "路"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":1,"case":1,"samples":33888,"asr_ms":2235.8,"result":{"lang": "", "emotion": "", "event": "", "text": "上海明天天气怎么样", "timestamps": [], "durations": [], "tokens":["上", "海", "明", "天", "天", "气", "怎", "么", "样"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":1,"case":2,"samples":10336,"asr_ms":806.6,"result":{"lang": "", "emotion": "", "event": "", "text": "是的", "timestamps": [], "durations": [], "tokens":["是", "的"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":2,"case":0,"samples":16992,"asr_ms":1202.0,"result":{"lang": "", "emotion": "", "event": "", "text": "你好阿路", "timestamps": [], "durations": [], "tokens":["你", "好", "阿", "路"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":2,"case":1,"samples":33888,"asr_ms":2232.3,"result":{"lang": "", "emotion": "", "event": "", "text": "上海明天天气怎么样", "timestamps": [], "durations": [], "tokens":["上", "海", "明", "天", "天", "气", "怎", "么", "样"], "ys_log_probs": [], "words": []}}
+{"threads":1,"round":2,"case":2,"samples":10336,"asr_ms":806.9,"result":{"lang": "", "emotion": "", "event": "", "text": "是的", "timestamps": [], "durations": [], "tokens":["是", "的"], "ys_log_probs": [], "words": []}}

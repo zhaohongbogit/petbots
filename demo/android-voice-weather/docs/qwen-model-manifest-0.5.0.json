@@ -1,0 +1,9 @@
+{
+  "llama_commit": "7170cad4d02f7907517613931840cbb2367399a3",
+  "upstream": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q8_0.gguf",
+  "upstream_sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+  "quantization": "Q8_0 -> Q4_K_M (--allow-requantize)",
+  "model_file": "Qwen3-0.6B-Q4_K_M.gguf",
+  "size_bytes": 396704416,
+  "sha256": "1f06f85468d17be76c1212d612c15f9d7d70f54fc553839458d5a8f5ccd4c8fd"
+}

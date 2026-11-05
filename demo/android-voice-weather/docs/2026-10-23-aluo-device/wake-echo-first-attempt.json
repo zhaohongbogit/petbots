@@ -1,0 +1,6 @@
+{
+  "input": "real device speaker -> microphone plus separately labelled tagged final-text injection",
+  "speaker_volume": 75,
+  "real_tts_playback_observed": true,
+  "activity_log": "13:36:51 [助手] 阿洛，上海明天天气怎么样。是的。\n13:36:50 [流程] 开始 Vosk 麦克风实验\n13:36:50 [流程] 已重置，旧推理结果将丢弃\n13:36:49 [播报] 中文离线语音就绪\n"
+}

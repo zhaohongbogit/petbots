@@ -1,0 +1,113 @@
+10-29 20:45:59.092 15839 15839 I AluoBoard: 正在准备语音…
+10-29 20:46:01.717 15839 15839 I AluoTts : initialized offline_zh=true
+10-29 20:46:01.737 15839 15839 I AluoBoard: 正在准备监听…
+10-29 20:46:25.787 15839 15839 I AluoBoard: 正在聆听，说“阿洛”唤醒
+10-29 20:46:30.642 15839 15895 I AluoAudio: mode=WAKE captured=76800 decoded=75520 queue=1
+10-29 20:46:35.854 15839 15895 I AluoAudio: mode=WAKE captured=157440 decoded=156160 queue=1
+10-29 20:46:41.269 15839 15895 I AluoAudio: mode=WAKE captured=241920 decoded=236800 queue=4
+10-29 20:46:42.418 15839 15895 I AluoTiming: accept_ms=763 mode=WAKE
+10-29 20:46:46.489 15839 15895 I AluoAudio: mode=WAKE captured=322560 decoded=313600 queue=7
+10-29 20:46:48.145 15839 15895 I AluoTiming: accept_ms=783 mode=WAKE
+10-29 20:46:51.502 15839 15895 I AluoAudio: mode=WAKE captured=400640 decoded=390400 queue=8
+10-29 20:46:56.881 15839 15895 I AluoAudio: mode=WAKE captured=483840 decoded=478720 queue=4
+10-29 20:47:02.112 15839 15895 I AluoAudio: mode=WAKE captured=564480 decoded=559360 queue=4
+10-29 20:47:07.165 15839 15895 I AluoAudio: mode=WAKE captured=642560 decoded=640000 queue=2
+10-29 20:47:12.546 15839 15895 I AluoAudio: mode=WAKE captured=725760 decoded=720640 queue=4
+10-29 20:47:17.736 15839 15895 I AluoAudio: mode=WAKE captured=806400 decoded=801280 queue=4
+10-29 20:47:22.963 15839 15895 I AluoAudio: mode=WAKE captured=885760 decoded=881920 queue=3
+10-29 20:47:24.398 15839 15895 I AluoTiming: wake_ms=1077 detected=false
+10-29 20:47:28.236 15839 15895 I AluoAudio: mode=WAKE captured=967680 decoded=962560 queue=4
+10-29 20:47:33.379 15839 15895 I AluoAudio: mode=WAKE captured=1047040 decoded=1043200 queue=3
+10-29 20:47:38.657 15839 15895 I AluoAudio: mode=WAKE captured=1127680 decoded=1123840 queue=3
+10-29 20:47:44.193 15839 15895 I AluoAudio: mode=WAKE captured=1203200 decoded=1192960 queue=8
+10-29 20:47:44.193 15839 15895 I AluoTiming: accept_ms=617 mode=WAKE
+10-29 20:47:46.255 15839 15895 I AluoTiming: wake_ms=1025 detected=false
+10-29 20:47:49.192 15839 15895 I AluoAudio: mode=WAKE captured=1280000 decoded=1265920 queue=11
+10-29 20:47:54.210 15839 15895 I AluoAudio: mode=WAKE captured=1358080 decoded=1354240 queue=3
+10-29 20:47:59.355 15839 15895 I AluoAudio: mode=WAKE captured=1437440 decoded=1434880 queue=2
+10-29 20:48:04.591 15839 15895 I AluoAudio: mode=WAKE captured=1518080 decoded=1515520 queue=2
+10-29 20:48:09.808 15839 15895 I AluoAudio: mode=WAKE captured=1598720 decoded=1596160 queue=2
+10-29 20:48:12.445 15839 15895 I AluoTiming: wake_ms=1012 detected=false
+10-29 20:48:14.954 15839 15895 I AluoAudio: mode=WAKE captured=1672960 decoded=1653760 queue=15
+10-29 20:48:19.990 15839 15895 I AluoAudio: mode=WAKE captured=1751040 decoded=1745920 queue=4
+10-29 20:48:25.171 15839 15895 I AluoAudio: mode=WAKE captured=1830400 decoded=1826560 queue=3
+10-29 20:48:30.501 15839 15895 I AluoAudio: mode=WAKE captured=1913600 decoded=1907200 queue=5
+10-29 20:48:32.169 15839 15895 I AluoTiming: accept_ms=647 mode=WAKE
+10-29 20:48:33.623 15839 15895 I AluoTiming: accept_ms=771 mode=WAKE
+10-29 20:48:35.652 15839 15895 I AluoTiming: wake_ms=1916 detected=false
+10-29 20:48:35.660 15839 15895 I AluoAudio: mode=WAKE captured=1992960 decoded=1939200 queue=42
+10-29 20:48:36.680 15839 15895 I AluoTiming: accept_ms=1011 mode=WAKE
+10-29 20:48:37.467 15839 15895 I AluoTiming: accept_ms=747 mode=WAKE
+10-29 20:48:38.477 15839 15895 I AluoTiming: accept_ms=594 mode=WAKE
+10-29 20:48:39.207 15839 15895 I AluoTiming: accept_ms=716 mode=WAKE
+10-29 20:48:39.622 15839 15839 I AluoBoard: 采集错误或识别积压，已停止；请重试
+10-29 20:48:41.556 15839 15895 I AluoAudio: stopped mode=WAKE captured=2040320 decoded=1957120
+10-29 20:48:42.679 15839 15839 I AluoBoard: 正在准备监听…
+10-29 20:48:42.973 15839 15839 I AluoBoard: 正在聆听，说“阿洛”唤醒
+10-29 20:48:47.544 15839 15895 I AluoTiming: accept_ms=2090 mode=WAKE
+10-29 20:48:51.540 15839 15839 I AluoBoard: 采集错误或识别积压，已停止；请重试
+10-29 20:48:52.793 15839 15895 I AluoAudio: mode=WAKE captured=124160 decoded=40960 queue=64
+10-29 20:48:52.793 15839 15895 I AluoTiming: accept_ms=5218 mode=WAKE
+10-29 20:48:54.658 15839 15839 I AluoBoard: 正在准备监听…
+10-29 20:48:54.990 15839 15895 I AluoAudio: stopped mode=WAKE captured=124160 decoded=40960
+10-29 20:48:55.050 15839 15839 I AluoBoard: 正在聆听，说“阿洛”唤醒
+10-29 20:49:00.149 15839 15895 I AluoAudio: mode=WAKE captured=78080 decoded=75520 queue=2
+10-29 20:49:05.330 15839 15895 I AluoAudio: mode=WAKE captured=157440 decoded=152320 queue=4
+10-29 20:49:10.848 15839 15895 I AluoAudio: mode=WAKE captured=243200 decoded=236800 queue=5
+10-29 20:49:15.988 15839 15895 I AluoAudio: mode=WAKE captured=322560 decoded=317440 queue=4
+10-29 20:49:21.200 15839 15895 I AluoAudio: mode=WAKE captured=403200 decoded=398080 queue=4
+10-29 20:49:26.264 15839 15895 I AluoAudio: mode=WAKE captured=481280 decoded=478720 queue=2
+10-29 20:49:31.616 15839 15895 I AluoAudio: mode=WAKE captured=564480 decoded=559360 queue=4
+10-29 20:49:36.628 15839 15895 I AluoAudio: mode=WAKE captured=642560 decoded=640000 queue=2
+10-29 20:49:41.996 15839 15895 I AluoAudio: mode=WAKE captured=725760 decoded=720640 queue=4
+10-29 20:49:47.206 15839 15895 I AluoAudio: mode=WAKE captured=806400 decoded=801280 queue=4
+10-29 20:49:52.375 15839 15895 I AluoAudio: mode=WAKE captured=885760 decoded=881920 queue=3
+10-29 20:49:57.622 15839 15895 I AluoAudio: mode=WAKE captured=966400 decoded=962560 queue=3
+10-29 20:50:02.744 15839 15895 I AluoAudio: mode=WAKE captured=1045760 decoded=1043200 queue=2
+10-29 20:50:08.144 15839 15895 I AluoAudio: mode=WAKE captured=1128960 decoded=1123840 queue=4
+10-29 20:50:13.387 15839 15895 I AluoAudio: mode=WAKE captured=1209600 decoded=1204480 queue=4
+10-29 20:50:18.580 15839 15895 I AluoAudio: mode=WAKE captured=1290240 decoded=1285120 queue=4
+10-29 20:50:19.962 15839 15895 I AluoTiming: wake_ms=1041 detected=false
+10-29 20:50:23.635 15839 15895 I AluoAudio: mode=WAKE captured=1368320 decoded=1346560 queue=17
+10-29 20:50:28.817 15839 15895 I AluoAudio: mode=WAKE captured=1447680 decoded=1438720 queue=7
+10-29 20:50:33.856 15839 15895 I AluoAudio: mode=WAKE captured=1525760 decoded=1523200 queue=2
+10-29 20:50:39.029 15839 15895 I AluoAudio: mode=WAKE captured=1605120 decoded=1603840 queue=1
+10-29 20:50:40.527 15839 15895 I AluoAsr : mode=WAKE final=服
+10-29 20:50:41.690 15839 15895 I AluoTiming: wake_ms=1157 detected=false
+10-29 20:50:44.093 15839 15895 I AluoAudio: mode=WAKE captured=1684480 decoded=1661440 queue=18
+10-29 20:50:47.597 15839 15895 I AluoTiming: accept_ms=1349 mode=WAKE
+10-29 20:50:48.874 15839 15895 I AluoTiming: accept_ms=846 mode=WAKE
+10-29 20:50:49.259 15839 15895 I AluoAudio: mode=WAKE captured=1763840 decoded=1711360 queue=41
+10-29 20:50:49.736 15839 15895 I AluoAsr : mode=WAKE final=分
+10-29 20:50:50.761 15839 15895 I AluoTiming: wake_ms=1024 detected=false
+10-29 20:50:51.307 15839 15895 I AluoTiming: accept_ms=530 mode=WAKE
+10-29 20:50:54.425 15839 15895 I AluoAudio: mode=WAKE captured=1843200 decoded=1772800 queue=55
+10-29 20:50:56.501 15839 15839 I AluoBoard: 采集错误或识别积压，已停止；请重试
+10-29 20:50:56.550 15839 15895 I AluoTiming: wake_ms=1038 detected=false
+10-29 20:50:56.555 15839 15895 I AluoAudio: stopped mode=WAKE captured=1875200 decoded=1792000
+10-29 20:50:59.502 15839 15839 I AluoBoard: 正在准备监听…
+10-29 20:50:59.622 15839 15839 I AluoBoard: 正在聆听，说“阿洛”唤醒
+10-29 20:51:01.838 15839 15895 I AluoTiming: accept_ms=985 mode=WAKE
+10-29 20:51:02.589 15839 15895 I AluoTiming: accept_ms=736 mode=WAKE
+10-29 20:51:03.661 15839 15895 I AluoTiming: accept_ms=1048 mode=WAKE
+10-29 20:51:04.456 15839 15895 I AluoTiming: accept_ms=772 mode=WAKE
+10-29 20:51:05.012 15839 15895 I AluoAudio: mode=WAKE captured=81920 decoded=30720 queue=40
+10-29 20:51:05.012 15839 15895 I AluoTiming: accept_ms=544 mode=WAKE
+10-29 20:51:10.405 15839 15839 I AluoBoard: 采集错误或识别积压，已停止；请重试
+10-29 20:51:10.462 15839 15895 I AluoAsr : mode=WAKE final=你好
+10-29 20:51:12.105 15839 15895 I AluoTiming: wake_ms=1641 detected=false
+10-29 20:51:12.123 15839 15895 I AluoAudio: stopped mode=WAKE captured=163840 decoded=80640
+10-29 20:51:13.434 15839 15839 I AluoBoard: 正在准备监听…
+10-29 20:51:13.825 15839 15839 I AluoBoard: 正在聆听，说“阿洛”唤醒
+10-29 20:51:16.501 15839 15895 I AluoTiming: accept_ms=680 mode=WAKE
+10-29 20:51:17.475 15839 15895 I AluoTiming: accept_ms=958 mode=WAKE
+10-29 20:51:18.049 15839 15895 I AluoTiming: accept_ms=556 mode=WAKE
+10-29 20:51:19.145 15839 15895 I AluoAudio: mode=WAKE captured=75520 decoded=38400 queue=30
+10-29 20:51:19.145 15839 15895 I AluoTiming: accept_ms=1078 mode=WAKE
+10-29 20:51:22.273 15839 15895 I AluoTiming: accept_ms=3085 mode=WAKE
+10-29 20:51:26.340 15839 15839 I AluoBoard: 采集错误或识别积压，已停止；请重试
+10-29 20:51:26.830 15839 15895 I AluoAudio: mode=WAKE captured=129280 decoded=46080 queue=64
+10-29 20:51:26.831 15839 15895 I AluoTiming: accept_ms=4488 mode=WAKE
+10-29 20:51:27.727 15839 15895 I AluoAudio: stopped mode=WAKE captured=129280 decoded=46080
+10-29 20:51:29.396 15839 15839 I AluoBoard: 正在准备监听…
+10-29 20:51:29.725 15839 15839 I AluoBoard: 正在聆听，说“阿洛”唤醒

@@ -1,0 +1,84 @@
+{
+  "profile": "restricted_weather_not_general_dictation",
+  "samples": 640000,
+  "elapsed_ms": 28046,
+  "segments": [
+    {
+      "text": ""
+    },
+    {
+      "result": [
+        {
+          "conf": 0.772993,
+          "end": 6.36,
+          "start": 5.04,
+          "word": "[unk]"
+        }
+      ],
+      "text": "[unk]"
+    },
+    {
+      "result": [
+        {
+          "conf": 0.667935,
+          "end": 11.08172,
+          "start": 10.809402,
+          "word": "好"
+        },
+        {
+          "conf": 0.520146,
+          "end": 11.88,
+          "start": 11.2784,
+          "word": "杭州"
+        }
+      ],
+      "text": "好 杭州"
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    },
+    {
+      "result": [
+        {
+          "conf": 1,
+          "end": 28.08,
+          "start": 27.12,
+          "word": "[unk]"
+        }
+      ],
+      "text": "[unk]"
+    },
+    {
+      "result": [
+        {
+          "conf": 0.929006,
+          "end": 29.37,
+          "start": 29.1,
+          "word": "北京"
+        },
+        {
+          "conf": 1,
+          "end": 29.7,
+          "start": 29.37213,
+          "word": "天气"
+        },
+        {
+          "conf": 1,
+          "end": 30.15,
+          "start": 29.7,
+          "word": "怎么样"
+        }
+      ],
+      "text": "北京 天气 怎么样"
+    },
+    {
+      "text": ""
+    },
+    {
+      "text": ""
+    }
+  ]
+}

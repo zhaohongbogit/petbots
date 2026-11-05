@@ -1,0 +1,10 @@
+{
+  "zh_CN-huayan-medium.onnx": {
+    "bytes": 63201294,
+    "sha256": "9929917bf8cabb26fd528ea44d3a6699c11e87317a14765312420be230be0f3d"
+  },
+  "zh_CN-huayan-medium.onnx.json": {
+    "bytes": 4822,
+    "sha256": "d521dc45504a8ccc99e325822b35946dd701840bfb07e3dbb31a40929ed6a82b"
+  }
+}

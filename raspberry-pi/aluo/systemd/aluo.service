@@ -1,0 +1,18 @@
+[Unit]
+Description=Aluo voice assistant with AirPods Max reconnect
+Wants=pipewire.service pipewire-pulse.service wireplumber.service
+After=pipewire.service pipewire-pulse.service wireplumber.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=%h/aluo
+ExecStart=%h/aluo/.venv/bin/python -u %h/aluo/autostart.py
+Restart=always
+RestartSec=10
+TimeoutStopSec=30
+KillMode=control-group
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target

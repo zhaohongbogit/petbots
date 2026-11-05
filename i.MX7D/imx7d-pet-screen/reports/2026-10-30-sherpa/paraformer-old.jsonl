@@ -1,0 +1,6 @@
+{"load_s":21.317}
+{"sample_start":0,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "你好能听到我话吗", "timestamps": [], "durations": [], "tokens":["你", "好", "能", "听", "到", "我", "话", "吗"], "ys_log_probs": [], "words": []}}
+{"sample_start":160000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "你好你好你好", "timestamps": [], "durations": [], "tokens":["你", "好", "你", "好", "你", "好"], "ys_log_probs": [], "words": []}}
+{"sample_start":320000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "你好你好你好录音说的教曲北京天气怎么样", "timestamps": [], "durations": [], "tokens":["你", "好", "你", "好", "你", "好", "录", "音", "说", "的", "教", "曲", "北", "京", "天", "气", "怎", "么", "样"], "ys_log_probs": [], "words": []}}
+{"sample_start":480000,"samples":160000,"result":{"lang": "", "emotion": "", "event": "", "text": "no", "timestamps": [], "durations": [], "tokens":["no"], "ys_log_probs": [], "words": []}}
+{"samples":640000,"decode_s":43.673,"peak_rss_kib":134168}

@@ -1,0 +1,107 @@
+{
+  "hello_phrase": true,
+  "stereo_capture_path": true,
+  "wake_hits": 3,
+  "events": [
+    {
+      "wake": {
+        "start_time": 0,
+        "keyword": "你好阿洛_音变",
+        "timestamps": [
+          0.36,
+          0.44,
+          0.52,
+          0.64,
+          0.68,
+          0.8,
+          0.88
+        ],
+        "tokens": [
+          "n",
+          "ǐ",
+          "h",
+          "ǎo",
+          "ā",
+          "l",
+          "ù"
+        ]
+      },
+      "sample_end": 467460
+    },
+    {
+      "wake": {
+        "start_time": 0,
+        "keyword": "你好阿洛_音变",
+        "timestamps": [
+          0.08,
+          0.2,
+          0.28,
+          0.36,
+          0.48,
+          0.6,
+          0.68
+        ],
+        "tokens": [
+          "n",
+          "ǐ",
+          "h",
+          "ǎo",
+          "ā",
+          "l",
+          "ù"
+        ]
+      },
+      "sample_end": 1446480
+    },
+    {
+      "wake": {
+        "start_time": 0,
+        "keyword": "你好阿洛_音变",
+        "timestamps": [
+          1.48,
+          1.64,
+          1.72,
+          1.76,
+          1.96,
+          2.08,
+          2.16
+        ],
+        "tokens": [
+          "n",
+          "ǐ",
+          "h",
+          "ǎo",
+          "ā",
+          "l",
+          "ù"
+        ]
+      },
+      "sample_end": 1693440
+    },
+    {
+      "text": "你好阿洛北京明天的天气怎么样",
+      "sample_end": 635040
+    },
+    {
+      "text": "你好阿路",
+      "sample_end": 1278900
+    },
+    {
+      "text": "你好阿路",
+      "sample_end": 1481760
+    },
+    {
+      "text": "你好阿洛",
+      "sample_end": 1719900
+    },
+    {
+      "text": "上海明天天气怎么样",
+      "sample_end": 2037420
+    },
+    {
+      "text": "是的",
+      "sample_end": 2302020
+    }
+  ],
+  "note": "File replay only. Live microphone, audible reply and full dialogue need separate validation."
+}

@@ -1,0 +1,1 @@
+PASS: board-to-Mac health and customer POST JSON authentication challenge. No phone/captcha/SMS/order/payment/approval sent.

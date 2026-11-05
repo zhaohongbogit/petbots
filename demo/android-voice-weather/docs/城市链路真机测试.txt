@@ -1,0 +1,10 @@
+设备：小米 23049RAD8C，Android 15
+版本：0.2.0
+命令：adb -s 9c79ecb0 shell am instrument -w -e live true -e class cn.aihongbo.voiceweather.CityWeatherFlowTest cn.aihongbo.voiceweather.test/androidx.test.runner.AndroidJUnitRunner
+输出：
+cn.aihongbo.voiceweather.CityWeatherFlowTest:.
+Time: 18.107
+OK (1 test)
+
+断言：默认城市北京；本地合成音频识别城市上海、日期明天；确认前无天气请求；肯定音频确认后实际请求上海天气；上海明天的预报展示并收到播放完成回调。
+不覆盖：真人收音、人工听音、所有城市实际天气请求、树莓派性能。

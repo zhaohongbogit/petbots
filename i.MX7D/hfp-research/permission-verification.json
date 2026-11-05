@@ -1,0 +1,10 @@
+{
+  "apk": "i.MX7D/imx7d-pet-screen/build/pet-screen-audio-permission.apk",
+  "sha256": "482cd70d3d6e0ed618fdc705951c3398e90b9b8e49579b1872c292f5965a6642",
+  "dex_sha256": "41253e31dec8ffcdac33c27e18a35f17be0bb97e62de910040aa6172410d2ac2",
+  "dex_unchanged": true,
+  "added_permission": "android.permission.MODIFY_AUDIO_SETTINGS",
+  "installed_permission_granted": true,
+  "post_install_sco_result": "timeout; HSP service discovery still fails; no audio settings permission denial in retest",
+  "flashed": false
+}

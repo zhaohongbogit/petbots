@@ -1,0 +1,9 @@
+{
+  "partial_visible_before_final": true,
+  "semantic_jobs_from_partial": 0,
+  "final_sentences_before_qwen_completed": 2,
+  "partial_updates_while_qwen_busy": 4,
+  "final_sentences_while_qwen_busy": 1,
+  "final_transcripts_persisted": true,
+  "reset_prevented_old_action": true
+}

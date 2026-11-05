@@ -1,0 +1,6 @@
+{
+  "capture_accepts_while_qwen_busy": true,
+  "capture_accepts_during_playback": true,
+  "transcripts_during_qwen": 1,
+  "recorded_without_action_during_playback": true
+}

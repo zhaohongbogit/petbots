@@ -1,0 +1,5 @@
+{"load_s":11.420,"keyword":"你好阿洛","score":1,"threshold":0.200}
+{"file":0,"source_frames":233730,"result":{"start_time":0.00, "keyword": "你好阿洛", "timestamps": [0.36, 0.44, 0.52, 0.64, 0.68, 0.80, 0.88], "tokens":["n", "ǐ", "h", "ǎo", "ā", "l", "uò"]}}
+{"file":0,"source_frames":842310,"result":{"start_time":0.00, "keyword": "你好阿洛", "timestamps": [0.32, 0.40, 0.52, 0.60, 0.76, 0.88, 0.96], "tokens":["n", "ǐ", "h", "ǎo", "ā", "l", "uò"]}}
+{"file":0,"source_frames":1446480,"hits":2,"decode_s":26.289}
+{"file":1,"source_frames":702640,"hits":0,"decode_s":12.669}

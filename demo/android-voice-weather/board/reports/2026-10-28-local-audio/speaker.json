@@ -1,0 +1,10 @@
+{
+  "sample": "samples\/zhengzhou.pcm",
+  "repetitions": 2,
+  "volume_changed": false,
+  "route_type": 2,
+  "route_name": "iot_imx7d_pico",
+  "route_id": 1,
+  "expected_frames": 66888,
+  "played_frames": 66888
+}

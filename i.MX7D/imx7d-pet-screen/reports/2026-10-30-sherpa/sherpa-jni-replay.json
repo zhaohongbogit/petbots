@@ -1,0 +1,31 @@
+{
+  "wake_hits": 1,
+  "events": [
+    {
+      "wake": {
+        "start_time": 0,
+        "keyword": "阿洛",
+        "timestamps": [
+          1.16,
+          1.32,
+          1.4
+        ],
+        "tokens": [
+          "ā",
+          "l",
+          "uò"
+        ]
+      },
+      "sample_end": 232960
+    },
+    {
+      "text": "上海明天天气怎么样",
+      "sample_end": 285440
+    },
+    {
+      "text": "今天是星期五我正在测试麦克风",
+      "sample_end": 376320
+    }
+  ],
+  "note": "File replay only. Live microphone, audible reply and full dialogue need separate validation."
+}

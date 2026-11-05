@@ -1,0 +1,75 @@
+--------- beginning of main
+10-30 18:12:11.421 16842 16920 I AluoSherpa: mode=WAKE captured=18363240 decoded=18363240 queue=0
+10-30 18:12:24.661 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=4556 chars=8
+10-30 18:12:24.705 16842 16920 I AluoSherpa: mode=WAKE captured=19474560 decoded=19086480 queue=44
+10-30 18:12:34.781 16842 16920 I AluoSherpa: mode=WAKE captured=20356560 decoded=20356560 queue=0
+10-30 18:12:44.790 16842 16920 I AluoSherpa: mode=WAKE captured=21229740 decoded=21229740 queue=0
+10-30 18:12:54.804 16842 16920 I AluoSherpa: mode=WAKE captured=22102920 decoded=22102920 queue=0
+10-30 18:13:04.846 16842 16920 I AluoSherpa: mode=WAKE captured=22976100 decoded=22976100 queue=0
+10-30 18:13:14.859 16842 16920 I AluoSherpa: mode=WAKE captured=23849280 decoded=23849280 queue=0
+10-30 18:13:24.879 16842 16920 I AluoSherpa: mode=WAKE captured=24722460 decoded=24722460 queue=0
+10-30 18:13:34.923 16842 16920 I AluoSherpa: mode=WAKE captured=25595640 decoded=25595640 queue=0
+10-30 18:13:44.967 16842 16920 I AluoSherpa: mode=WAKE captured=26468820 decoded=26468820 queue=0
+10-30 18:13:55.014 16842 16920 I AluoSherpa: mode=WAKE captured=27342000 decoded=27342000 queue=0
+10-30 18:14:05.120 16842 16920 I AluoSherpa: mode=WAKE captured=28224000 decoded=28224000 queue=0
+10-30 18:14:15.141 16842 16920 I AluoSherpa: mode=WAKE captured=29097180 decoded=29097180 queue=0
+10-30 18:14:25.181 16842 16920 I AluoSherpa: mode=WAKE captured=29970360 decoded=29970360 queue=0
+10-30 18:14:35.199 16842 16920 I AluoSherpa: mode=WAKE captured=30843540 decoded=30843540 queue=0
+10-30 18:14:45.220 16842 16920 I AluoSherpa: mode=WAKE captured=31716720 decoded=31716720 queue=0
+10-30 18:14:55.250 16842 16920 I AluoSherpa: mode=WAKE captured=32589900 decoded=32589900 queue=0
+10-30 18:15:05.272 16842 16920 I AluoSherpa: mode=WAKE captured=33463080 decoded=33463080 queue=0
+10-30 18:15:15.289 16842 16920 I AluoSherpa: mode=WAKE captured=34336260 decoded=34336260 queue=0
+10-30 18:15:25.326 16842 16920 I AluoSherpa: mode=WAKE captured=35209440 decoded=35209440 queue=0
+10-30 18:15:35.354 16842 16920 I AluoSherpa: mode=WAKE captured=36082620 decoded=36082620 queue=0
+10-30 18:15:45.360 16842 16920 I AluoSherpa: mode=WAKE captured=36955800 decoded=36955800 queue=0
+10-30 18:15:55.401 16842 16920 I AluoSherpa: mode=WAKE captured=37828980 decoded=37828980 queue=0
+10-30 18:16:05.422 16842 16920 I AluoSherpa: mode=WAKE captured=38702160 decoded=38702160 queue=0
+10-30 18:16:15.438 16842 16920 I AluoSherpa: mode=WAKE captured=39575340 decoded=39575340 queue=0
+10-30 18:16:25.502 16842 16920 I AluoSherpa: mode=WAKE captured=40448520 decoded=40448520 queue=0
+10-30 18:16:29.355 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1956 chars=11
+10-30 18:16:35.506 16842 16920 I AluoSherpa: mode=WAKE captured=41321700 decoded=41321700 queue=0
+10-30 18:16:45.547 16842 16920 I AluoSherpa: mode=WAKE captured=42194880 decoded=42194880 queue=0
+10-30 18:16:55.588 16842 16920 I AluoSherpa: mode=WAKE captured=43068060 decoded=43068060 queue=0
+10-30 18:17:05.591 16842 16920 I AluoSherpa: mode=WAKE captured=43941240 decoded=43941240 queue=0
+10-30 18:17:15.625 16842 16920 I AluoSherpa: mode=WAKE captured=44814420 decoded=44814420 queue=0
+10-30 18:17:25.669 16842 16920 I AluoSherpa: mode=WAKE captured=45687600 decoded=45687600 queue=0
+10-30 18:17:35.777 16842 16920 I AluoSherpa: mode=WAKE captured=46569600 decoded=46569600 queue=0
+10-30 18:17:45.815 16842 16920 I AluoSherpa: mode=WAKE captured=47442780 decoded=47442780 queue=0
+10-30 18:17:55.840 16842 16920 I AluoSherpa: mode=WAKE captured=48315960 decoded=48315960 queue=0
+10-30 18:18:05.848 16842 16920 I AluoSherpa: mode=WAKE captured=49189140 decoded=49189140 queue=0
+10-30 18:18:10.892 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1391 chars=5
+10-30 18:18:14.571 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1627 chars=5
+10-30 18:18:15.899 16842 16920 I AluoSherpa: mode=WAKE captured=50062320 decoded=50062320 queue=0
+10-30 18:18:25.914 16842 16920 I AluoSherpa: mode=WAKE captured=50935500 decoded=50935500 queue=0
+10-30 18:18:28.090 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1778 chars=8
+10-30 18:18:36.660 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1148 chars=5
+10-30 18:18:36.684 16842 16920 I AluoSherpa: mode=WAKE captured=51870420 decoded=51782220 queue=10
+10-30 18:18:39.353 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=1169 chars=4
+10-30 18:18:46.686 16842 16920 I AluoSherpa: mode=WAKE captured=52743600 decoded=52743600 queue=0
+10-30 18:18:56.753 16842 16920 I AluoSherpa: mode=WAKE captured=53616780 decoded=53616780 queue=0
+10-30 18:19:06.775 16842 16920 I AluoSherpa: mode=WAKE captured=54489960 decoded=54489960 queue=0
+10-30 18:19:16.876 16842 16920 I AluoSherpa: mode=WAKE captured=55371960 decoded=55371960 queue=0
+10-30 18:19:26.891 16842 16920 I AluoSherpa: mode=WAKE captured=56245140 decoded=56245140 queue=0
+10-30 18:19:36.933 16842 16920 I AluoSherpa: mode=WAKE captured=57118320 decoded=57118320 queue=0
+10-30 18:19:46.948 16842 16920 I AluoSherpa: mode=WAKE captured=57991500 decoded=57991500 queue=0
+10-30 18:19:56.964 16842 16920 I AluoSherpa: mode=WAKE captured=58864680 decoded=58864680 queue=0
+10-30 18:20:07.013 16842 16920 I AluoSherpa: mode=WAKE captured=59737860 decoded=59737860 queue=0
+10-30 18:20:17.026 16842 16920 I AluoSherpa: mode=WAKE captured=60611040 decoded=60611040 queue=0
+10-30 18:20:27.066 16842 16920 I AluoSherpa: mode=WAKE captured=61484220 decoded=61484220 queue=0
+10-30 18:20:37.079 16842 16920 I AluoSherpa: mode=WAKE captured=62357400 decoded=62357400 queue=0
+10-30 18:20:47.094 16842 16920 I AluoSherpa: mode=WAKE captured=63230580 decoded=63230580 queue=0
+10-30 18:20:57.112 16842 16920 I AluoSherpa: mode=WAKE captured=64103760 decoded=64103760 queue=0
+10-30 18:21:02.819 16842 16920 I AluoSherpa: final mode=WAKE asr_ms=743 chars=4
+10-30 18:21:02.837 16842 16920 I AluoSherpa: wake_utterance_matched
+10-30 18:21:02.963 16842 16842 I AluoBoard: 阿洛：收到
+10-30 18:21:03.018 16842 16842 I AluoTts : queued id=2
+10-30 18:21:03.241 16842 16855 I AluoTts : started id=2
+10-30 18:21:04.463 16842 16855 I AluoTts : completed id=2
+10-30 18:21:04.981 16842 16842 I AluoBoard: 正在准备监听…
+10-30 18:21:05.073 16842 16920 I AluoSherpa: ready mode=COMMAND capture=44100/stereo model=16000/mono route=11/22/USB-Audio - Logitech USB Headset H340
+10-30 18:21:05.147 16842 16842 I AluoBoard: 请说话
+10-30 18:21:12.888 16842 16920 I AluoSherpa: final mode=COMMAND asr_ms=1598 chars=10
+10-30 18:21:12.975 16842 16842 I AluoBoard: 正在处理旅行需求…
+10-30 18:21:13.307 16842 17319 I AluoHbc : status=authentication_required
+10-30 18:21:13.314 16842 16842 I AluoTts : queued id=4
+10-30 18:21:13.357 16842 16855 I AluoTts : started id=4

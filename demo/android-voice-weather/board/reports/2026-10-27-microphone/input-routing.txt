@@ -1,0 +1,19 @@
+closed
+access: RW_INTERLEAVED
+format: S16_LE
+subformat: STD
+channels: 2
+rate: 48000 (48000/1)
+period_size: 1024
+buffer_size: 4096
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<audioMapping version="0.1">
+  <sinks>
+    <device type="AUDIO_DEVICE_OUT_SPEAKER" tagName="AUX Output" addr="" busName="I2S1" />
+    <device type="AUDIO_DEVICE_OUT_BUS" tagName="I2S Output" addr="" busName="I2S3" />
+  </sinks>
+  <sources>
+    <device type="AUDIO_DEVICE_IN_BUILTIN_MIC" tagName="AUX Input" addr="" busName="I2S1" />
+    <device type="AUDIO_DEVICE_IN_BUS" tagName="I2S Input" addr="" busName="I2S3" />
+  </sources>
+</audioMapping>

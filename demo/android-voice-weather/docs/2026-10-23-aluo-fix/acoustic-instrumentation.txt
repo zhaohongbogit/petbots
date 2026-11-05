@@ -1,0 +1,8 @@
+
+cn.aihongbo.voiceweather.AcousticWakeDeviceTest:.
+
+Time: 31.724
+
+OK (1 test)
+
+
